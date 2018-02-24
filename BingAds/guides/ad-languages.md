@@ -15,7 +15,7 @@ Your ad language setting determines the language you will use when you write you
 > [!NOTE] 
 > Not everyone has the Campaign languages feature yet. If you don't, don't worry. It's coming soon.
 
-Your ad language in combination with your [location targeting](/bingads/guides/show-ads-target-audience.md) determines who will see your ads. When determining if your ads are eligible to be shown to a particular search user, Bing Ads first determines if your ad language allows for your ad to be shown in a particular country or region then considers the location criteria (and other criteria) settings you have configured. If the target criteria is met and the ad language is available in the country/region, the ad is eligible to display. To learn more, see the Bing Ads help article [How does ad language and location targeting affect who can see my ads?](https://help.bingads.microsoft.com/#apex/3/en/51100/0)
+Your ad language in combination with your [location targeting](/bingads/guides/show-ads-target-audience) determines who will see your ads. When determining if your ads are eligible to be shown to a particular search user, Bing Ads first determines if your ad language allows for your ad to be shown in a particular country or region then considers the location criteria (and other criteria) settings you have configured. If the target criteria is met and the ad language is available in the country/region, the ad is eligible to display. To learn more, see the Bing Ads help article [How does ad language and location targeting affect who can see my ads?](https://help.bingads.microsoft.com/#apex/3/en/51100/0)
 
 The following are the possible languages that you may use to write your ads and keywords.
 
@@ -35,16 +35,16 @@ The following are the possible languages that you may use to write your ads and 
 |TraditionalChinese<br /><br />You must use *TraditionalChinese* (without space) when setting the language of a campaign or ad group.<br /><br />You must use *Traditional Chinese* (with space) when setting request elements using the Ad Insight Service.|ZH|
 		
 ## <a name="productlanguage"></a>Product Language
-Your [customer](/binga/bingads/customer-management-service/customer.md) language determines the language of the Bing Ads interface. 
+Your [customer](/binga/bingads/customer-management-service/customer) language determines the language of the Bing Ads interface. 
 
-The following country codes are supported per customer language e.g. [resellers](/bingads/guides/management-model-resellers.md) can use these languages and countries in the [Customer](/binga/bingads/customer-management-service/customer.md) object when calling the [SignupCustomer](/binga/bingads/customer-management-service/signupcustomer.md) operation.
+The following country codes are supported per customer language e.g. [resellers](/bingads/guides/management-model-resellers) can use these languages and countries in the [Customer](/binga/bingads/customer-management-service/customer) object when calling the [SignupCustomer](/binga/bingads/customer-management-service/signupcustomer) operation.
 
 > [!NOTE]
 > In New Zealand, Bing Ads is available only on the Bing network. For other countries listed below, Bing Ads is available on the Yahoo Bing Network.
 
 |Language|Country Code|
 |------------|------------------|
-|English|AD, AG, AI, AL, AM, AQ, AS, AU, AW, AZ, BA, BB, BD, BE, BG, BI, BM, BN, BS, BT, BW, BY, BZ, CC, CK, CV, CX, CY, CZ, DJ, DM, EE, ER, ET, FJ, FM, FO, GA, GB, GD, GE, GF, GH, GI, GL, GM, GN, GP, GQ, GR, GU, GW, GY, HR, HU, ID, IE, IL, IN, IS, JM, JP, KE, KG, KH, KI, KM, KN, KR, KY, KZ, LA, LC, LI, LK, LR, LS, LT, LV, MC, MD, ME, MG, MH, MK, MM, MN, MO, MP, MQ, MR, MS, MT, MU, MV, MW, MY, NA, NC, NF, NG, NP, NR, NU, NZ, PF, PG, PH, PK, PL, PM, PN, PR, PS, PW, RE, RO, RS, RU, RW, SB, SC, SG, SH, SI, SK, SL, SM, SO, SR, ST, SZ, TC, TH, TJ, TK, TM, TO, TR, TT, TV, TZ, UA, UG, US, UZ, VA, VG, VI, VN, VU, WF, WS, YT, ZA, ZM, ZW|
+|English|AD, AG, AI, AL, AM, AQ, AS, AU, AW, AZ, BA, BB, BD, BE, BG, BI, BM, BN, BS, BT, BW, BY, BZ, CC, CK, CV, CX, CY, CZ, DJ, DM, EE, ER, ET, FJ, FM, FO, GA, GB, GD, GE, GF, GH, GI, GL, GM, GN, GP, GQ, GR, GU, GW, GY, HR, HU, ID, IE, IL, IN, IS, JM, JP, KE, KG, KH, KI, KM, KN, KR, KY, KZ, LA, LC, LI, LK, LR, LS, LT, LV, MC,, ME, MG, MH, MK, MM, MN, MO, MP, MQ, MR, MS, MT, MU, MV, MW, MY, NA, NC, NF, NG, NP, NR, NU, NZ, PF, PG, PH, PK, PL, PM, PN, PR, PS, PW, RE, RO, RS, RU, RW, SB, SC, SG, SH, SI, SK, SL, SM, SO, SR, ST, SZ, TC, TH, TJ, TK, TM, TO, TR, TT, TV, TZ, UA, UG, US, UZ, VA, VG, VI, VN, VU, WF, WS, YT, ZA, ZM, ZW|
 |French|BF, BJ, CD, CF, CG, CI, CM, FR, HT, LU, ML, NE, SN, TD, TG|
 |German|AT, CH, DE|
 |Italian|IT|
@@ -54,7 +54,7 @@ The following country codes are supported per customer language e.g. [resellers]
 
 		
 ## <a name="countdownlanguage"></a>Countdown Language
-Countdown customizers let you easily add a countdown (by day, hour, and then minute) to an event in your [Expanded Text Ad](/bingads/guides/expanded-text-ads.md). The following language codes are supported for [countdown functions](/bingads/guides/expanded-text-ads.md#countdown).
+Countdown customizers let you easily add a countdown (by day, hour, and then minute) to an event in your [Expanded Text Ad](/bingads/guides/expanded-text-ads). The following language codes are supported for [countdown functions](/bingads/guides/expanded-text-ads#countdown).
 
 |Language Code|Language|Countdown Length|
 |------------|------------|------------------|

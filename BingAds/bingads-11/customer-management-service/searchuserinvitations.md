@@ -23,10 +23,10 @@ The *SearchUserInvitationsRequest* object defines the [body](#request-body) and 
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="predicates"></a>Predicates|Determines the request conditions. This operation's response will include user invitations that match all of the specified predicates.<br /><br /> You may specify only one predicate.<br /><br />For a list of supported *Field* and *Operator* elements of a [Predicate](predicate.md) object for this service operation, see [Predicate Remarks](predicate.md#remarks).|[Predicate](predicate.md) array|
+|<a name="predicates"></a>Predicates|Determines the request conditions. This operation's response will include user invitations that match all of the specified predicates.<br /><br /> You may specify only one predicate.<br /><br />For a list of supported *Field* and *Operator* elements of a [Predicate](predicate) object for this service operation, see [Predicate Remarks](predicate#remarks).|[Predicate](predicate) array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header)]
 
 ## <a name="response"></a>Response Elements
 The *SearchUserInvitationsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response SOAP](#response-soap).
@@ -35,10 +35,10 @@ The *SearchUserInvitationsResponse* object defines the [body](#response-body) an
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="userinvitations"></a>UserInvitations|A  list of user invitations that meet the specified criteria.|[UserInvitation](userinvitation.md) array|
+|<a name="userinvitations"></a>UserInvitations|A  list of user invitations that meet the specified criteria.|[UserInvitation](userinvitation) array|
 
 ### <a name="response-header"></a>Response Header Elements
-[!INCLUDE[response-header](./includes/response-header.md)]
+[!INCLUDE[response-header](./includes/response-header)]
 
 ## <a name="request-soap"></a>Request SOAP
 The following template shows the order of the [body](#request-body) and [header](#request-header) elements for the SOAP request.
@@ -98,7 +98,7 @@ The following template shows the order of the [body](#response-body) and [header
 ```
 
 ## <a name="example"></a>Code Syntax
-The example syntax can be used with [Bing Ads SDKs](/bingads/guides/client-libraries.md). See [Bing Ads Code Examples](/bingads/guides/code-examples.md) for more examples.
+The example syntax can be used with [Bing Ads SDKs](/bingads/guides/client-libraries). See [Bing Ads Code Examples](/bingads/guides/code-examples) for more examples.
 ```csharp
 public async Task<SearchUserInvitationsResponse> SearchUserInvitationsAsync(
 	IList<Predicate> predicates)

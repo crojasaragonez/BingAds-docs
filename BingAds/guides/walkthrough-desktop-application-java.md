@@ -9,7 +9,7 @@ dev_langs:
   - java
 ---
 # Walkthrough: Bing Ads Desktop Application in Java
-The example desktop application sends authentication requests to the Microsoft account and Bing Ads services for the user credentials that you provide, and then gets the accounts that the authenticated user can access. You must first [register an application](/bingads/guides/authentication-oauth.md#registerapplication) and take note of the client ID. You'll also need your production [developer token](/bingads/guides/get-started.md#get-developer-token). You can create the example step by step as described below, or start with the [provided examples](/bingads/guides/code-examples.md).
+The example desktop application sends authentication requests to the Microsoft account and Bing Ads services for the user credentials that you provide, and then gets the accounts that the authenticated user can access. You must first [register an application](/bingads/guides/authentication-oauth#registerapplication) and take note of the client ID. You'll also need your production [developer token](/bingads/guides/get-started#get-developer-token). You can create the example step by step as described below, or start with the [provided examples](/bingads/guides/code-examples).
 
 > [!NOTE]
 > This example demonstrates OAuth authentication in production. For information on configuring sandbox, please see [Configuring Sandbox](#sandbox) below.
@@ -27,7 +27,7 @@ The example desktop application sends authentication requests to the Microsoft a
 5.  In **Project Explorer**, right-click the pom.xml file and select **Open With** -&gt; **Text Editor**. Add the *com.microsoft.bingads* dependency as shown in the following example and save pom.xml.
 
     > [!NOTE]
-    > For details about the latest SDK dependency version, please see the [Bing Ads Java SDK GitHub README.md](https://github.com/BingAds/BingAds-Java-SDK).
+    > For details about the latest SDK dependency version, please see the [Bing Ads Java SDK GitHub README](https://github.com/BingAds/BingAds-Java-SDK).
 
     ```xml
     <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -47,7 +47,7 @@ The example desktop application sends authentication requests to the Microsoft a
 
 6.  In **Project Explorer**, right-click the BingAdsDesktopApp project (or the name of your project if you chose a different artifact identifier in the previous step) and select **New** -&gt; **Class**. Choose a package name, for example *com.microsoft.bingads.examples*. Name the class *OAuthDesktopApplication* and then click **Finish**.
 
-7.  Open the OAuthDesktopApplication.java file and replace its contents with the following code block. You must edit the sample below with the ClientId that was provisioned when you [registered your application](/bingads/guides/authentication-oauth.md#registerapplication). You'll also need to edit the example with your production [developer token](/bingads/guides/get-started.md#get-developer-token).
+7.  Open the OAuthDesktopApplication.java file and replace its contents with the following code block. You must edit the sample below with the ClientId that was provisioned when you [registered your application](/bingads/guides/authentication-oauth#registerapplication). You'll also need to edit the example with your production [developer token](/bingads/guides/get-started#get-developer-token).
 
     > [!NOTE]
     > If you observe any errors related to *javafx* import statements, try removing the *JRE System Library* and adding it back again. In **Project Explorer**, right-click the BingAdsDesktopApp and select **Build Path** -&gt; **Configure Build Path**. In the **Libraries** tab, select JRE System Library and click **Remove**. Remain in the **Libraries** tab and click **Add Library**, select JRE System Library, click **Next**, and then click **Finish**.
@@ -271,7 +271,7 @@ The example desktop application sends authentication requests to the Microsoft a
 9. Right-click OAuthDesktopApplication.java, and click **Run As** -&gt; **Java Application**.
 
 ## <a name="sandbox"></a>Configuring Sandbox
-To use the [Sandbox](/bingads/guides/sandbox.md) environment, create a new text file named *bingads.properties* within your project source root directory e.g. **ProjectName\src\bingads.properties** and add the following text. The following are the complete contents of the *bingads.properties* file. If the sandbox environment setting is malformed or missing, the default environment is production.
+To use the [Sandbox](/bingads/guides/sandbox) environment, create a new text file named *bingads.properties* within your project source root directory e.g. **ProjectName\src\bingads.properties** and add the following text. The following are the complete contents of the *bingads.properties* file. If the sandbox environment setting is malformed or missing, the default environment is production.
 
 ```no-highlight
 environment=Sandbox
@@ -293,7 +293,7 @@ CustomerService = new ServiceClient<ICustomerManagementService>(
 ```
 
 ## See Also
-[Sandbox](/bingads/guides/sandbox.md)  
-[Bing Ads Code Examples](/bingads/guides/code-examples.md)  
-[Bing Ads Web Service Addresses](/bingads/guides/web-service-addresses.md)  
+[Sandbox](/bingads/guides/sandbox)  
+[Bing Ads Code Examples](/bingads/guides/code-examples)  
+[Bing Ads Web Service Addresses](/bingads/guides/web-service-addresses)  
 

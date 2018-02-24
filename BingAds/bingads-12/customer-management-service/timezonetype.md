@@ -14,7 +14,7 @@ description: Defines the possible time zones for the customer management service
 Defines the possible time zones for the customer management service.
 
 > [!NOTE]
-> The value set defines the full set of time zones. For more information, see [Time Zones](/bingads/guides/time-zones.md).
+> The value set defines the full set of time zones. For more information, see [Time Zones](/bingads/guides/time-zones).
 
 ## Syntax
 ```xml
@@ -628,4 +628,4 @@ Service: [CustomerManagementService.svc v12](https://clientcenter.api.bingads.mi
 Namespace: https\://bingads.microsoft.com/Customer/v12  
 
 ## Used By
-[AdvertiserAccount](advertiseraccount.md)  
+[AdvertiserAccount](advertiseraccount)  

@@ -30,7 +30,7 @@ Defines an account identification object that contains information that identifi
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="accountlifecyclestatus"></a>AccountLifeCycleStatus|The status of the account.|[AccountLifeCycleStatus](accountlifecyclestatus.md)|
+|<a name="accountlifecyclestatus"></a>AccountLifeCycleStatus|The status of the account.|[AccountLifeCycleStatus](accountlifecyclestatus)|
 |<a name="id"></a>Id|The system generated identifier of the account.|**long**|
 |<a name="name"></a>Name|The name of the account.|**string**|
 |<a name="number"></a>Number|The account number.|**string**|
@@ -41,5 +41,5 @@ Service: [CustomerManagementService.svc v12](https://clientcenter.api.bingads.mi
 Namespace: https\://bingads.microsoft.com/Customer/v12/Entities  
 
 ## Used By
-[FindAccounts](findaccounts.md)  
-[GetAccountsInfo](getaccountsinfo.md)  
+[FindAccounts](findaccounts)  
+[GetAccountsInfo](getaccountsinfo)  

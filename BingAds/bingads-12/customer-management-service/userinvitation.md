@@ -15,11 +15,11 @@ Defines a user invitation. When the invitation is accepted, the user's Microsoft
 
 It is possible to have multiple pending invitations sent to the same email address, which have not yet expired. It is also possible for those invitations to have specified different user roles, for example if you sent an invitation with an incorrect user role and then sent a second invitation with the correct user role. The recipient can accept any of the invitations. The Bing Ads API does not support any operations to delete pending user invitations. After you invite a user, the only way to cancel the invitation is through the Bing Ads web application. You can find both pending and accepted invitations in the Users section of Accounts & Billing.
 
-Since a recipient can accept the invitation and sign into Bing Ads with a Microsoft account different than the invitation email address, you cannot determine with certainty the mapping from *UserInvitation* to accepted [User](/bingads/customer-management-service/user.md). You can search by the invitation ID (returned by [SendUserInvitation](/bingads/customer-management-service/senduserinvitation.md)), only to the extent of finding out whether or not the invitation has been accepted or has expired. The [SearchUserInvitations](/bingads/customer-management-service/searchuserinvitations.md) operation returns all pending invitations, whether or not they have expired. Accepted invitations are not included in the [SearchUserInvitations](/bingads/customer-management-service/searchuserinvitations.md) response.  
+Since a recipient can accept the invitation and sign into Bing Ads with a Microsoft account different than the invitation email address, you cannot determine with certainty the mapping from *UserInvitation* to accepted [User](/bingads/customer-management-service/user). You can search by the invitation ID (returned by [SendUserInvitation](/bingads/customer-management-service/senduserinvitation)), only to the extent of finding out whether or not the invitation has been accepted or has expired. The [SearchUserInvitations](/bingads/customer-management-service/searchuserinvitations) operation returns all pending invitations, whether or not they have expired. Accepted invitations are not included in the [SearchUserInvitations](/bingads/customer-management-service/searchuserinvitations) response.  
 
-After the invitation has been accepted, you can call [GetUsersInfo](/bingads/customer-management-service/getusersinfo.md) and [GetUser](/bingads/customer-management-service/getuser.md) to access the Bing Ads user details. Once again though, since a recipient can accept the invitation and sign into Bing Ads with a Microsoft account different than the invitation email address, you cannot determine with certainty the mapping from *UserInvitation* to accepted [User](/bingads/customer-management-service/user.md). With the user ID returned by [GetUsersInfo](/bingads/customer-management-service/getusersinfo.md) or [GetUser](/bingads/customer-management-service/getuser.md), you can call [DeleteUser](/bingads/customer-management-service/deleteuser.md) to remove the user.
+After the invitation has been accepted, you can call [GetUsersInfo](/bingads/customer-management-service/getusersinfo) and [GetUser](/bingads/customer-management-service/getuser) to access the Bing Ads user details. Once again though, since a recipient can accept the invitation and sign into Bing Ads with a Microsoft account different than the invitation email address, you cannot determine with certainty the mapping from *UserInvitation* to accepted [User](/bingads/customer-management-service/user). With the user ID returned by [GetUsersInfo](/bingads/customer-management-service/getusersinfo) or [GetUser](/bingads/customer-management-service/getuser), you can call [DeleteUser](/bingads/customer-management-service/deleteuser) to remove the user.
 
-For more information about user authentication, see [Authentication with OAuth](/bingads/guides/authentication-oauth.md).
+For more information about user authentication, see [Authentication with OAuth](/bingads/guides/authentication-oauth).
 
 ## Syntax
 ```xml
@@ -49,13 +49,13 @@ For more information about user authentication, see [Authentication with OAuth](
 |<a name="firstname"></a>FirstName|The first name of the user. The first name is limited to 40 characters.<br/><br/>**Send:** Required|**string**|
 |<a name="id"></a>Id|A system generated unique identifier for the user invitation.<br/><br/>**Send:** Read-only|**long**|
 |<a name="lastname"></a>LastName|The last name of the user. The last name is limited to 40 characters.<br/><br/>**Send:** Required|**string**|
-|<a name="lcid"></a>Lcid|The locale to use when sending correspondence to the user by email or postal mail. The default is EnglishUS.<br/><br/>**Send:** Required|[LCID](lcid.md)|
-|<a name="role"></a>Role|The user role, which determines the level of access that the user has to the accounts specified in the AccountIds element.<br/><br/>**Send:** Required|[UserRole](userrole.md)|
+|<a name="lcid"></a>Lcid|The locale to use when sending correspondence to the user by email or postal mail. The default is EnglishUS.<br/><br/>**Send:** Required|[LCID](lcid)|
+|<a name="role"></a>Role|The user role, which determines the level of access that the user has to the accounts specified in the AccountIds element.<br/><br/>**Send:** Required|[UserRole](userrole)|
 
 ## Requirements
 Service: [CustomerManagementService.svc v12](https://clientcenter.api.bingads.microsoft.com/Api/CustomerManagement/v12/CustomerManagementService.svc)  
 Namespace: https\://bingads.microsoft.com/Customer/v12/Entities  
 
 ## Used By
-[SearchUserInvitations](searchuserinvitations.md)  
-[SendUserInvitation](senduserinvitation.md)  
+[SearchUserInvitations](searchuserinvitations)  
+[SendUserInvitation](senduserinvitation)  

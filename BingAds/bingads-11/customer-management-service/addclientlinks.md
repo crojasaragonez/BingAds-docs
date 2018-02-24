@@ -12,14 +12,14 @@ dev_langs:
   - python
 ---
 # AddClientLinks Service Operation - Customer Management
-Initiates the client link process to manage the account of another customer. Sends an invitation from an agency to a potential client.  For more information about the client link lifecycle, see [Link to Client Accounts](/bingads/guides/management-model-agencies.md#clientlink).
+Initiates the client link process to manage the account of another customer. Sends an invitation from an agency to a potential client.  For more information about the client link lifecycle, see [Link to Client Accounts](/bingads/guides/management-model-agencies#clientlink).
 
 > [!NOTE]
 > The client account must have a valid payment instrument set up for post-pay billing. Prepaid accounts are not supported for management by agencies.
 
 Only an agency may call this service operation. For more information about becoming an agency, see the [Resources for agency partners](https://advertise.bingads.microsoft.com/en-us/resources/bing-partner-program/agency-resources).
 
-The role of the user calling this operation must be Super Admin. For more information, see [User Roles and Available Service Operations](/bingads/guides/customer-accounts.md#userroles).
+The role of the user calling this operation must be Super Admin. For more information, see [User Roles and Available Service Operations](/bingads/guides/customer-accounts#userroles).
 
 There is no set limit to the amount of client accounts that can be linked to an agency.
 
@@ -33,10 +33,10 @@ The *AddClientLinksRequest* object defines the [body](#request-body) and [header
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="clientlinks"></a>ClientLinks|The list of client links to add.<br /><br />You should limit your request to 10 client links per call.|[ClientLink](clientlink.md) array|
+|<a name="clientlinks"></a>ClientLinks|The list of client links to add.<br /><br />You should limit your request to 10 client links per call.|[ClientLink](clientlink) array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header)]
 
 ## <a name="response"></a>Response Elements
 The *AddClientLinksResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response SOAP](#response-soap).
@@ -45,11 +45,11 @@ The *AddClientLinksResponse* object defines the [body](#response-body) and [head
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="operationerrors"></a>OperationErrors|A list of one or more reasons why the service operation failed, and no client links were added.|[OperationError](operationerror.md) array|
-|<a name="partialerrors"></a>PartialErrors|An array of *OperationError* lists that contain details for any client links that were not successfully added.<br /><br />Results are returned in the same order corresponding to the requested client links. The number of first dimension list elements is equal to the requested client links count. For successfully added client links, the *OperationError* element at the corresponding index is null.|[OperationError](operationerror.md) array|
+|<a name="operationerrors"></a>OperationErrors|A list of one or more reasons why the service operation failed, and no client links were added.|[OperationError](operationerror) array|
+|<a name="partialerrors"></a>PartialErrors|An array of *OperationError* lists that contain details for any client links that were not successfully added.<br /><br />Results are returned in the same order corresponding to the requested client links. The number of first dimension list elements is equal to the requested client links count. For successfully added client links, the *OperationError* element at the corresponding index is null.|[OperationError](operationerror) array|
 
 ### <a name="response-header"></a>Response Header Elements
-[!INCLUDE[response-header](./includes/response-header.md)]
+[!INCLUDE[response-header](./includes/response-header)]
 
 ## <a name="request-soap"></a>Request SOAP
 The following template shows the order of the [body](#request-body) and [header](#request-header) elements for the SOAP request.
@@ -129,7 +129,7 @@ The following template shows the order of the [body](#response-body) and [header
 ```
 
 ## <a name="example"></a>Code Syntax
-The example syntax can be used with [Bing Ads SDKs](/bingads/guides/client-libraries.md). See [Bing Ads Code Examples](/bingads/guides/code-examples.md) for more examples.
+The example syntax can be used with [Bing Ads SDKs](/bingads/guides/client-libraries). See [Bing Ads Code Examples](/bingads/guides/code-examples) for more examples.
 ```csharp
 public async Task<AddClientLinksResponse> AddClientLinksAsync(
 	IList<ClientLink> clientLinks)

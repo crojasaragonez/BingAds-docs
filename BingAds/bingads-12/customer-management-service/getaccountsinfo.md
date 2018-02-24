@@ -29,7 +29,7 @@ The *GetAccountsInfoRequest* object defines the [body](#request-body) and [heade
 |<a name="onlyparentaccounts"></a>OnlyParentAccounts|Determines whether to return only the accounts that belong to the customer or to also return the accounts that the customer manages for other customers. To return all accounts (those that belong to the customer and those that the customer manages), set this element to **false**; otherwise, set to **true** to return account information for only the specified customer. The default is **false**.|**boolean**|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header)]
 
 ## <a name="response"></a>Response Elements
 The *GetAccountsInfoResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response SOAP](#response-soap).
@@ -38,10 +38,10 @@ The *GetAccountsInfoResponse* object defines the [body](#response-body) and [hea
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="accountsinfo"></a>AccountsInfo|An array of *AccountInfo* objects that identifies the list of accounts that the customer owns.<br /><br />To get the account data for an account in the list, access the *Id* element of the *AccountInfo* object and use it to call [GetAccount](/bingads/customer-management-service/getaccount.md).<br /><br />Note that there can be a delay of up to five minutes from the time that you add an account until the [GetAccountsInfo](/bingads/customer-management-service/getaccountsinfo.md) returns the account in the response.|[AccountInfo](accountinfo.md) array|
+|<a name="accountsinfo"></a>AccountsInfo|An array of *AccountInfo* objects that identifies the list of accounts that the customer owns.<br /><br />To get the account data for an account in the list, access the *Id* element of the *AccountInfo* object and use it to call [GetAccount](/bingads/customer-management-service/getaccount).<br /><br />Note that there can be a delay of up to five minutes from the time that you add an account until the [GetAccountsInfo](/bingads/customer-management-service/getaccountsinfo) returns the account in the response.|[AccountInfo](accountinfo) array|
 
 ### <a name="response-header"></a>Response Header Elements
-[!INCLUDE[response-header](./includes/response-header.md)]
+[!INCLUDE[response-header](./includes/response-header)]
 
 ## <a name="request-soap"></a>Request SOAP
 The following template shows the order of the [body](#request-body) and [header](#request-header) elements for the SOAP request.
@@ -90,7 +90,7 @@ The following template shows the order of the [body](#response-body) and [header
 ```
 
 ## <a name="example"></a>Code Syntax
-The example syntax can be used with [Bing Ads SDKs](/bingads/guides/client-libraries.md). See [Bing Ads Code Examples](/bingads/guides/code-examples.md) for more examples.
+The example syntax can be used with [Bing Ads SDKs](/bingads/guides/client-libraries). See [Bing Ads Code Examples](/bingads/guides/code-examples) for more examples.
 ```csharp
 public async Task<GetAccountsInfoResponse> GetAccountsInfoAsync(
 	long? customerId,

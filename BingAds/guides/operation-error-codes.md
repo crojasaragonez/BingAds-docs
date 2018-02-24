@@ -9,12 +9,12 @@ description: Reference documentation for service operation error codes.
 # Operation Error Codes
 Bing Ads service operations may return error codes depending on the context. The list provided below includes error codes across all Bing Ads services. For information about error codes per service operation, see the reference page for each operation.
 
-For more information about error handling and troubleshooting, see [Handling Service Errors and Exceptions](/bingads/guides/handle-service-errors-exceptions.md).
+For more information about error handling and troubleshooting, see [Handling Service Errors and Exceptions](/bingads/guides/handle-service-errors-exceptions).
 
 ## <a name="error-codes"><a/>Error Codes
 In the list below, the **Numeric Code** and **Symbolic Error Code** headers correspond to the respective *Code* and *ErrorCode* elements of the returned error data object.
 
-The *BatchError* and *OperationError* objects for [Customer Billing](/binga/bingads/customer-billing-service/customer-billing-service-reference.md) and [Customer Management](/binga/bingads/customer-management-service/customer-management-service-reference.md) services do not contain the *ErrorCode* element. The corresponding **Symbolic Error Code** table entries below are noted as **Not applicable**.
+The *BatchError* and *OperationError* objects for [Customer Billing](/binga/bingads/customer-billing-service/customer-billing-service-reference) and [Customer Management](/binga/bingads/customer-management-service/customer-management-service-reference) services do not contain the *ErrorCode* element. The corresponding **Symbolic Error Code** table entries below are noted as **Not applicable**.
 
 Some symbolic error codes begin with the strings *BulkService* or *CampaignService*. Error codes beginning with *CampaignService* may be included in error codes for the bulk and campaign service, so you should not make assumptions about the naming convention.
 
@@ -98,7 +98,7 @@ The account identifier is invalid.
 AuthenticationTokenExpired
 
 **Description**
-Authentication token expired. Please renew it or obtain a new token. For more information, see [Authentication with OAuth](/bingads/guides/authentication-oauth.md).
+Authentication token expired. Please renew it or obtain a new token. For more information, see [Authentication with OAuth](/bingads/guides/authentication-oauth).
 
 ***
 
@@ -850,7 +850,7 @@ The negative website URLs exceeded maximum allowed limit.
 CampaignServiceTimeZoneValueInvalid
 
 **Description**
-The time zone value is not valid. See [Time Zones](/bingads/guides/time-zones.md) for list of valid time zone values.
+The time zone value is not valid. See [Time Zones](/bingads/guides/time-zones) for list of valid time zone values.
 
 ***
 
@@ -1018,7 +1018,7 @@ CampaignServiceEditorialValidationError
 The specified entity did not pass editorial validation. Please see the *ReasonCode* element of this error object for details.
 
 > [!NOTE] 
-> For a list of editorial reason codes, see [Bing Ads Editorial Failure Reason Codes](/bingads/guides/editorial-failure-reason-codes.md).
+> For a list of editorial reason codes, see [Bing Ads Editorial Failure Reason Codes](/bingads/guides/editorial-failure-reason-codes).
 
 ***
 
@@ -3768,7 +3768,7 @@ Prepaid client accounts are not supported for management by agencies. The client
 Not applicable.
 
 **Description**
-You cannot get, delete, or update an account that is being linked or unlinked. You can determine the client link status with the [SearchClientLinks](/binga/bingads/customer-management-service/searchclientlinks.md) operation. If the client link status is *LinkInProgress* or *UnlinkInProgress*, try waiting 5 to 30 minutes and try again. If the issue persists please reach out to [support](https://advertise.bingads.microsoft.com/bing-ads-support). 
+You cannot get, delete, or update an account that is being linked or unlinked. You can determine the client link status with the [SearchClientLinks](/binga/bingads/customer-management-service/searchclientlinks) operation. If the client link status is *LinkInProgress* or *UnlinkInProgress*, try waiting 5 to 30 minutes and try again. If the issue persists please reach out to [support](https://advertise.bingads.microsoft.com/bing-ads-support). 
 
 ***
 
@@ -4495,7 +4495,7 @@ The report time is null or contains more than one predefined time, custom date, 
 2009
 
 **Symbolic Error Code**
-ReportingServiceInvalidCustomDateRangeStart
+ReportingServiceInvalidCustateRangeStart
 
 **Description**
 The report time contains a custom date range start value that is not valid.
@@ -4506,7 +4506,7 @@ The report time contains a custom date range start value that is not valid.
 2010
 
 **Symbolic Error Code**
-ReportingServiceInvalidCustomDateRangeEnd
+ReportingServiceInvalidCustateRangeEnd
 
 **Description**
 The report time contains a custom date range end value that is not valid.
@@ -4528,7 +4528,7 @@ The report time contains a custom date range that is not valid; the end date can
 2012
 
 **Symbolic Error Code**
-ReportingServiceEmptyCustomDates
+ReportingServiceEmptyCustates
 
 **Description**
 The report time contains an empty custom date array.
@@ -4539,7 +4539,7 @@ The report time contains an empty custom date array.
 2013
 
 **Symbolic Error Code**
-ReportingServiceCustomDatesOverlimit
+ReportingServiceCustatesOverlimit
 
 **Description**
 The report time contains too many custom dates.
@@ -4830,7 +4830,7 @@ The specified report request contains a website identifier filter where at least
 2040
 
 **Symbolic Error Code**
-ReportingServiceInvalidCustomDateRange
+ReportingServiceInvalidCustateRange
 
 **Description**
 The report time contains a date in the custom date range that is not valid.
@@ -5887,10 +5887,10 @@ The download request ID is not valid.
 CampaignServiceAccountTooBigToDownload
 
 **Description**
-The account has more keywords than allowed per request. Please call [DownloadCampaignsByCampaignIds](/binga/bingads/bulk-service/downloadcampaignsbycampaignids.md) to download the account's campaigns in multiple requests. The Details field contains the campaign identifiers under the account.
+The account has more keywords than allowed per request. Please call [DownloadCampaignsByCampaignIds](/binga/bingads/bulk-service/downloadcampaignsbycampaignids) to download the account's campaigns in multiple requests. The Details field contains the campaign identifiers under the account.
 
 > [!NOTE] 
-> Calling the [DownloadCampaignsByAccountIds](/binga/bingads/bulk-service/downloadcampaignsbyaccountids.md) operation with an account that contains more than four million keywords will fail.
+> Calling the [DownloadCampaignsByAccountIds](/binga/bingads/bulk-service/downloadcampaignsbyaccountids) operation with an account that contains more than four million keywords will fail.
 
 ***
 
@@ -5975,7 +5975,7 @@ The *PerformanceStatsDateRange* element should be set to a valid custom date or 
 3215
 
 **Symbolic Error Code**
-BulkServiceInvalidCustomDateRange
+BulkServiceInvalidCustateRange
 
 **Description**
 The start and end date for performance statistics should be valid and within the supported range.
@@ -5989,10 +5989,10 @@ The start and end date for performance statistics should be valid and within the
 BulkServiceCampaignsTooBigToDownload
 
 **Description**
-The campaigns included in the download have more keywords than allowed per request. Please call [DownloadCampaignsByCampaignIds](/binga/bingads/bulk-service/downloadcampaignsbycampaignids.md) with fewer campaigns.
+The campaigns included in the download have more keywords than allowed per request. Please call [DownloadCampaignsByCampaignIds](/binga/bingads/bulk-service/downloadcampaignsbycampaignids) with fewer campaigns.
 
 > [!NOTE] 
-> Calling the [DownloadCampaignsByCampaignIds](/binga/bingads/bulk-service/downloadcampaignsbycampaignids.md) operation with an account that contains more than eight million keywords will fail.
+> Calling the [DownloadCampaignsByCampaignIds](/binga/bingads/bulk-service/downloadcampaignsbycampaignids) operation with an account that contains more than eight million keywords will fail.
 
 ***
 
@@ -7917,7 +7917,7 @@ CampaignServiceMediaTypeInvalid
 The type of media is not valid.
 
 > [!NOTE] 
-> This error may be thrown during a call to the [AddMedia](/binga/bingads/campaign-management-service/addmedia.md) operation if either the media *Type* or *MediaType* is invalid.
+> This error may be thrown during a call to the [AddMedia](/binga/bingads/campaign-management-service/addmedia) operation if either the media *Type* or *MediaType* is invalid.
 
 ***
 

@@ -40,7 +40,7 @@ Service: [CustomerManagementService.svc v11](https://clientcenter.api.bingads.mi
 Namespace: http\://schemas.datacontract.org/2004/07/System.Collections.Generic  
 
 ## Used By
-[Account](account.md)  
-[AdvertiserAccount](advertiseraccount.md)  
-[ClientLink](clientlink.md)  
-[Customer](customer.md)  
+[Account](account)  
+[AdvertiserAccount](advertiseraccount)  
+[ClientLink](clientlink)  
+[Customer](customer)  

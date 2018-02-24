@@ -24,14 +24,14 @@ The *UpdateUserRolesRequest* object defines the [body](#request-body) and [heade
 |<a name="customerid"></a>CustomerId|The identifier of the customer to which the user belongs.|**long**|
 |<a name="deleteaccountids"></a>DeleteAccountIds|An array of identifiers of the accounts to remove from the list of accounts that the user can manage.<br/><br/>For usage, see the [Remarks](#remarks) section below.|**long** array|
 |<a name="deletecustomerids"></a>DeleteCustomerIds|An array of identifiers of the customers to remove from the list of customers that the user can manage.<br/><br/>For usage, see the [Remarks](#remarks) section below.|**long** array|
-|<a name="deleteroleid"></a>DeleteRoleId|The identifier of the role to which the values specified in the *DeleteAccountIds* or *DeleteCustomerIds* element applies, if set.<br /><br />For more information about possible role values, see the corresponding **Integer Value** column within the [UserRole](/bingads/customer-management-service/userrole.md).|**int**|
+|<a name="deleteroleid"></a>DeleteRoleId|The identifier of the role to which the values specified in the *DeleteAccountIds* or *DeleteCustomerIds* element applies, if set.<br /><br />For more information about possible role values, see the corresponding **Integer Value** column within the [UserRole](/bingads/customer-management-service/userrole).|**int**|
 |<a name="newaccountids"></a>NewAccountIds|An array of identifiers of the accounts to restrict the user to. The user will be able to manage only these accounts.<br/><br/>If the user is currently restricted to a set of accounts, set this element to the new accounts that you want the user to also manage. For example, if the user currently manages accounts 123 and 456, and you want the user to also manage account 789, set this element to 789.<br/><br/>For usage, see the [Remarks](#remarks) section below.|**long** array|
 |<a name="newcustomerids"></a>NewCustomerIds|An array of identifiers of the customers to restrict the user to. The user will be able to manage only these customers.<br/><br/>For usage, see the [Remarks](#remarks) section below.|**long** array|
-|<a name="newroleid"></a>NewRoleId|The identifier of the role to which the values specified in the *NewAccountIds* or *NewCustomerIds* element applies to, if set.<br /><br />For more information about possible role values, see the corresponding **Integer Value** column within the [UserRole](/bingads/customer-management-service/userrole.md).|**int**|
+|<a name="newroleid"></a>NewRoleId|The identifier of the role to which the values specified in the *NewAccountIds* or *NewCustomerIds* element applies to, if set.<br /><br />For more information about possible role values, see the corresponding **Integer Value** column within the [UserRole](/bingads/customer-management-service/userrole).|**int**|
 |<a name="userid"></a>UserId|The identifier of the user whose role you want to update.|**long**|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header)]
 
 ## <a name="response"></a>Response Elements
 The *UpdateUserRolesResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response SOAP](#response-soap).
@@ -43,7 +43,7 @@ The *UpdateUserRolesResponse* object defines the [body](#response-body) and [hea
 |<a name="lastmodifiedtime"></a>LastModifiedTime|The date and time that the user roles were last updated. The value is in Coordinated Universal Time (UTC).<br/><br/> The date and time value reflects the date and time at the server, not the client. For information about the format of the date and time, see the dateTime entry in [Primitive XML Data Types](https://go.microsoft.com/fwlink/?linkid=859198).|**dateTime**|
 
 ### <a name="response-header"></a>Response Header Elements
-[!INCLUDE[response-header](./includes/response-header.md)]
+[!INCLUDE[response-header](./includes/response-header)]
 
 ## <a name="request-soap"></a>Request SOAP
 The following template shows the order of the [body](#request-body) and [header](#request-header) elements for the SOAP request.
@@ -98,7 +98,7 @@ The following template shows the order of the [body](#response-body) and [header
 ```
 
 ## <a name="example"></a>Code Syntax
-The example syntax can be used with [Bing Ads SDKs](/bingads/guides/client-libraries.md). See [Bing Ads Code Examples](/bingads/guides/code-examples.md) for more examples.
+The example syntax can be used with [Bing Ads SDKs](/bingads/guides/client-libraries). See [Bing Ads Code Examples](/bingads/guides/code-examples) for more examples.
 ```csharp
 public async Task<UpdateUserRolesResponse> UpdateUserRolesAsync(
 	long customerId,

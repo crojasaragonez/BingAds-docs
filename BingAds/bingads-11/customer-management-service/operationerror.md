@@ -33,6 +33,6 @@ Service: [CustomerManagementService.svc v11](https://clientcenter.api.bingads.mi
 Namespace: https\://bingads.microsoft.com/Customer/v11/Exception  
 
 ## Used By
-[AddClientLinks](addclientlinks.md)  
-[ApiFault](apifault.md)  
-[UpdateClientLinks](updateclientlinks.md)  
+[AddClientLinks](addclientlinks)  
+[ApiFault](apifault)  
+[UpdateClientLinks](updateclientlinks)  

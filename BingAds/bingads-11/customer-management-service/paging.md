@@ -7,7 +7,7 @@ ms.author: eur
 description: Defines a paging object for the list of entities returned using one of the search operations, for example SearchAccounts, SearchClientLinks, or SearchCustomers.
 ---
 # Paging Data Object - Customer Management
-Defines a paging object for the list of entities returned using one of the search operations, for example [SearchAccounts](/bingads/customer-management-service/searchaccounts.md), [SearchClientLinks](/bingads/customer-management-service/searchclientlinks.md), or [SearchCustomers](/bingads/customer-management-service/searchcustomers.md).
+Defines a paging object for the list of entities returned using one of the search operations, for example [SearchAccounts](/bingads/customer-management-service/searchaccounts), [SearchClientLinks](/bingads/customer-management-service/searchclientlinks), or [SearchCustomers](/bingads/customer-management-service/searchcustomers).
 
 ## Syntax
 ```xml
@@ -31,6 +31,6 @@ Service: [CustomerManagementService.svc v11](https://clientcenter.api.bingads.mi
 Namespace: https\://bingads.microsoft.com/Customer/v11/Entities  
 
 ## Used By
-[SearchAccounts](searchaccounts.md)  
-[SearchClientLinks](searchclientlinks.md)  
-[SearchCustomers](searchcustomers.md)  
+[SearchAccounts](searchaccounts)  
+[SearchClientLinks](searchclientlinks)  
+[SearchCustomers](searchcustomers)  

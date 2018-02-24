@@ -11,7 +11,7 @@ description: Defines the ascending or descending sort order of results for one o
 > [!IMPORTANT]
 > This v12 preview documentation is subject to change.
 
-Defines the ascending or descending sort order of results for one of the search operations, for example [SearchAccounts](/bingads/customer-management-service/searchaccounts.md), [SearchClientLinks](/bingads/customer-management-service/searchclientlinks.md), or [SearchCustomers](/bingads/customer-management-service/searchcustomers.md).
+Defines the ascending or descending sort order of results for one of the search operations, for example [SearchAccounts](/bingads/customer-management-service/searchaccounts), [SearchClientLinks](/bingads/customer-management-service/searchclientlinks), or [SearchCustomers](/bingads/customer-management-service/searchcustomers).
 
 ## Syntax
 ```xml
@@ -35,4 +35,4 @@ Service: [CustomerManagementService.svc v12](https://clientcenter.api.bingads.mi
 Namespace: https\://bingads.microsoft.com/Customer/v12  
 
 ## Used By
-[OrderBy](orderby.md)  
+[OrderBy](orderby)  

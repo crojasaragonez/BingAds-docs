@@ -7,7 +7,7 @@ ms.author: eur
 description: Defines the condition of results for one of the search operations, for example SearchAccounts, SearchClientLinks, or SearchCustomers.
 ---
 # PredicateOperator Value Set - Customer Management
-Defines the condition of results for one of the search operations, for example [SearchAccounts](/bingads/customer-management-service/searchaccounts.md), [SearchClientLinks](/bingads/customer-management-service/searchclientlinks.md), or [SearchCustomers](/bingads/customer-management-service/searchcustomers.md).
+Defines the condition of results for one of the search operations, for example [SearchAccounts](/bingads/customer-management-service/searchaccounts), [SearchClientLinks](/bingads/customer-management-service/searchclientlinks), or [SearchCustomers](/bingads/customer-management-service/searchcustomers).
 
 ## Syntax
 ```xml
@@ -43,4 +43,4 @@ Service: [CustomerManagementService.svc v11](https://clientcenter.api.bingads.mi
 Namespace: https\://bingads.microsoft.com/Customer/v11  
 
 ## Used By
-[Predicate](predicate.md)  
+[Predicate](predicate)  

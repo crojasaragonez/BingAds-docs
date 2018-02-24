@@ -25,10 +25,10 @@ The *DeleteAccountRequest* object defines the [body](#request-body) and [header]
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
 |<a name="accountid"></a>AccountId|The identifier of the account to delete.|**long**|
-|<a name="timestamp"></a>TimeStamp|The time-stamp value that the operation uses to reconcile the update. You must call  [GetAccount](/bingads/customer-management-service/getaccount.md) to get the time-stamp value. The delete operation fails if the account object has a time-stamp value that differs from the one that you pass.|**base64Binary**|
+|<a name="timestamp"></a>TimeStamp|The time-stamp value that the operation uses to reconcile the update. You must call  [GetAccount](/bingads/customer-management-service/getaccount) to get the time-stamp value. The delete operation fails if the account object has a time-stamp value that differs from the one that you pass.|**base64Binary**|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header)]
 
 ## <a name="response"></a>Response Elements
 The *DeleteAccountResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response SOAP](#response-soap).
@@ -37,7 +37,7 @@ The *DeleteAccountResponse* object defines the [body](#response-body) and [heade
 There are not any elements in the operation's response body.
 
 ### <a name="response-header"></a>Response Header Elements
-[!INCLUDE[response-header](./includes/response-header.md)]
+[!INCLUDE[response-header](./includes/response-header)]
 
 ## <a name="request-soap"></a>Request SOAP
 The following template shows the order of the [body](#request-body) and [header](#request-header) elements for the SOAP request.
@@ -76,7 +76,7 @@ The following template shows the order of the [body](#response-body) and [header
 ```
 
 ## <a name="example"></a>Code Syntax
-The example syntax can be used with [Bing Ads SDKs](/bingads/guides/client-libraries.md). See [Bing Ads Code Examples](/bingads/guides/code-examples.md) for more examples.
+The example syntax can be used with [Bing Ads SDKs](/bingads/guides/client-libraries). See [Bing Ads Code Examples](/bingads/guides/code-examples) for more examples.
 ```csharp
 public async Task<DeleteAccountResponse> DeleteAccountAsync(
 	long accountId,

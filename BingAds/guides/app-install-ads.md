@@ -9,7 +9,7 @@ description: Setup App Install ads with the Bing Ads API.
 # App Install Ads
 App Install Ads are similar to expanded text ads but provide direct links to your apps with a button, sending customers directly to the applicable store to download the application. This is an ideal solution for advertisers wanting to manage and drive downloads of their apps, rather than website traffic.
 
-App Install Ads automatically detect the customer’s mobile device and operating system, sending them to the corresponding Apple App Store or Google Play. You can also track conversions with the same conversion tracking partners as [App Ad Extensions](/bingads/guides/ad-extensions.md): AppsFlyer, Kochava, Tune, Apsalar, and Adjust. To learn more, see the Bing Ads help article [What is an App Install Ad?](https://help.bingads.microsoft.com/#apex/3/en/56836/0)
+App Install Ads automatically detect the customer’s mobile device and operating system, sending them to the corresponding Apple App Store or Google Play. You can also track conversions with the same conversion tracking partners as [App Ad Extensions](/bingads/guides/ad-extensions): AppsFlyer, Kochava, Tune, Apsalar, and Adjust. To learn more, see the Bing Ads help article [What is an App Install Ad?](https://help.bingads.microsoft.com/#apex/3/en/56836/0)
 
 Create an app install ad if your intention is to drive app downloads, and not necessarily to direct leads to a web site. If you want to direct leads to a web site in addition to driving app downloads, then you should create an expanded text ad with app ad extensions.
 
@@ -18,7 +18,7 @@ Create an app install ad if your intention is to drive app downloads, and not ne
 
 ## <a name="bulk"></a>Bulk API for App Install Ads
 The following Bulk record is available for managing app install ads.
-* [App Install Ad](/binga/bingads/bulk-service/app-install-ad.md)
+* [App Install Ad](/binga/bingads/bulk-service/app-install-ad)
 
 ## <a name="campaign"></a>Campaign Management API for App Install Ads
-The [AppInstallAd](/binga/bingads/campaign-management-service/appinstallad.md) object is derived from the [Ad](/binga/bingads/campaign-management-service/ad.md) base class and can be managed with any of the ad operations e.g. [AddAds](/binga/bingads/campaign-management-service/addads.md), [DeleteAds](/binga/bingads/campaign-management-service/deleteads.md), [GetAdsByAdGroupId](/binga/bingads/campaign-management-service/getadsbyadgroupid.md), and [UpdateAds](/binga/bingads/campaign-management-service/updateads.md). 
+The [AppInstallAd](/binga/bingads/campaign-management-service/appinstallad) object is derived from the [Ad](/binga/bingads/campaign-management-service/ad) base class and can be managed with any of the ad operations e.g. [AddAds](/binga/bingads/campaign-management-service/addads), [DeleteAds](/binga/bingads/campaign-management-service/deleteads), [GetAdsByAdGroupId](/binga/bingads/campaign-management-service/getadsbyadgroupid), and [UpdateAds](/binga/bingads/campaign-management-service/updateads). 

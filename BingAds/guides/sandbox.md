@@ -9,7 +9,7 @@ description: Bing Ads provides an API sandbox environment where you can test you
 # Bing Ads Sandbox
 Bing Ads provides an API sandbox environment where you can test your application before deploying it to the production environment. Ads that you create in sandbox are not served.
 
-Supported services in sandbox vary from production. To get the web service addresses for supported services, see [Bing Ads Web Service Addresses](/bingads/guides/web-service-addresses.md).
+Supported services in sandbox vary from production. To get the web service addresses for supported services, see [Bing Ads Web Service Addresses](/bingads/guides/web-service-addresses).
 
 > [!NOTE]
 > Sandbox may be down for maintenance, with or without prior notification. Efforts will be made to notify users before sandbox downtime. Notifications are posted in the [Bing Ads Developer Blog](https://blogs.msdn.microsoft.com/bing_ads_api/).
@@ -22,7 +22,7 @@ When you sign up for an account, append _sbx to the username that you choose, fo
 All Bing Ads customers may use the following universal developer token in sandbox: **BBD37VB98**
 
 > [!NOTE]
-> Authentication with a Microsoft Account is not supported in sandbox. You can test your sandbox application with the *UserName* and *Password* legacy header elements, and then with the *AuthenticationToken* element verify authentication of a Microsoft account via OAuth in production. For more information, see [Authentication with OAuth](/bingads/guides/authentication-oauth.md).
+> Authentication with a Microsoft Account is not supported in sandbox. You can test your sandbox application with the *UserName* and *Password* legacy header elements, and then with the *AuthenticationToken* element verify authentication of a Microsoft account via OAuth in production. For more information, see [Authentication with OAuth](/bingads/guides/authentication-oauth).
 
 ## <a name="bestpractices"></a>Sandbox Best Practices
 Sandbox should not be used in the same capacity as production.
@@ -64,26 +64,26 @@ Ad Insight service operations differ from production, and limitations are descri
 
 |Service Operation|Sandbox Limitations|
 |---------------------|-----------------------|
-|[GetBidLandscapeByKeywordIds](/binga/bingads/ad-insight-service/getbidlandscapebykeywordids.md)|Not supported. You can call the operation with existing keyword identifiers, but no data is returned.|
-|[GetEstimatedBidByKeywordIds](/binga/bingads/ad-insight-service/getestimatedbidbykeywordids.md)|A limited set of keywords are supported. For more information, see [Supported Keywords](#supportedkeywords).|
-|[GetEstimatedBidByKeywords](/binga/bingads/ad-insight-service/getestimatedbidbykeywords.md)|A limited set of keywords are supported. For more information, see [Supported Keywords](#supportedkeywords).|
-|[GetEstimatedPositionByKeywordIds](/binga/bingads/ad-insight-service/getestimatedpositionbykeywordids.md)|A limited set of keywords are supported. For more information, see [Supported Keywords](#supportedkeywords).<br /><br />To increase chance of getting an estimate, the *MaxBid* element should be more than or equal to 5 US Dollar, or the equivalent in other currencies.|
-|[GetEstimatedPositionByKeywords](/binga/bingads/ad-insight-service/getestimatedpositionbykeywords.md)|A limited set of keywords are supported. For more information, see [Supported Keywords](#supportedkeywords).<br /><br />To increase chance of getting an estimate, the *MaxBid* element should be more than or equal to 5 US Dollar, or the equivalent in other currencies.|
-|[GetHistoricalKeywordPerformance](/binga/bingads/ad-insight-service/gethistoricalkeywordperformance.md)|A limited set of keywords are supported. For more information, see [Supported Keywords](#supportedkeywords).<br /><br />The *MatchType* and *AdPosition* elements must be set to *Aggregate*.<br /><br />The *Devices* element must be set to *Computers* or left nil.|
-|[GetHistoricalSearchCount](/binga/bingads/ad-insight-service/gethistoricalsearchcount.md)|A limited set of keywords are supported. For more information, see [Supported Keywords](#supportedkeywords).<br /><br />The *EndMonthAndYear* element must be set to the previous month. For example if today's date is October 10, 2017, the end month should be October 2017.<br /><br />The *Devices* element must be set to *Computers* or left nil.|
-|[GetKeywordCategories](/binga/bingads/ad-insight-service/getkeywordcategories.md)|There should be no difference in sandbox versus production.|
-|[GetKeywordDemographics](/binga/bingads/ad-insight-service/getkeyworddemographics.md)|A limited set of keywords are supported. For more information, see [Supported Keywords](#supportedkeywords).<br /><br />The *Devices* element must be set to *Computers* or left nil.|
-|[GetKeywordLocations](/binga/bingads/ad-insight-service/getkeywordlocations.md)|A limited set of keywords are supported. For more information, see [Supported Keywords](#supportedkeywords).<br /><br />The *Devices* element must be set to *Computers* or left nil.|
-|[SuggestKeywordsForUrl](/binga/bingads/ad-insight-service/suggestkeywordsforurl.md)|There should be no difference in sandbox versus production.|
-|[SuggestKeywordsFromExistingKeywords](/binga/bingads/ad-insight-service/suggestkeywordsfromexistingkeywords.md)|If the SuggestionType is set to 1, there should be no difference in behavior compared to production.<br /><br />For suggestion type values 2, 3, and 4, the results are limited to the set of keywords provided in sandbox. For more information, see [Supported Keywords](#supportedkeywords).|
+|[GetBidLandscapeByKeywordIds](/binga/bingads/ad-insight-service/getbidlandscapebykeywordids)|Not supported. You can call the operation with existing keyword identifiers, but no data is returned.|
+|[GetEstimatedBidByKeywordIds](/binga/bingads/ad-insight-service/getestimatedbidbykeywordids)|A limited set of keywords are supported. For more information, see [Supported Keywords](#supportedkeywords).|
+|[GetEstimatedBidByKeywords](/binga/bingads/ad-insight-service/getestimatedbidbykeywords)|A limited set of keywords are supported. For more information, see [Supported Keywords](#supportedkeywords).|
+|[GetEstimatedPositionByKeywordIds](/binga/bingads/ad-insight-service/getestimatedpositionbykeywordids)|A limited set of keywords are supported. For more information, see [Supported Keywords](#supportedkeywords).<br /><br />To increase chance of getting an estimate, the *MaxBid* element should be more than or equal to 5 US Dollar, or the equivalent in other currencies.|
+|[GetEstimatedPositionByKeywords](/binga/bingads/ad-insight-service/getestimatedpositionbykeywords)|A limited set of keywords are supported. For more information, see [Supported Keywords](#supportedkeywords).<br /><br />To increase chance of getting an estimate, the *MaxBid* element should be more than or equal to 5 US Dollar, or the equivalent in other currencies.|
+|[GetHistoricalKeywordPerformance](/binga/bingads/ad-insight-service/gethistoricalkeywordperformance)|A limited set of keywords are supported. For more information, see [Supported Keywords](#supportedkeywords).<br /><br />The *MatchType* and *AdPosition* elements must be set to *Aggregate*.<br /><br />The *Devices* element must be set to *Computers* or left nil.|
+|[GetHistoricalSearchCount](/binga/bingads/ad-insight-service/gethistoricalsearchcount)|A limited set of keywords are supported. For more information, see [Supported Keywords](#supportedkeywords).<br /><br />The *EndMonthAndYear* element must be set to the previous month. For example if today's date is October 10, 2017, the end month should be October 2017.<br /><br />The *Devices* element must be set to *Computers* or left nil.|
+|[GetKeywordCategories](/binga/bingads/ad-insight-service/getkeywordcategories)|There should be no difference in sandbox versus production.|
+|[GetKeywordDemographics](/binga/bingads/ad-insight-service/getkeyworddemographics)|A limited set of keywords are supported. For more information, see [Supported Keywords](#supportedkeywords).<br /><br />The *Devices* element must be set to *Computers* or left nil.|
+|[GetKeywordLocations](/binga/bingads/ad-insight-service/getkeywordlocations)|A limited set of keywords are supported. For more information, see [Supported Keywords](#supportedkeywords).<br /><br />The *Devices* element must be set to *Computers* or left nil.|
+|[SuggestKeywordsForUrl](/binga/bingads/ad-insight-service/suggestkeywordsforurl)|There should be no difference in sandbox versus production.|
+|[SuggestKeywordsFromExistingKeywords](/binga/bingads/ad-insight-service/suggestkeywordsfromexistingkeywords)|If the SuggestionType is set to 1, there should be no difference in behavior compared to production.<br /><br />For suggestion type values 2, 3, and 4, the results are limited to the set of keywords provided in sandbox. For more information, see [Supported Keywords](#supportedkeywords).|
 
 ## <a name="bulk"></a>Bulk Service
-The file size limit for upload in production is 100MB or 2.5 million rows. For sandbox the limit is 20K rows. For more information, see [Bulk Download and Upload](/bingads/guides/bulk-download-upload.md).
+The file size limit for upload in production is 100MB or 2.5 million rows. For sandbox the limit is 20K rows. For more information, see [Bulk Download and Upload](/bingads/guides/bulk-download-upload).
 
 ## <a name="campaign"></a>Campaign Management Service
 
 ### <a name="editorialsupport"></a>Editorial Support
-Sandbox supports limited editorial reviews and appeals. Sandbox does not support testing of editorial rejections reason operations, for example [GetEditorialReasonsByIds](/binga/bingads/campaign-management-service/geteditorialreasonsbyids.md).
+Sandbox supports limited editorial reviews and appeals. Sandbox does not support testing of editorial rejections reason operations, for example [GetEditorialReasonsByIds](/binga/bingads/campaign-management-service/geteditorialreasonsbyids).
 
 #### Magic Terms
 If you know of editorial terms that will fail editorial review, you can use them. Otherwise, to test your application's editorial logic, use the following format to construct a *magic* term that determines, by country, whether editorial will approve or reject the ad or keyword, or put it in a pending state. These magic terms are supported in sandbox only.
@@ -141,7 +141,7 @@ Product ads are supported in sandbox in the United States. To be auto-approved y
 The Customer Billing service is not supported in sandbox.
 
 ## <a name="customer"></a>Customer Management Service
-Most customer management service operations are supported in sandbox. Unsupported features include [AddClientLinks](/binga/bingads/customer-management-service/addclientlinks.md) and [UpdateClientLinks](/binga/bingads/customer-management-service/updateclientlinks.md).
+Most customer management service operations are supported in sandbox. Unsupported features include [AddClientLinks](/binga/bingads/customer-management-service/addclientlinks) and [UpdateClientLinks](/binga/bingads/customer-management-service/updateclientlinks).
 
 ## <a name="reporting"></a>Reporting Service
 When you create a keyword, test performance data should be generated within a few hours. The data is provided to test generating, retrieving, and parsing reports in the sandbox. You should not use the test data to infer or expect similar performance for your keywords in production. 
@@ -150,13 +150,13 @@ Test data is generated only for the same day when the entity was added or update
 
 The following reports can return performance data in sandbox. All other report types can be submitted successfully, although the sandbox service will not return any example data i.e., the report download URL will be not be set when you poll for results.
 
--   [AccountPerformanceReportRequest](/binga/bingads/reporting-service/accountperformancereportrequest.md)  
--   [AdDynamicTextPerformanceReportRequest](/binga/bingads/reporting-service/addynamictextperformancereportrequest.md)  
--   [AdGroupPerformanceReportRequest](/binga/bingads/reporting-service/adgroupperformancereportrequest.md)  
--   [AdPerformanceReportRequest](/binga/bingads/reporting-service/adperformancereportrequest.md)  
--   [CallDetailReportRequest](/binga/bingads/reporting-service/calldetailreportrequest.md)  
--   [CampaignPerformanceReportRequest](/binga/bingads/reporting-service/campaignperformancereportrequest.md)  
--   [DestinationUrlPerformanceReportRequest](/binga/bingads/reporting-service/destinationurlperformancereportrequest.md)  
--   [KeywordPerformanceReportRequest](/binga/bingads/reporting-service/keywordperformancereportrequest.md)  
--   [UserLocationPerformanceReportRequest](/binga/bingads/reporting-service/userlocationperformancereportrequest.md)  
+-   [AccountPerformanceReportRequest](/binga/bingads/reporting-service/accountperformancereportrequest)  
+-   [AdDynamicTextPerformanceReportRequest](/binga/bingads/reporting-service/addynamictextperformancereportrequest)  
+-   [AdGroupPerformanceReportRequest](/binga/bingads/reporting-service/adgroupperformancereportrequest)  
+-   [AdPerformanceReportRequest](/binga/bingads/reporting-service/adperformancereportrequest)  
+-   [CallDetailReportRequest](/binga/bingads/reporting-service/calldetailreportrequest)  
+-   [CampaignPerformanceReportRequest](/binga/bingads/reporting-service/campaignperformancereportrequest)  
+-   [DestinationUrlPerformanceReportRequest](/binga/bingads/reporting-service/destinationurlperformancereportrequest)  
+-   [KeywordPerformanceReportRequest](/binga/bingads/reporting-service/keywordperformancereportrequest)  
+-   [UserLocationPerformanceReportRequest](/binga/bingads/reporting-service/userlocationperformancereportrequest)  
 

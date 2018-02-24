@@ -17,6 +17,6 @@ The following figure shows how one or more accounts can be managed directly with
 The users of a direct advertiser can programmatically manage any designated accounts within their own customer, for example Account A and Account B. An application owned and operated by the direct advertiser may be used to manage some or all aspects of an advertiser account. Users can also manage their respective account through the Bing Ads web application or a third-party tool.
 
 ## See Also
-[Customer Accounts](/bingads/guides/customer-accounts.md)  
-[Get Started With the Bing Ads API](/bingads/guides/get-started.md)  
+[Customer Accounts](/bingads/guides/customer-accounts)  
+[Get Started With the Bing Ads API](/bingads/guides/get-started)  
 

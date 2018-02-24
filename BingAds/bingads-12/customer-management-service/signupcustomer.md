@@ -25,12 +25,12 @@ The *SignupCustomerRequest* object defines the [body](#request-body) and [header
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="account"></a>Account|An [Account](/bingads/customer-management-service/account.md) that specifies the details of the customer's primary account.<br /><br /> Do not instantiate the *Account* data object. Instead, instantiate the [AdvertiserAccount](/bingads/customer-management-service/advertiseraccount.md) that derives from the *Account* data object.|[AdvertiserAccount](advertiseraccount.md)|
-|<a name="customer"></a>Customer|A [Customer](/bingads/customer-management-service/customer.md) that specifies the details of the customer that you are adding.|[Customer](customer.md)|
+|<a name="account"></a>Account|An [Account](/bingads/customer-management-service/account) that specifies the details of the customer's primary account.<br /><br /> Do not instantiate the *Account* data object. Instead, instantiate the [AdvertiserAccount](/bingads/customer-management-service/advertiseraccount) that derives from the *Account* data object.|[AdvertiserAccount](advertiseraccount)|
+|<a name="customer"></a>Customer|A [Customer](/bingads/customer-management-service/customer) that specifies the details of the customer that you are adding.|[Customer](customer)|
 |<a name="parentcustomerid"></a>ParentCustomerId|The customer identifier of the reseller that will manage this customer.|**long**|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header)]
 
 ## <a name="response"></a>Response Elements
 The *SignupCustomerResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response SOAP](#response-soap).
@@ -46,7 +46,7 @@ The *SignupCustomerResponse* object defines the [body](#response-body) and [head
 |<a name="customernumber"></a>CustomerNumber|A system-generated customer number that is used in the Bing Ads web application. The customer number is of the form, C*nnnnnnn*, where *nnnnnnn* is a series of digits.|**string**|
 
 ### <a name="response-header"></a>Response Header Elements
-[!INCLUDE[response-header](./includes/response-header.md)]
+[!INCLUDE[response-header](./includes/response-header)]
 
 ## <a name="request-soap"></a>Request SOAP
 The following template shows the order of the [body](#request-body) and [header](#request-header) elements for the SOAP request.
@@ -176,7 +176,7 @@ The following template shows the order of the [body](#response-body) and [header
 ```
 
 ## <a name="example"></a>Code Syntax
-The example syntax can be used with [Bing Ads SDKs](/bingads/guides/client-libraries.md). See [Bing Ads Code Examples](/bingads/guides/code-examples.md) for more examples.
+The example syntax can be used with [Bing Ads SDKs](/bingads/guides/client-libraries). See [Bing Ads Code Examples](/bingads/guides/code-examples) for more examples.
 ```csharp
 public async Task<SignupCustomerResponse> SignupCustomerAsync(
 	Customer customer,

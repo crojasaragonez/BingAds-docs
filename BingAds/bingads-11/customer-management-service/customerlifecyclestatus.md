@@ -31,4 +31,4 @@ Service: [CustomerManagementService.svc v11](https://clientcenter.api.bingads.mi
 Namespace: https\://bingads.microsoft.com/Customer/v11  
 
 ## Used By
-[Customer](customer.md)  
+[Customer](customer)  

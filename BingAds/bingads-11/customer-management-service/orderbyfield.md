@@ -7,7 +7,7 @@ ms.author: eur
 description: Defines the field order of entities returned using one of the search operations, for example SearchAccounts, SearchClientLinks, or SearchCustomers.
 ---
 # OrderByField Value Set - Customer Management
-Defines the field order of entities returned using one of the search operations, for example [SearchAccounts](/bingads/customer-management-service/searchaccounts.md), [SearchClientLinks](/bingads/customer-management-service/searchclientlinks.md), or [SearchCustomers](/bingads/customer-management-service/searchcustomers.md).
+Defines the field order of entities returned using one of the search operations, for example [SearchAccounts](/bingads/customer-management-service/searchaccounts), [SearchClientLinks](/bingads/customer-management-service/searchclientlinks), or [SearchCustomers](/bingads/customer-management-service/searchcustomers).
 
 ## Syntax
 ```xml
@@ -35,4 +35,4 @@ Service: [CustomerManagementService.svc v11](https://clientcenter.api.bingads.mi
 Namespace: https\://bingads.microsoft.com/Customer/v11  
 
 ## Used By
-[OrderBy](orderby.md)  
+[OrderBy](orderby)  

@@ -12,11 +12,11 @@ dev_langs:
   - python
 ---
 # SearchClientLinks Service Operation - Customer Management
-This feature is not supported in sandbox.Searches for the client links for the customer of the current authenticated user, filtered by the search criteria. The operation returns the most recent link for each unique combination of agency customer and client account. For more information about the client link lifecycle, see [Link to Client Accounts](/bingads/guides/management-model-agencies.md#clientlink).
+This feature is not supported in sandbox.Searches for the client links for the customer of the current authenticated user, filtered by the search criteria. The operation returns the most recent link for each unique combination of agency customer and client account. For more information about the client link lifecycle, see [Link to Client Accounts](/bingads/guides/management-model-agencies#clientlink).
 
 If your user is within a client customer that has one or more accounts managed by an agency, then you may search one at a time for individual accounts that were or are eligible to be linked. To search by individual account, set the predicate field to ClientAccountId and set the predicate value to the account identifier that you want to find.
 
-The role of the user calling this operation must be Super Admin. For more information, see [User Roles and Available Service Operations](/bingads/guides/customer-accounts.md#userroles).
+The role of the user calling this operation must be Super Admin. For more information, see [User Roles and Available Service Operations](/bingads/guides/customer-accounts#userroles).
 
 ## <a name="request"></a>Request Elements
 The *SearchClientLinksRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
@@ -25,12 +25,12 @@ The *SearchClientLinksRequest* object defines the [body](#request-body) and [hea
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="ordering"></a>Ordering|Determines the order of results.<br /><br /> If specified, you should only include one *OrderBy* element in the list. Additional elements are not supported and will be ignored by the service.<br /><br />For this service operation, the following values are supported in the *Field* element of a *OrderBy* object.<br /><br />*Id* - The order is determined by the *ClientAccountId* element of the returned [ClientLink](/bingads/customer-management-service/clientlink.md).<br /><br />*Name* - The order is determined by the *Name* element of the returned [ClientLink](/bingads/customer-management-service/clientlink.md).<br /><br />*Number* - The order is determined by the *ManagingCustomerNumber* element of the returned [ClientLink](/bingads/customer-management-service/clientlink.md).|[OrderBy](orderby.md) array|
-|<a name="pageinfo"></a>PageInfo|Determines the index and size of  results per page.|[Paging](paging.md)|
-|<a name="predicates"></a>Predicates|Determines the request conditions. This operation's response will include client links that match all of the specified predicates.<br /><br /> You can specify either one or two predicates.<br /><br />For a list of supported *Field* and *Operator* elements of a [Predicate](predicate.md) object for this service operation, see [Predicate Remarks](predicate.md#remarks).|[Predicate](predicate.md) array|
+|<a name="ordering"></a>Ordering|Determines the order of results.<br /><br /> If specified, you should only include one *OrderBy* element in the list. Additional elements are not supported and will be ignored by the service.<br /><br />For this service operation, the following values are supported in the *Field* element of a *OrderBy* object.<br /><br />*Id* - The order is determined by the *ClientAccountId* element of the returned [ClientLink](/bingads/customer-management-service/clientlink).<br /><br />*Name* - The order is determined by the *Name* element of the returned [ClientLink](/bingads/customer-management-service/clientlink).<br /><br />*Number* - The order is determined by the *ManagingCustomerNumber* element of the returned [ClientLink](/bingads/customer-management-service/clientlink).|[OrderBy](orderby) array|
+|<a name="pageinfo"></a>PageInfo|Determines the index and size of  results per page.|[Paging](paging)|
+|<a name="predicates"></a>Predicates|Determines the request conditions. This operation's response will include client links that match all of the specified predicates.<br /><br /> You can specify either one or two predicates.<br /><br />For a list of supported *Field* and *Operator* elements of a [Predicate](predicate) object for this service operation, see [Predicate Remarks](predicate#remarks).|[Predicate](predicate) array|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header)]
 
 ## <a name="response"></a>Response Elements
 The *SearchClientLinksResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response SOAP](#response-soap).
@@ -39,10 +39,10 @@ The *SearchClientLinksResponse* object defines the [body](#response-body) and [h
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="clientlinks"></a>ClientLinks|The list of client link invitations.|[ClientLink](clientlink.md) array|
+|<a name="clientlinks"></a>ClientLinks|The list of client link invitations.|[ClientLink](clientlink) array|
 
 ### <a name="response-header"></a>Response Header Elements
-[!INCLUDE[response-header](./includes/response-header.md)]
+[!INCLUDE[response-header](./includes/response-header)]
 
 ## <a name="request-soap"></a>Request SOAP
 The following template shows the order of the [body](#request-body) and [header](#request-header) elements for the SOAP request.
@@ -123,7 +123,7 @@ The following template shows the order of the [body](#response-body) and [header
 ```
 
 ## <a name="example"></a>Code Syntax
-The example syntax can be used with [Bing Ads SDKs](/bingads/guides/client-libraries.md). See [Bing Ads Code Examples](/bingads/guides/code-examples.md) for more examples.
+The example syntax can be used with [Bing Ads SDKs](/bingads/guides/client-libraries). See [Bing Ads Code Examples](/bingads/guides/code-examples) for more examples.
 ```csharp
 public async Task<SearchClientLinksResponse> SearchClientLinksAsync(
 	IList<Predicate> predicates,

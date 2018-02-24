@@ -35,4 +35,4 @@ Service: [CustomerManagementService.svc v11](https://clientcenter.api.bingads.mi
 Namespace: https\://adapi.microsoft.com  
 
 ## Used By
-[AdApiFaultDetail](adapifaultdetail.md)  
+[AdApiFaultDetail](adapifaultdetail)  

@@ -25,12 +25,12 @@ The *FindAccountsRequest* object defines the [body](#request-body) and [header](
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="accountfilter"></a>AccountFilter|The criteria to use to filter the list of accounts. You can specify either an account name or an account number. If your filter value is of the form, X*nnnnn*, where *nnnnn* is a series of digits, the operation filters by account number.<br /><br />The filter value can contain a partial or full account name or number of the accounts that you want to get. The operation includes the account in the result if the name or number of the account begins with the specified filter value.<br /><br />The operation performs a case-insensitive comparison when it compares your filter value to the account name or number. For example, if you specify "t" as the filter value, the list will include accounts whose names begin with "t" or "T".<br /><br />Setting this element to an empty string is the same as calling the [GetAccountsInfo](/bingads/customer-management-service/getaccountsinfo.md).|**string**|
+|<a name="accountfilter"></a>AccountFilter|The criteria to use to filter the list of accounts. You can specify either an account name or an account number. If your filter value is of the form, X*nnnnn*, where *nnnnn* is a series of digits, the operation filters by account number.<br /><br />The filter value can contain a partial or full account name or number of the accounts that you want to get. The operation includes the account in the result if the name or number of the account begins with the specified filter value.<br /><br />The operation performs a case-insensitive comparison when it compares your filter value to the account name or number. For example, if you specify "t" as the filter value, the list will include accounts whose names begin with "t" or "T".<br /><br />Setting this element to an empty string is the same as calling the [GetAccountsInfo](/bingads/customer-management-service/getaccountsinfo).|**string**|
 |<a name="customerid"></a>CustomerId|The identifier of the customer whose accounts you want to get.<br /><br />If null, the operation searches for a match among all of the accounts of the customers that the user manages and owns.|**long**|
 |<a name="topn"></a>TopN|A nonzero positive integer that specifies the number of accounts to return in the result. You must specify a value from 1 through 5,000.|**int**|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header)]
 
 ## <a name="response"></a>Response Elements
 The *FindAccountsResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response SOAP](#response-soap).
@@ -39,10 +39,10 @@ The *FindAccountsResponse* object defines the [body](#response-body) and [header
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="accountsinfo"></a>AccountsInfo|A list of *AccountInfo* objects of the accounts that match the specified filter criteria.<br /><br />To get the complete details of an account in the list, access the *Id* element of the *AccountInfo* object and use it to call [GetAccount](/bingads/customer-management-service/getaccount.md).|[AccountInfo](accountinfo.md) array|
+|<a name="accountsinfo"></a>AccountsInfo|A list of *AccountInfo* objects of the accounts that match the specified filter criteria.<br /><br />To get the complete details of an account in the list, access the *Id* element of the *AccountInfo* object and use it to call [GetAccount](/bingads/customer-management-service/getaccount).|[AccountInfo](accountinfo) array|
 
 ### <a name="response-header"></a>Response Header Elements
-[!INCLUDE[response-header](./includes/response-header.md)]
+[!INCLUDE[response-header](./includes/response-header)]
 
 ## <a name="request-soap"></a>Request SOAP
 The following template shows the order of the [body](#request-body) and [header](#request-header) elements for the SOAP request.
@@ -92,7 +92,7 @@ The following template shows the order of the [body](#response-body) and [header
 ```
 
 ## <a name="example"></a>Code Syntax
-The example syntax can be used with [Bing Ads SDKs](/bingads/guides/client-libraries.md). See [Bing Ads Code Examples](/bingads/guides/code-examples.md) for more examples.
+The example syntax can be used with [Bing Ads SDKs](/bingads/guides/client-libraries). See [Bing Ads Code Examples](/bingads/guides/code-examples) for more examples.
 ```csharp
 public async Task<FindAccountsResponse> FindAccountsAsync(
 	long? customerId,

@@ -11,7 +11,7 @@ description: Defines a client link object.
 > [!IMPORTANT]
 > This v12 preview documentation is subject to change.
 
-Defines a client link object. Acceptance of a client link invitation enables an agency to  manage the corresponding client accounts. To send an invitation to manage a client account, call the [AddClientLinks](/bingads/customer-management-service/addclientlinks.md) operation and specify one client link per account to manage. For more information about the client link lifecycle, see [Link to Client Accounts](/bingads/guides/management-model-agencies.md#clientlink).
+Defines a client link object. Acceptance of a client link invitation enables an agency to  manage the corresponding client accounts. To send an invitation to manage a client account, call the [AddClientLinks](/bingads/customer-management-service/addclientlinks) operation and specify one client link per account to manage. For more information about the client link lifecycle, see [Link to Client Accounts](/bingads/guides/management-model-agencies#clientlink).
 
 > [!NOTE]
 > This object does not have a system defined identifier. To uniquely identify a client link, use either the *ClientAccountId* or *ClientAccountNumber* paired with either the *ManagingCustomerId* or *ManagingCustomerNumber*.
@@ -47,7 +47,7 @@ Defines a client link object. Acceptance of a client link invitation enables an 
 |-----------|---------------|-------------|
 |<a name="clientaccountid"></a>ClientAccountId|The identifier of the client account to manage.<br /><br />When adding a client link, either the *ClientAccountId* or *ClientAccountNumber* is required, but specifying both will cause the operation to fail.<br/><br/>**Add:** Optional<br/>**Update:** Read-only and Required|**long**|
 |<a name="clientaccountnumber"></a>ClientAccountNumber|The number of the client account to manage.<br /><br />When adding a client link, either the *ClientAccountId* or *ClientAccountNumber* is required, but specifying both will cause the operation to fail.<br/><br/>**Add:** Optional<br/>**Update:** Read-only and Required|**string**|
-|<a name="forwardcompatibilitymap"></a>ForwardCompatibilityMap|The list of key and value strings for forward compatibility to avoid otherwise breaking changes when new elements are added in the current API version.<br /><br /> Forward compatibility changes will be noted here in future releases. There are currently no forward compatibility changes for the *ClientLink* object.|[KeyValuePairOfstringstring](keyvaluepairofstringstring.md) array|
+|<a name="forwardcompatibilitymap"></a>ForwardCompatibilityMap|The list of key and value strings for forward compatibility to avoid otherwise breaking changes when new elements are added in the current API version.<br /><br /> Forward compatibility changes will be noted here in future releases. There are currently no forward compatibility changes for the *ClientLink* object.|[KeyValuePairOfstringstring](keyvaluepairofstringstring) array|
 |<a name="inviteremail"></a>InviterEmail|The email of the user who created the client link request.<br /><br />This value does not need to be the same as, nor is it used to modify, the email already stored in Bing Ads for the current authenticated user.<br /><br />If not specified, the service will set this value to the email already stored in Bing Ads for the current authenticated user.<br/><br/>**Add:** Optional<br/>**Update:** Read-only|**string**|
 |<a name="invitername"></a>InviterName|The name of the parent customer of the user who  created the client link request.<br /><br />This value does not need to be the same as, nor is it used to modify, the customer name already stored in Bing Ads.<br /><br />If not specified, the service will set this value to the parent customer name already stored in Bing Ads for the current authenticated user.<br/><br/>**Add:** Optional<br/>**Update:** Read-only|**string**|
 |<a name="inviterphone"></a>InviterPhone|The phone number of the user who created the client link request.<br /><br />This value does not need to be the same as, nor is it used to modify, the phone number already stored in Bing Ads for the current authenticated user.<br /><br />If not specified, the service will set this value to the phone number already stored in Bing Ads for the current authenticated user.<br/><br/>**Add:** Optional<br/>**Update:** Read-only|**string**|
@@ -59,7 +59,7 @@ Defines a client link object. Acceptance of a client link invitation enables an 
 |<a name="name"></a>Name|The friendly name that can be used to reference this client link.<br /><br />The name can contain a maximum of 40 characters.<br /><br />A default name will be provided if none is specified. The name does not need to be unique compared to other client links for the user.<br/><br/>**Add:** Optional<br/>**Update:** Read-only|**string**|
 |<a name="note"></a>Note|Optional message from the requestor providing context and details about the client link invitation.<br/><br/>**Add:** Optional<br/>**Update:** Optional. If no value is specified on update, this Bing Ads setting is not changed.|**string**|
 |<a name="startdate"></a>StartDate|The date when the status would update. For an accepted link request the status would transition towards Active on this date, and for an unlink request the status would transition towards Inactive on this date.<br /><br />If not specified, this value will be set to the current date and time.<br/><br/>**Add:** Optional<br/>**Update:** Read-only|**dateTime**|
-|<a name="status"></a>Status|Determines the life cycle status of the client link, for example whether the client link has been accepted or declined.<br /><br />When adding a client link this element cannot be specified, and the service sets the effective status to LinkPending.<br/><br/>**Add:** Read-only<br/>**Update:** Required|[ClientLinkStatus](clientlinkstatus.md)|
+|<a name="status"></a>Status|Determines the life cycle status of the client link, for example whether the client link has been accepted or declined.<br /><br />When adding a client link this element cannot be specified, and the service sets the effective status to LinkPending.<br/><br/>**Add:** Read-only<br/>**Update:** Required|[ClientLinkStatus](clientlinkstatus)|
 |<a name="suppressnotification"></a>SuppressNotification|Determines whether or not to send email notification of the client link invitation to the primary user of the client account.<br /><br />If set to true the client will not receive an email and otherwise, since the default value is false, the client will receive an email notification.<br/><br/>**Add:** Optional<br/>**Update:** Read-only|**boolean**|
 |<a name="timestamp"></a>Timestamp|Reserved for future use.|**base64Binary**|
 
@@ -68,6 +68,6 @@ Service: [CustomerManagementService.svc v12](https://clientcenter.api.bingads.mi
 Namespace: https\://bingads.microsoft.com/Customer/v12/Entities  
 
 ## Used By
-[AddClientLinks](addclientlinks.md)  
-[SearchClientLinks](searchclientlinks.md)  
-[UpdateClientLinks](updateclientlinks.md)  
+[AddClientLinks](addclientlinks)  
+[SearchClientLinks](searchclientlinks)  
+[UpdateClientLinks](updateclientlinks)  

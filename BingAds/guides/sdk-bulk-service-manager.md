@@ -11,9 +11,9 @@ dev_langs:
   - python
 ---
 # Bulk Service Manager
-Take advantage of the [Bulk service](/binga/bingads/bulk-service/bulk-service-reference.md) to efficiently manage ads and keywords for all campaigns in an account. The SDK provides classes to accelerate productivity for downloading and uploading entities. For example the *DownloadFileAsync* method of the *BulkServiceManager* class will submit your download request to the bulk service, poll the service until completed, and download the file to the local directory that you specified in the request. Use the *BulkFileReader* class instead of writing a file parser to read the download results. The *BulkFileReader* provides access to the bulk file records in *BulkEntity* derived classes, which contain data objects and values sets corresponding to the [Campaign Management service](/binga/bingads/campaign-management-service/campaign-management-service-reference.md).
+Take advantage of the [Bulk service](/binga/bingads/bulk-service/bulk-service-reference) to efficiently manage ads and keywords for all campaigns in an account. The SDK provides classes to accelerate productivity for downloading and uploading entities. For example the *DownloadFileAsync* method of the *BulkServiceManager* class will submit your download request to the bulk service, poll the service until completed, and download the file to the local directory that you specified in the request. Use the *BulkFileReader* class instead of writing a file parser to read the download results. The *BulkFileReader* provides access to the bulk file records in *BulkEntity* derived classes, which contain data objects and values sets corresponding to the [Campaign Management service](/binga/bingads/campaign-management-service/campaign-management-service-reference).
 
-The *BulkServiceManager* class handles common request header fields for you, allowing to specify the *Authentication*, *CustomerId*, *AccountId*, and *DeveloperToken* properties in the *AuthorizationData* object once for each service. For more information, see [Using AuthorizationData](sdk-authentication.md#authorization-data).
+The *BulkServiceManager* class handles common request header fields for you, allowing to specify the *Authentication*, *CustomerId*, *AccountId*, and *DeveloperToken* properties in the *AuthorizationData* object once for each service. For more information, see [Using AuthorizationData](sdk-authentication#authorization-data).
 
 The *BulkServiceManager* automatically polls for the result file in 1000 millisecond intervals for the first five attempts, and that behavior is not configurable. The *StatusPollIntervalInMilliseconds* property determines the time interval between each polling attempt after the initial five attempts. The default value is 5000, so if you do not set this value the *BulkServiceManager* will poll in the following sequence of minutes: 1, 2, 3, 4, 5, 10, 15, 20, and so on. If you set this value to 10000, the *BulkServiceManager* will poll in the following sequence: 1, 2, 3, 4, 5, 15, 25, 35, and so on. The minimum poll interval is 1000, and if you specify a value less than 1000 an exception will be thrown.
 
@@ -27,7 +27,7 @@ The *BulkServiceManager* supports the following workflows.
 
 -   If for any reason you have to resume from a previous application state, you can use an existing download or upload request identifier and use it to download the result file. For more information, see [Download Results with BulkServiceManager](#downloadresults).
 
--   If you are migrating from a deprecated bulk file format version, you can use an *IBulkService* instance of *ServiceClient* to upload and download campaigns using any format version [Bulk File Schema](/binga/bingads/bulk-service/bulk-file-schema.md). The low level approach requires that you submit your download or upload, poll until the results are available, and then download the results file. For more information, see [Using ServiceClient&lt;TService&gt;](sdk-authentication.md##serviceclient) and [Bulk Download and Upload](/bingads/guides/bulk-download-upload.md).
+-   If you are migrating from a deprecated bulk file format version, you can use an *IBulkService* instance of *ServiceClient* to upload and download campaigns using any format version [Bulk File Schema](/binga/bingads/bulk-service/bulk-file-schema). The low level approach requires that you submit your download or upload, poll until the results are available, and then download the results file. For more information, see [Using ServiceClient&lt;TService&gt;](sdk-authentication##serviceclient) and [Bulk Download and Upload](/bingads/guides/bulk-download-upload).
     
 > [!NOTE]
 > If you are using a hosted service such as Microsoft Azure you'll want to ensure you do not exceed the file or directory limits. You can specify a different working directory for each *BulkServiceManager* instance. For details see [Working Directory and BulkServiceManager](#workingdirectory).
@@ -468,7 +468,7 @@ BulkService.cleanupTempFiles();
 ```
 
 ## See Also
-[Sandbox](/bingads/guides/sandbox.md)  
-[Bing Ads Code Examples](/bingads/guides/code-examples.md)    
-[Bing Ads Web Service Addresses](/bingads/guides/web-service-addresses.md)  
+[Sandbox](/bingads/guides/sandbox)  
+[Bing Ads Code Examples](/bingads/guides/code-examples)    
+[Bing Ads Web Service Addresses](/bingads/guides/web-service-addresses)  
 

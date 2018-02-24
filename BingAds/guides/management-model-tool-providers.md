@@ -17,6 +17,6 @@ The following figure shows multiple customers using the same third-party tool.
 Third-party tools may be used to manage some or all aspects of an advertiser account. Your users may also manage their respective account through the Bing Ads web application or another third-party tool. You should design your application to be flexible and robust considering that data may have changed state since the last time a client used your application.
 
 ## See Also
-[Customer Accounts](/bingads/guides/customer-accounts.md)  
-[Get Started With the Bing Ads API](/bingads/guides/get-started.md)  
+[Customer Accounts](/bingads/guides/customer-accounts)  
+[Get Started With the Bing Ads API](/bingads/guides/get-started)  
 

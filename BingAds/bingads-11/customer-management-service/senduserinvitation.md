@@ -16,11 +16,11 @@ Sends an invitation for  a Microsoft account user to manage one or more Bing Ads
 
 It is possible to have multiple pending invitations sent to the same email address, which have not yet expired. It is also possible for those invitations to have specified different user roles, for example if you sent an invitation with an incorrect user role and then sent a second invitation with the correct user role. The recipient can accept any of the invitations. The Bing Ads API does not support any operations to delete pending user invitations. After you invite a user, the only way to cancel the invitation is through the Bing Ads web application. You can find both pending and accepted invitations in the Users section of Accounts & Billing.
 
-Since a recipient can accept the invitation and sign into Bing Ads with a Microsoft account different than the invitation email address, you cannot determine with certainty the mapping from [UserInvitation](/bingads/customer-management-service/userinvitation.md) to accepted [User](/bingads/customer-management-service/user.md). You can search by the invitation ID (returned by *SendUserInvitations*), only to the extent of finding out whether or not the invitation has been accepted or has expired. The [SearchUserInvitations](/bingads/customer-management-service/searchuserinvitations.md) operation returns all pending invitations, whether or not they have expired. Accepted invitations are not included in the [SearchUserInvitations](/bingads/customer-management-service/searchuserinvitations.md) response.  
+Since a recipient can accept the invitation and sign into Bing Ads with a Microsoft account different than the invitation email address, you cannot determine with certainty the mapping from [UserInvitation](/bingads/customer-management-service/userinvitation) to accepted [User](/bingads/customer-management-service/user). You can search by the invitation ID (returned by *SendUserInvitations*), only to the extent of finding out whether or not the invitation has been accepted or has expired. The [SearchUserInvitations](/bingads/customer-management-service/searchuserinvitations) operation returns all pending invitations, whether or not they have expired. Accepted invitations are not included in the [SearchUserInvitations](/bingads/customer-management-service/searchuserinvitations) response.  
 
-After the invitation has been accepted, you can call [GetUsersInfo](/bingads/customer-management-service/getusersinfo.md) and [GetUser](/bingads/customer-management-service/getuser.md) to access the Bing Ads user details. Once again though, since a recipient can accept the invitation and sign into Bing Ads with a Microsoft account different than the invitation email address, you cannot determine with certainty the mapping from [UserInvitation](/bingads/customer-management-service/userinvitation.md) to accepted [User](/bingads/customer-management-service/user.md). With the user ID returned by [GetUsersInfo](/bingads/customer-management-service/getusersinfo.md) or [GetUser](/bingads/customer-management-service/getuser.md), you can call [DeleteUser](/bingads/customer-management-service/deleteuser.md) to remove the user.
+After the invitation has been accepted, you can call [GetUsersInfo](/bingads/customer-management-service/getusersinfo) and [GetUser](/bingads/customer-management-service/getuser) to access the Bing Ads user details. Once again though, since a recipient can accept the invitation and sign into Bing Ads with a Microsoft account different than the invitation email address, you cannot determine with certainty the mapping from [UserInvitation](/bingads/customer-management-service/userinvitation) to accepted [User](/bingads/customer-management-service/user). With the user ID returned by [GetUsersInfo](/bingads/customer-management-service/getusersinfo) or [GetUser](/bingads/customer-management-service/getuser), you can call [DeleteUser](/bingads/customer-management-service/deleteuser) to remove the user.
 
-For more information about user authentication, see [Authentication with OAuth](/bingads/guides/authentication-oauth.md).
+For more information about user authentication, see [Authentication with OAuth](/bingads/guides/authentication-oauth).
 
 ## <a name="request"></a>Request Elements
 The *SendUserInvitationRequest* object defines the [body](#request-body) and [header](#request-header) elements of the service operation request. The elements must be in the same order as shown in the [Request SOAP](#request-soap). 
@@ -29,10 +29,10 @@ The *SendUserInvitationRequest* object defines the [body](#request-body) and [he
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="userinvitation"></a>UserInvitation|The user invitation to send.|[UserInvitation](userinvitation.md)|
+|<a name="userinvitation"></a>UserInvitation|The user invitation to send.|[UserInvitation](userinvitation)|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header)]
 
 ## <a name="response"></a>Response Elements
 The *SendUserInvitationResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response SOAP](#response-soap).
@@ -44,7 +44,7 @@ The *SendUserInvitationResponse* object defines the [body](#response-body) and [
 |<a name="userinvitationid"></a>UserInvitationId|A system-generated identifier for the user invitation that was sent.|**long**|
 
 ### <a name="response-header"></a>Response Header Elements
-[!INCLUDE[response-header](./includes/response-header.md)]
+[!INCLUDE[response-header](./includes/response-header)]
 
 ## <a name="request-soap"></a>Request SOAP
 The following template shows the order of the [body](#request-body) and [header](#request-header) elements for the SOAP request.
@@ -96,7 +96,7 @@ The following template shows the order of the [body](#response-body) and [header
 ```
 
 ## <a name="example"></a>Code Syntax
-The example syntax can be used with [Bing Ads SDKs](/bingads/guides/client-libraries.md). See [Bing Ads Code Examples](/bingads/guides/code-examples.md) for more examples.
+The example syntax can be used with [Bing Ads SDKs](/bingads/guides/client-libraries). See [Bing Ads Code Examples](/bingads/guides/code-examples) for more examples.
 ```csharp
 public async Task<SendUserInvitationResponse> SendUserInvitationAsync(
 	UserInvitation userInvitation)

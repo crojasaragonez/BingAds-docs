@@ -14,7 +14,7 @@ description: Defines a selection of locale values.
 Defines a selection of locale values.
 
 > [!NOTE]
-> The value set defines a broad selection of locales; however, not all languages are supported in each market. For a list of supported languages by market country, see [Ad Languages](/bingads/guides/ad-languages.md).
+> The value set defines a broad selection of locales; however, not all languages are supported in each market. For a list of supported languages by market country, see [Ad Languages](/bingads/guides/ad-languages).
 
 ## Syntax
 ```xml
@@ -450,5 +450,5 @@ Service: [CustomerManagementService.svc v12](https://clientcenter.api.bingads.mi
 Namespace: https\://bingads.microsoft.com/Customer/v12  
 
 ## Used By
-[User](user.md)  
-[UserInvitation](userinvitation.md)  
+[User](user)  
+[UserInvitation](userinvitation)  

@@ -10,7 +10,7 @@ description: Defines a selection of language values.
 Defines a selection of language values.
 
 > [!NOTE]
-> The value set defines a broad selection of languages; however, not all languages are supported. For a list of supported languages, see [Ad Languages](/bingads/guides/ad-languages.md).
+> The value set defines a broad selection of languages; however, not all languages are supported. For a list of supported languages, see [Ad Languages](/bingads/guides/ad-languages).
 
 ## Syntax
 ```xml
@@ -66,5 +66,5 @@ Service: [CustomerManagementService.svc v11](https://clientcenter.api.bingads.mi
 Namespace: https\://bingads.microsoft.com/Customer/v11  
 
 ## Used By
-[Account](account.md)  
-[Customer](customer.md)  
+[Account](account)  
+[Customer](customer)  

@@ -21,17 +21,17 @@ To complete this tutorial, you need an Azure account. (You can [sign up for a fr
 
 If you want to get started with [Azure App Service](http://azure.microsoft.com/services/app-service/) before signing up for an account, go to [https://tryappservice.azure.com/](https://tryappservice.azure.com/), where you can immediately create a short-lived starter site for free. Before kicking off the short-lived starter site, to maximize your time experiencing Azure you should first complete the tutorial steps to deploy on your local machine.
 
-To follow this tutorial path, you will develop your application on Windows using [Python Tools for Visual Studio (PTVS)](https://microsoft.github.io/PTVS) on [Visual Studio Community](https://www.visualstudio.com/vs/community/). If you are using another operating system, web framework, or development environment, you can browse this guide for context and then see [Get Started Using Python with Bing Ads Services](/bingads/guides/get-started-python.md) for an overview of the Python SDK. For more information about deploying Azure websites using other environments and web frameworks, please see Microsoft Azure tutorials on [Django](http://azure.microsoft.com/documentation/articles/web-sites-python-create-deploy-django-app/), [Flask](http://azure.microsoft.com/documentation/articles/web-sites-python-create-deploy-flask-app), or [Bottle](http://azure.microsoft.com/documentation/articles/web-sites-python-create-deploy-bottle-app).
+To follow this tutorial path, you will develop your application on Windows using [Python Tools for Visual Studio (PTVS)](https://microsoft.github.io/PTVS) on [Visual Studio Community](https://www.visualstudio.com/vs/community/). If you are using another operating system, web framework, or development environment, you can browse this guide for context and then see [Get Started Using Python with Bing Ads Services](/bingads/guides/get-started-python) for an overview of the Python SDK. For more information about deploying Azure websites using other environments and web frameworks, please see Microsoft Azure tutorials on [Django](http://azure.microsoft.com/documentation/articles/web-sites-python-create-deploy-django-app/), [Flask](http://azure.microsoft.com/documentation/articles/web-sites-python-create-deploy-flask-app), or [Bottle](http://azure.microsoft.com/documentation/articles/web-sites-python-create-deploy-bottle-app).
 
 You will need to install either Python 2.7 or 3.4 in your development environment. Unless you have scaled up your Azure website to 64-bit, the default platform is 32-bit, so you should use a 32-bit Python installation.
 
-You will need to [install](/bingads/guides/get-started-python.md#installation) the [Bing Ads Python SDK](/bingads/guides/client-libraries.md), and this tutorial will walk you through the installation.
+You will need to [install](/bingads/guides/get-started-python#installation) the [Bing Ads Python SDK](/bingads/guides/client-libraries), and this tutorial will walk you through the installation.
 
 You will need the [Django web framework](https://www.djangoproject.com/) installed to deploy the application locally, and this tutorial will walk you through the installation.
 
-You will need at least one user with Bing Ads credentials including either a Microsoft account (recommended) or the Bing Ads legacy *UserName* and *Password* set, and a [developer token](/bingads/guides/get-started.md#get-developer-token). 
+You will need at least one user with Bing Ads credentials including either a Microsoft account (recommended) or the Bing Ads legacy *UserName* and *Password* set, and a [developer token](/bingads/guides/get-started#get-developer-token). 
 
-To use the OAuth 2.0 features of this web application, you will need to [register an application](/bingads/guides/authentication-oauth.md#registerapplication) and take note of the client ID and client secret. You'll need to register a web app (not native) for this example. You will be asked to register one or more redirect URLs. To deploy your application on Azure, choose a website name and corresponding URL that includes *azurewebsites.net*. This tutorial uses the */callback* URL relative to the website root, so to follow along you will want to register a redirect URL as follows: *https://YourAzureSiteNameGoesHere.azurewebsites.net/callback*.
+To use the OAuth 2.0 features of this web application, you will need to [register an application](/bingads/guides/authentication-oauth#registerapplication) and take note of the client ID and client secret. You'll need to register a web app (not native) for this example. You will be asked to register one or more redirect URLs. To deploy your application on Azure, choose a website name and corresponding URL that includes *azurewebsites.net*. This tutorial uses the */callback* URL relative to the website root, so to follow along you will want to register a redirect URL as follows: *https://YourAzureSiteNameGoesHere.azurewebsites.net/callback*.
 
 ## Website Creation on Azure Portal
 Create a Django website from the Azure Websites gallery. Login to the [Microsoft Azure Portal](https://manage.windowsazure.com/) and click the **NEW** button in the bottom left corner. A window will appear. Click **COMPUTE**, **WEB SITE**, then **FROM GALLERY**.
@@ -68,7 +68,7 @@ Here is an abridged overview of the files used by this web application. If you h
 
 -   */requirements.txt* - Lists the packages required by the example web application. Django and the Bing Ads Python SDK packages are included in the example requirements.txt file, and will be installed when you create a virtual environment.
 
--   */DjangoWebProject/settings.py* - The project settings are defined here. You must edit *settings.py* with your own *CLIENT_ID*, *CLIENT_SECRET*, and *REDIRECTION_URI* that were provisioned when you [registered your application](/bingads/guides/authentication-oauth.md#registerapplication). You'll also need to edit the *DEVELOPER_TOKEN* with your own production [developer token](/bingads/guides/get-started.md#get-developer-token).
+-   */DjangoWebProject/settings.py* - The project settings are defined here. You must edit *settings.py* with your own *CLIENT_ID*, *CLIENT_SECRET*, and *REDIRECTION_URI* that were provisioned when you [registered your application](/bingads/guides/authentication-oauth#registerapplication). You'll also need to edit the *DEVELOPER_TOKEN* with your own production [developer token](/bingads/guides/get-started#get-developer-token).
 
 -   */DjangoWebProject/urls.py* - Defines which view and template context to invoke per URL.
 
@@ -158,5 +158,5 @@ Currently the web application only supports a single user, and only one refresh 
     ```
 
 ## See Also
-[Get Started Using Python with Bing Ads Services](/bingads/guides/get-started-python.md)  
+[Get Started Using Python with Bing Ads Services](/bingads/guides/get-started-python)  
 

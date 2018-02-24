@@ -11,7 +11,7 @@ description: Defines an order for the list of entities returned using one of the
 > [!IMPORTANT]
 > This v12 preview documentation is subject to change.
 
-Defines an order for the list of entities returned using one of the search operations, for example [SearchAccounts](/bingads/customer-management-service/searchaccounts.md), [SearchClientLinks](/bingads/customer-management-service/searchclientlinks.md), or [SearchCustomers](/bingads/customer-management-service/searchcustomers.md).
+Defines an order for the list of entities returned using one of the search operations, for example [SearchAccounts](/bingads/customer-management-service/searchaccounts), [SearchClientLinks](/bingads/customer-management-service/searchclientlinks), or [SearchCustomers](/bingads/customer-management-service/searchcustomers).
 
 ## Syntax
 ```xml
@@ -27,14 +27,14 @@ Defines an order for the list of entities returned using one of the search opera
 
 |Element|Description|Data Type|
 |-----------|---------------|-------------|
-|<a name="field"></a>Field|Determines the field to order the results. For example order the results by *Id*.|[OrderByField](orderbyfield.md)|
-|<a name="order"></a>Order|Determines whether the results are ascending or descending.|[SortOrder](sortorder.md)|
+|<a name="field"></a>Field|Determines the field to order the results. For example order the results by *Id*.|[OrderByField](orderbyfield)|
+|<a name="order"></a>Order|Determines whether the results are ascending or descending.|[SortOrder](sortorder)|
 
 ## Requirements
 Service: [CustomerManagementService.svc v12](https://clientcenter.api.bingads.microsoft.com/Api/CustomerManagement/v12/CustomerManagementService.svc)  
 Namespace: https\://bingads.microsoft.com/Customer/v12/Entities  
 
 ## Used By
-[SearchAccounts](searchaccounts.md)  
-[SearchClientLinks](searchclientlinks.md)  
-[SearchCustomers](searchcustomers.md)  
+[SearchAccounts](searchaccounts)  
+[SearchClientLinks](searchclientlinks)  
+[SearchCustomers](searchcustomers)  

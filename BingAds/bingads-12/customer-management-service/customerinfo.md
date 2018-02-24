@@ -35,5 +35,5 @@ Service: [CustomerManagementService.svc v12](https://clientcenter.api.bingads.mi
 Namespace: https\://bingads.microsoft.com/Customer/v12/Entities  
 
 ## Used By
-[AdvertiserAccount](advertiseraccount.md)  
-[GetCustomersInfo](getcustomersinfo.md)  
+[AdvertiserAccount](advertiseraccount)  
+[GetCustomersInfo](getcustomersinfo)  

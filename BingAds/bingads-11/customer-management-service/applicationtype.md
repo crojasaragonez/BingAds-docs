@@ -29,9 +29,9 @@ Service: [CustomerManagementService.svc v11](https://clientcenter.api.bingads.mi
 Namespace: https\://bingads.microsoft.com/Customer/v11  
 
 ## Used By
-[FindAccounts](findaccounts.md)  
-[FindAccountsOrCustomersInfo](findaccountsorcustomersinfo.md)  
-[GetCustomersInfo](getcustomersinfo.md)  
-[SearchCustomers](searchcustomers.md)  
-[SignupCustomer](signupcustomer.md)  
-[User](user.md)  
+[FindAccounts](findaccounts)  
+[FindAccountsOrCustomersInfo](findaccountsorcustomersinfo)  
+[GetCustomersInfo](getcustomersinfo)  
+[SearchCustomers](searchcustomers)  
+[SignupCustomer](signupcustomer)  
+[User](user)  

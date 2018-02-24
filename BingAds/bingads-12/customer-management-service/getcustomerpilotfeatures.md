@@ -28,7 +28,7 @@ The *GetCustomerPilotFeaturesRequest* object defines the [body](#request-body) a
 |<a name="customerid"></a>CustomerId|The identifier of the customer whose list of pilot programs you want to get.|**long**|
 
 ### <a name="request-header"></a>Request Header Elements
-[!INCLUDE[request-header](./includes/request-header.md)]
+[!INCLUDE[request-header](./includes/request-header)]
 
 ## <a name="response"></a>Response Elements
 The *GetCustomerPilotFeaturesResponse* object defines the [body](#response-body) and [header](#response-header) elements of the service operation response. The elements are returned in the same order as shown in the [Response SOAP](#response-soap).
@@ -40,7 +40,7 @@ The *GetCustomerPilotFeaturesResponse* object defines the [body](#response-body)
 |<a name="featurepilotflags"></a>FeaturePilotFlags|A list of integers that identifies the pilot programs in which the customer participates.<br /><br />For example the following values correspond to active feature pilots. For more information about pilot participation please contact your account manager.<br /><br />253 - Sitelink 2 Migration<br /><br />268 - Dynamic Search Ads<br /><br />288 - Ad Group Remarketing List Exclusions<br /><br />295 - Maximize Clicks Bid Strategy Type<br /><br />296 - Maximize Conversions Bid Strategy Type<br /><br />297 - Target CPA Bid Strategy Type<br /><br />310 - Campaign Languages<br /><br />340 - Bing Shopping Enhanced CPC Bid Strategy Type<br /><br />351 - Local Inventory Ads|**int** array|
 
 ### <a name="response-header"></a>Response Header Elements
-[!INCLUDE[response-header](./includes/response-header.md)]
+[!INCLUDE[response-header](./includes/response-header)]
 
 ## <a name="request-soap"></a>Request SOAP
 The following template shows the order of the [body](#request-body) and [header](#request-header) elements for the SOAP request.
@@ -82,7 +82,7 @@ The following template shows the order of the [body](#response-body) and [header
 ```
 
 ## <a name="example"></a>Code Syntax
-The example syntax can be used with [Bing Ads SDKs](/bingads/guides/client-libraries.md). See [Bing Ads Code Examples](/bingads/guides/code-examples.md) for more examples.
+The example syntax can be used with [Bing Ads SDKs](/bingads/guides/client-libraries). See [Bing Ads Code Examples](/bingads/guides/code-examples) for more examples.
 ```csharp
 public async Task<GetCustomerPilotFeaturesResponse> GetCustomerPilotFeaturesAsync(
 	long customerId)

@@ -14,7 +14,7 @@ description: Defines a selection of currency values.
 Defines a selection of currency values.
 
 > [!NOTE]
-> The value set defines a broad selection of currency types; however, not all currencies are supported. For a list of supported currencies, see [Currencies](/bingads/guides/currencies.md).
+> The value set defines a broad selection of currency types; however, not all currencies are supported. For a list of supported currencies, see [Currencies](/bingads/guides/currencies).
 
 ## Syntax
 ```xml
@@ -22,7 +22,7 @@ Defines a selection of currency values.
   <xs:restriction base="xs:string">
     <xs:enumeration value="AED" />
     <xs:enumeration value="ALL" />
-    <xs:enumeration value="AMD" />
+    <xs:enumeration value="" />
     <xs:enumeration value="ARS" />
     <xs:enumeration value="AUD" />
     <xs:enumeration value="AZM" />
@@ -59,7 +59,7 @@ Defines a selection of currency values.
     <xs:enumeration value="IQD" />
     <xs:enumeration value="IRR" />
     <xs:enumeration value="ISK" />
-    <xs:enumeration value="JMD" />
+    <xs:enumeration value="" />
     <xs:enumeration value="JOD" />
     <xs:enumeration value="JPY" />
     <xs:enumeration value="KES" />
@@ -122,7 +122,7 @@ Defines a selection of currency values.
 |-----------|---------------|
 |<a name="aed"></a>AED|Reserved.|
 |<a name="all"></a>ALL|Reserved.|
-|<a name="amd"></a>AMD|Reserved.|
+|<a name=""></a>|Reserved.|
 |<a name="ars"></a>ARS|Reserved.|
 |<a name="aud"></a>AUD|Reserved.|
 |<a name="azm"></a>AZM|Reserved.|
@@ -159,7 +159,7 @@ Defines a selection of currency values.
 |<a name="iqd"></a>IQD|Reserved.|
 |<a name="irr"></a>IRR|Reserved.|
 |<a name="isk"></a>ISK|Reserved.|
-|<a name="jmd"></a>JMD|Reserved.|
+|<a name=""></a>|Reserved.|
 |<a name="jod"></a>JOD|Reserved.|
 |<a name="jpy"></a>JPY|Reserved.|
 |<a name="kes"></a>KES|Reserved.|
@@ -218,4 +218,4 @@ Service: [CustomerManagementService.svc v12](https://clientcenter.api.bingads.mi
 Namespace: https\://bingads.microsoft.com/Customer/v12  
 
 ## Used By
-[AdvertiserAccount](advertiseraccount.md)  
+[AdvertiserAccount](advertiseraccount)  
