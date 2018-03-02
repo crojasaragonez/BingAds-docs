@@ -45,18 +45,16 @@ The date range is inclusive on both ends.
 
 Date range must be specified if the selector has conditions or ordering for metrics statistics applied.  Only the last date range specified will be used.
 
-
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
 dateFrom|Object|Start date of the date range.
 dateTo|Object|End date of the date range.
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [CampaignSelector](CampaignSelector)|The selector with date range applied.
-&nbsp;|&nbsp;
+
 ## <a name="fordaterange~string-daterange~"></a>forDateRange(String dateRange)
 Returns a selector using the specified predefined date range.
 
@@ -80,17 +78,15 @@ selector.forDateRange("LAST_7_DAYS");
 
 Date range must be specified if the selector has conditions or ordering for metrics statistics applied.  Only the last date range specified will be used.
 
-
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
 dateRange|String|Date range to set onto the selector.
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [CampaignSelector](./CampaignSelector)|The selector with date range applied.
-&nbsp;|&nbsp;
+
 ## <a name="get"></a>get
 Returns an iterator indexing the campaigns in this selector.
 
@@ -98,7 +94,7 @@ Returns an iterator indexing the campaigns in this selector.
 |Type|Description|
 |-|-
 [CampaignIterator](./CampaignIterator)|Iterator of the requested campaigns.
-&nbsp;|&nbsp;
+
 ## <a name="orderby~string-orderby~"></a>orderBy(String orderBy)
 Returns a selector with the specified ordering.
 
@@ -111,17 +107,15 @@ You may order the results by one or more metrics by chaining together multiple o
 
 <code>agSelector = agSelector.orderBy("MaxCpc");</code>
 
-
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
 orderBy|String|Ordering to apply.
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [CampaignSelector](./CampaignSelector)|The selector with ordering applied.
-&nbsp;|&nbsp;
+
 ## <a name="withcondition~string-condition~"></a>withCondition(String condition)
 Returns a selector with the specified filtering conditions.
 
@@ -180,17 +174,15 @@ BudgetType|Enumeration:<br />&nbsp;STANDARD<br />&nbsp;ACCELERATED|`withConditio
 DeliveryStatus|Enumeration:<br />&nbsp;ELIGIBLE<br />&nbsp;LIMITED_BY_BUDGET<br />&nbsp;HOLD<br />&nbsp;CAMPAIGN_OUT_OF_BUDGET<br />&nbsp;CAMPAIGN_SUSPENDED<br />&nbsp;CAMPAIGN_PAUSED|`withCondition("DeliveryStatus NOT IN ['LIMITED_BY_BUDGET', 'HOLD', 'CAMPAIGN_OUT_OF_BUDGET']")`|Bing-specific filter
 &nbsp;|&nbsp;|&nbsp;|&nbsp;
 
-
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
 condition|String|Condition to add to the selector.
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [CampaignSelector](./CampaignSelector)|The selector with the condition applied.
-&nbsp;|&nbsp;
+
 ## <a name="withids~long-ids~"></a>withIds(long[] ids)
 Returns a selector that will return only campaigns with the specified IDs.
 
@@ -206,14 +198,12 @@ BingAdsApp.campaigns()
 will only get the campaign with ID 33333 because it would be the only one satisfying both conditions.
 
 The maximum number of IDs that you may specify is 1,000. If you specify more than 1,000 IDs, calling the get method will fail.
-
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
 ids|long[]|Array of campaign IDs.
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [CampaignSelector](./CampaignSelector)|The selector restricted to the given IDs.
-&nbsp;|&nbsp;
+

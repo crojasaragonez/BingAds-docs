@@ -28,7 +28,7 @@ Returns an iterator that you use to traverse negative keyword lists.
 |Type|Description|
 |-|-
 [NegativeKeywordListIterator](./NegativeKeywordListIterator)|Iterator used to get the negative keywords for this selector.
-&nbsp;|&nbsp;
+
 ## <a name="orderby~string-orderby~"></a>orderBy(String orderBy)
 Returns a selector with the specified ordering.
 
@@ -48,17 +48,15 @@ For example, the following call returns results in ascending order by MaxCpc.
 
 
 Only one orderBy column is supported, specifying more than one will result in an error.
-
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
 orderBy|String|Ordering to apply.
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [AdGroupSelector](./AdGroupSelector)|The selector with ordering applied.
-&nbsp;|&nbsp;
+
 ## <a name="withcondition~string-condition~"></a>withCondition(String condition)
 Returns a selector with the specified filtering conditions.
 
@@ -103,17 +101,15 @@ SharedSetId|double|`withCondition("SahredSetId > 5")`
 Status|Enumeration:<br />&nbsp;`ACTIVE`<br />&nbsp;`DELETED`<br />|`withCondition("Status = ACTIVE")`
 &nbsp;|&nbsp;|&nbsp;|&nbsp;
 
-
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
 condition|String|Condition to add to the selector.
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [NegativeKeywordListSelector](./NegativeKeywordListSelector)|The selector with the condition applied.
-&nbsp;|&nbsp;
+
 ## <a name="withids~long-ids~"></a>withIds(long[] ids)
 Returns a selector that will return only negative keyword lists with the specified IDs.
 
@@ -130,26 +126,23 @@ BingAdsApp.campaigns()
 will only get the campaign with ID 33333 because it would be the only one satisfying both conditions.
 
 The maximum number of IDs that you may specify is 1,000. If you specify more than 1,000 IDs, calling the get method will fail.
-
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
 ids|long[]|Array of ad group IDs.
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [NegativeKeywordListSelector](./NegativeKeywordListSelector)|The selector restricted to the given IDs.
-&nbsp;|&nbsp;
+
 ## <a name="withlimit~int-limit~"></a>withLimit(int limit)
 Returns a selector that will return only the specified number of results from the beginning of the result set.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
 limit|int|How many entities to return.
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [NegativeKeywordListSelector](./NegativeKeywordListSelector)|The selector with limit applied.
-&nbsp;|&nbsp;
+

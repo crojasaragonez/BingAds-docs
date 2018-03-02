@@ -17,7 +17,7 @@ Returns the unique ID for this spreadsheet.
 |Type|Description|
 |-|-
 String|The unique ID for this spreadsheet.
-&nbsp;|&nbsp;
+
 ## <a name="getname"></a>getName
 Returns the name of this spreadsheet.
 
@@ -25,19 +25,18 @@ Returns the name of this spreadsheet.
 |Type|Description|
 |-|-
 String|The name of this spreadsheet.
-&nbsp;|&nbsp;
+
 ## <a name="getsheetbyname~string-name~"></a>getSheetByName(String name)
 Returns the sheet with the specified name.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
 name|String|The name of the sheet to get.<br />
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [Sheet](./Sheet)|The sheet with the specified name.
-&nbsp;|&nbsp;
+
 ## <a name="getsheets"></a>getSheets
 Returns all the sheets in this spreadsheet.
 
@@ -45,7 +44,7 @@ Returns all the sheets in this spreadsheet.
 |Type|Description|
 |-|-
 [Sheet[]](./Sheet)|An array of all the sheets in this spreadsheet.
-&nbsp;|&nbsp;
+
 ## <a name="insertsheet"></a>insertSheet
 Inserts a new sheet in this spreadsheet using the default name and makes it the active sheet.
 
@@ -53,4 +52,4 @@ Inserts a new sheet in this spreadsheet using the default name and makes it the 
 |Type|Description|
 |-|-
 [Sheet](./Sheet)|The new sheet.
-&nbsp;|&nbsp;
+

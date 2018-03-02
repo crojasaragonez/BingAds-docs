@@ -20,7 +20,7 @@ Returns the amount of this budget, in the currency of the current account.
 |Type|Description|
 |-|-
 double|Amount of the budget.
-&nbsp;|&nbsp;
+
 ## <a name="getdeliverymethod"></a>getDeliveryMethod
 Returns the delivery method for this budget. 
 
@@ -29,12 +29,11 @@ Possible return values are:
 - STANDARD
 - ACCELERATED
 
-
 ### Returns:
 |Type|Description|
 |-|-
 String|Delivery method of the budget.
-&nbsp;|&nbsp;
+
 ## <a name="setamount~double-amount~"></a>setAmount(double amount)
 Sets the amount of this budget to the specified value, in the currency of the current account.
 
@@ -42,15 +41,13 @@ Sets the amount of this budget to the specified value, in the currency of the cu
 |Name|Type|Description|
 |-|-|-
 amount|double|The amount of the budget.
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 void|Returns nothing
-&nbsp;|&nbsp;
+
 ## <a name="setdeliverymethod~string-method~"></a>setDeliveryMethod(String method)
 Set the delivery method for this budget.
-
 
 
 
@@ -58,9 +55,8 @@ Set the delivery method for this budget.
 |Name|Type|Description|
 |-|-|-
 method|String|Sets the delivery method of the budget.<br />
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 void|Returns nothing
-&nbsp;|&nbsp;
+

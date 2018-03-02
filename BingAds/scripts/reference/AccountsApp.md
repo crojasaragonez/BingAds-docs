@@ -14,16 +14,15 @@ Returns a selector of all accounts accessible to the current user under the curr
 |Type|Description|
 |-|-
 [BingAdsAccountSelector](./BingAdsAccountSelector)|The selector of accounts managed by this account.
-&nbsp;|&nbsp;
+
 ## <a name="select~bingadsaccount-account~"></a>select(BingAdsAccount account)
 Selects a [BingAdsAccount](./BingAdsAccount) as the the current account on which to perform operations.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
 account|[BingAdsAccount](./BingAdsAccount)|The account in whose context the script will continue executing.<br />
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 void|Returns nothing
-&nbsp;|&nbsp;
+

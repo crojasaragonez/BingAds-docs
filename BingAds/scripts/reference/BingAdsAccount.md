@@ -15,14 +15,14 @@ Returns the customer ID of this account.
 |Type|Description|
 |-|-
 String|The customer ID of this account.
-&nbsp;|&nbsp;
+
 ## <a name="getentitytype"></a>getEntityType
 Returns the type of this account as a String, which is, Account.
 ### Returns:
 |Type|Description|
 |-|-
 String|The type of this account as a String, which is, Account.
-&nbsp;|&nbsp;
+
 ## <a name="getname"></a>getName
 Returns the name of this account.
 
@@ -30,4 +30,4 @@ Returns the name of this account.
 |Type|Description|
 |-|-
 String|The name of this account.
-&nbsp;|&nbsp;
+

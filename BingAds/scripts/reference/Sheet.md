@@ -23,18 +23,16 @@ Deletes the specified number of columns starting at the specified column positio
 
 
 
-
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
 columnPosition|long|The position of the first column to delete.<br />
 numColumns|long|The number of columns to delete.<br />
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 void|Returns nothing
-&nbsp;|&nbsp;
+
 ## <a name="deleterows~long-rowposition_-long-numrows~"></a>deleteRows(long rowPosition, long numRows)
 Deletes the specified number of rows in this sheet starting from the provided row index.
 
@@ -43,12 +41,11 @@ Deletes the specified number of rows in this sheet starting from the provided ro
 |-|-|-
 rowPosition|long|The position of the first row to delete.<br />
 numRows|long|The number of rows to delete.<br />
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 void|Returns nothing
-&nbsp;|&nbsp;
+
 ## <a name="getcolumnwidth~long-columnposition~"></a>getColumnWidth(long columnPosition)
 Returns the width of the specified column in pixels.
 
@@ -56,15 +53,13 @@ Returns the width of the specified column in pixels.
 |Name|Type|Description|
 |-|-|-
 columnPosition|long|The position of the column to examine.<br />
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 long|
-&nbsp;|&nbsp;
+
 ## <a name="getname"></a>getName
 Returns the name of the sheet.
-
 
 
 
@@ -72,7 +67,7 @@ Returns the name of the sheet.
 |Type|Description|
 |-|-
 String|The name of the sheet.
-&nbsp;|&nbsp;
+
 ## <a name="getrange~string-a1notation~"></a>getRange(String a1Notation)
 Returns a range from this sheet specified in A1 or R1C1 notation.
 
@@ -85,20 +80,17 @@ Returns a range from this sheet specified in A1 or R1C1 notation.
  var sheet = ss.getSheets()[0];
  var cell = sheet.getRange("A1");
 ```
-
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
 a1Notation|[Range](./Range)|Returns the range as specified in A1 notation.<br />
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [Range](./Range)|The specified range.
-&nbsp;|&nbsp;
+
 ## <a name="getrowheight~long-rowposition~"></a>getRowHeight(long rowPosition)
 Gets the height of the specified row in pixels.
-
 
 
 
@@ -106,15 +98,13 @@ Gets the height of the specified row in pixels.
 |Name|Type|Description|
 |-|-|-
 rowPosition|int|The position of the row to examine.<br />
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 int|The row height in pixels.
-&nbsp;|&nbsp;
+
 ## <a name="insertcolumn~long-columnindex~"></a>insertColumn(long columnIndex)
 Insert a column at the specified column index.
-
 
 
 
@@ -122,12 +112,11 @@ Insert a column at the specified column index.
 |Name|Type|Description|
 |-|-|-
 columnIndex|long|The position where the new column should be added.<br />
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [Sheet](./Sheet)|The sheet, enables method chaining.
-&nbsp;|&nbsp;
+
 ## <a name="insertcolumnsafter~long-columnindex_-long-numcolumns~"></a>insertColumnsAfter(long columnIndex, long numColumns)
 Inserts the specified number of new columns after the specified column index.
 ### Arguments:
@@ -135,15 +124,13 @@ Inserts the specified number of new columns after the specified column index.
 |-|-|-
 numColumns|long|The number of columns to add.
 columnIndex|long|The position of the column after which the new columns should be added.
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [Sheet](./Sheet)|The sheet, enables method chaining.
-&nbsp;|&nbsp;
+
 ## <a name="insertrow~long-rowindex~"></a>insertRow(long rowIndex)
 Insert a row at the specified index.
-
 
 
 
@@ -151,12 +138,11 @@ Insert a row at the specified index.
 |Name|Type|Description|
 |-|-|-
 rowIndex|long|The position where the row should be inserted.<br />
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 long|The sheet, enables method chaining.
-&nbsp;|&nbsp;
+
 ## <a name="insertrowsafter~long-rowindex_-long-numrows~"></a>insertRowsAfter(long rowIndex, long numRows)
 Inserts the specified number of new rows after the specified row index.
 ### Arguments:
@@ -164,12 +150,11 @@ Inserts the specified number of new rows after the specified row index.
 |-|-|-
 rowIndex|long|The index of the row after which the new rows should be added.<br />
 numRows|long|The number of rows to insert.<br />
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [Sheet](./Sheet)|The sheet, enables chaining.
-&nbsp;|&nbsp;
+
 ## <a name="setcolumnwidth~long-columnposition_-long-width~"></a>setColumnWidth(long columnPosition, long width)
 Sets the width in pixels of the column at the specified position.
 ### Arguments:
@@ -177,12 +162,11 @@ Sets the width in pixels of the column at the specified position.
 |-|-|-
 width|long|The width in pixels to set the column width to.<br />
 columnPosition|long|The position of the column to set the width of.<br />
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [Sheet](./Sheet)|The sheet, enables method chaining.
-&nbsp;|&nbsp;
+
 ## <a name="setname~string-name~"></a>setName(String name)
 Sets the name of this sheet.
 
@@ -190,12 +174,11 @@ Sets the name of this sheet.
 |Name|Type|Description|
 |-|-|-
 name|String|The new name for the sheet.<br />
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [Sheet](./Sheet)|The sheet, enables method chaining.
-&nbsp;|&nbsp;
+
 ## <a name="setrowheight~long-rowposition_-long-height~"></a>setRowHeight(long rowPosition, long height)
 Sets the height in pixels of the row at the specified position.
 ### Arguments:
@@ -203,9 +186,8 @@ Sets the height in pixels of the row at the specified position.
 |-|-|-
 rowPosition|long|The row position to set the height of.<br />
 height|long|The height in pixels to set the row height to.<br />
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [Sheet](./Sheet)|The sheet, enables method chaining.
-&nbsp;|&nbsp;
+

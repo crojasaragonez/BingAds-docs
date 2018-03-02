@@ -45,18 +45,16 @@ The date range is inclusive on both ends.
 
 Date range must be specified if the selector has conditions or ordering for metrics statistics applied.  Only the last date range specified will be used.
 
-
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
 dateFrom|Object|Start date of the date range.
 dateTo|Object|End date of the date range.
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [AdGroupSelector](./AdGroupSelector)|The selector with date range applied.
-&nbsp;|&nbsp;
+
 ## <a name="fordaterange~string-daterange~"></a>forDateRange(String dateRange)
 Returns a selector using the specified predefined date range.
 
@@ -80,24 +78,22 @@ selector.forDateRange("LAST_7_DAYS");
 
 Date range must be specified if the selector has conditions or ordering for metrics statistics applied.  Only the last date range specified will be used.
 
-
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
 dateRange|String|Date range to set onto the selector.
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [AdGroupSelector](./AdGroupSelector)|The selector with date range applied.
-&nbsp;|&nbsp;
+
 ## <a name="get"></a>get
 Returns an iterator that you use to get the ad groups in this selector.
 ### Returns:
 |Type|Description|
 |-|-
 [AdGroupIterator](./AdGroupIterator)|Iterator used to get the ad groups in this selector.
-&nbsp;|&nbsp;
+
 ## <a name="orderby~string-orderby~"></a>orderBy(String orderBy)
 Returns a selector with the specified ordering.
 
@@ -110,17 +106,15 @@ You may order the results by one or more metrics by chaining together multiple o
 
 <code>agSelector = agSelector.orderBy("MaxCpc");</code>
 
-
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
 orderBy|String|Ordering to apply.
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [AdGroupSelector](./AdGroupSelector)|The selector with ordering applied.
-&nbsp;|&nbsp;
+
 ## <a name="withcondition~string-condition~"></a>withCondition(String condition)
 Returns a selector with the specified filtering conditions.
 
@@ -178,17 +172,15 @@ CampaignName|String|`withCondition("CampaignName CONTAINS_IGNORE_CASE 'promotion
 KeywordMaxCpc|double|`withCondition("KeywordMaxCpc > 10.0")`. The value is in the currency of the account.|
 CampaignStatus|Enumeration:<br />&nbsp;`ENABLED`<br />&nbsp;`PAUSED`<br />&nbsp;`REMOVED`|`withCondition("CampaignStatus = ENABLED"). Use to return ad groups from only ENABLED campaigns.`|
 &nbsp;|&nbsp;|&nbsp;|&nbsp;
-
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
 condition|String|Condition to add to the selector.
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [AdGroupSelector](./AdGroupSelector)|The selector with the condition applied.
-&nbsp;|&nbsp;
+
 ## <a name="withids~long-ids~"></a>withIds(long[] ids)
 Returns a selector that will return only ad groups with the specified IDs.
 
@@ -204,26 +196,23 @@ BingAdsApp.campaigns()
 will only get the campaign with ID 33333 because it would be the only one satisfying both conditions.
 
 The maximum number of IDs that you may specify is 1,000. If you specify more than 1,000 IDs, calling the get method will fail.
-
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
 ids|long[]|Array of ad group IDs.
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [AdGroupSelector](./AdGroupSelector)|The selector restricted to the given IDs.
-&nbsp;|&nbsp;
+
 ## <a name="withlimit~int-limit~"></a>withLimit(int limit)
 Returns a selector that will return only the specified number of results from the beginning of the result set.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
 limit|int|How many entities to return.
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [AdGroupSelector](./AdGroupSelector)|The selector with limit applied.
-&nbsp;|&nbsp;
+

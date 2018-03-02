@@ -14,12 +14,11 @@ Returns a selector of all ad groups in the current account.
 
 
 
-
 ### Returns:
 |Type|Description|
 |-|-
 [AdGroupSelector](./AdGroupSelector)|The selector of all ad groups in the current account.
-&nbsp;|&nbsp;
+
 ## <a name="campaigns"></a>campaigns
 Returns a selector of all campaigns in the current account.
 
@@ -28,12 +27,11 @@ Example:
 ```javascript
 var campaignSelector = BingAdsApp.campaigns();
 ```
-
 ### Returns:
 |Type|Description|
 |-|-
 [CampaignSelector](./CampaignSelector)|Selector of all campaigns that share this budget.
-&nbsp;|&nbsp;
+
 ## <a name="keywords"></a>keywords
 Returns a selector of all keywords in the current account.
 
@@ -41,20 +39,18 @@ Returns a selector of all keywords in the current account.
 |Type|Description|
 |-|-
 [KeywordSelector](./KeywordSelector)|Selector of all keywords in the current account.
-&nbsp;|&nbsp;
+
 ## <a name="negativekeywordlist"></a>negativeKeywordList
 Returns a selector of all negative keyword lists in this account.
-
 
 
 ### Returns:
 |Type|Description|
 |-|-
 [NegativeKeywordListSelector](./NegativeKeywordListSelector)|A selector of all negative keyword lists in this account.
-&nbsp;|&nbsp;
+
 ## <a name="newnegativekeywordlistbuilder"></a>newNegativeKeywordListBuilder
 Returns a new negative keyword list builder for the current account. The new negative keyword list is created when builder.build() is called.
-
 
 
 
@@ -62,4 +58,4 @@ Returns a new negative keyword list builder for the current account. The new neg
 |Type|Description|
 |-|-
 [NegativeKeywordListBuilder](./NegativeKeywordListBuilder)|The negative keyword list builder used to create a new negative keyword list in the current account.
-&nbsp;|&nbsp;
+

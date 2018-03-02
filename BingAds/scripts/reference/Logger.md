@@ -13,4 +13,4 @@ Write the provided string to the logger's console.
 |Type|Description|
 |-|-
 void|Returns nothing
-&nbsp;|&nbsp;
+

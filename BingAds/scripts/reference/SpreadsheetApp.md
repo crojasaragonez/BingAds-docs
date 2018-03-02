@@ -15,12 +15,11 @@ Creates a new spreadsheet with the specified name.
 |Name|Type|Description|
 |-|-|-
 name|String|The name for the new spreadsheet.<br />
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [Spreadsheet](./Spreadsheet)|A new spreadsheet.
-&nbsp;|&nbsp;
+
 ## <a name="openbyid~string-id~"></a>openById(String id)
 Opens the spreadsheet with the specified ID.
 
@@ -28,7 +27,7 @@ Opens the spreadsheet with the specified ID.
 |Type|Description|
 |-|-
 [Spreadsheet](./Spreadsheet)|The spreadsheet with the specified ID.
-&nbsp;|&nbsp;
+
 ## <a name="openbyname~string-name~"></a>openByName(String name)
 Opens the spreadsheet identified by the specified name.
 
@@ -36,9 +35,8 @@ Opens the spreadsheet identified by the specified name.
 |Name|Type|Description|
 |-|-|-
 arg1|String|The name of the spreadsheet to open.<br />
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [Spreadsheet](./Spreadsheet)|The spreadsheet identified by the specified name.
-&nbsp;|&nbsp;
+

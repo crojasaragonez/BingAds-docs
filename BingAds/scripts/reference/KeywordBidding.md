@@ -12,15 +12,13 @@ Provides methods to get information about a keyword&#x27;s bidding fields.
 Clears the max CPC bid for the keyword.
 
 
-
 ### Returns:
 |Type|Description|
 |-|-
 void|Returns nothing
-&nbsp;|&nbsp;
+
 ## <a name="getcpc"></a>getCpc
 Returns the maximum CPC bid for the keyword.
-
 
 
 
@@ -28,19 +26,17 @@ Returns the maximum CPC bid for the keyword.
 |Type|Description|
 |-|-
 double|The maximum CPC bid for the keyword.
-&nbsp;|&nbsp;
+
 ## <a name="setcpc~double-cpc~"></a>setCpc(double cpc)
 Sets the maximum CPC bid for the keyword.
-
 
 
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
 cpc|double|The maximum CPC bid for the keyword.<br />
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 void|Returns nothing
-&nbsp;|&nbsp;
+

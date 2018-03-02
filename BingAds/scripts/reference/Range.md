@@ -29,10 +29,9 @@ Copies content and formatting information from this range to the target range.
 |Type|Description|
 |-|-
 void|Returns nothing
-&nbsp;|&nbsp;
+
 ## <a name="getaddress"></a>getAddress
 Get the address of this range.
-
 
 
 
@@ -40,7 +39,7 @@ Get the address of this range.
 |Type|Description|
 |-|-
 String|The address of the range.
-&nbsp;|&nbsp;
+
 ## <a name="getcolumn"></a>getColumn
 Returns the starting column position for this range.
 
@@ -48,7 +47,7 @@ Returns the starting column position for this range.
 |Type|Description|
 |-|-
 long|
-&nbsp;|&nbsp;
+
 ## <a name="getformula"></a>getFormula
 Returns the formula (in A1 notation), if defined, for the top-left cell of this range.
 
@@ -56,7 +55,7 @@ Returns the formula (in A1 notation), if defined, for the top-left cell of this 
 |Type|Description|
 |-|-
 String|
-&nbsp;|&nbsp;
+
 ## <a name="getlastrow"></a>getLastRow
 Returns the position of the last row of this range.
 
@@ -64,7 +63,7 @@ Returns the position of the last row of this range.
 |Type|Description|
 |-|-
 long|
-&nbsp;|&nbsp;
+
 ## <a name="getnumcolumns"></a>getNumColumns
 Returns the number of columns in this range.
 
@@ -72,7 +71,7 @@ Returns the number of columns in this range.
 |Type|Description|
 |-|-
 long|
-&nbsp;|&nbsp;
+
 ## <a name="getnumrows"></a>getNumRows
 Returns the number of rows in this range.
 
@@ -80,7 +79,7 @@ Returns the number of rows in this range.
 |Type|Description|
 |-|-
 long|
-&nbsp;|&nbsp;
+
 ## <a name="getrow"></a>getRow
 Returns the position of the row for this range.
 
@@ -88,7 +87,7 @@ Returns the position of the row for this range.
 |Type|Description|
 |-|-
 long|
-&nbsp;|&nbsp;
+
 ## <a name="getvalue"></a>getValue
 Returns the value contained by the top-left cell in this range.
 
@@ -96,7 +95,7 @@ Returns the value contained by the top-left cell in this range.
 |Type|Description|
 |-|-
 Object|
-&nbsp;|&nbsp;
+
 ## <a name="getvalues"></a>getValues
 Returns a two-dimensional array of values contained by this range, beginning with the top-left cell.
 
@@ -104,7 +103,7 @@ Returns a two-dimensional array of values contained by this range, beginning wit
 |Type|Description|
 |-|-
 Object[][]|
-&nbsp;|&nbsp;
+
 ## <a name="isblank"></a>isBlank
 Returns 
 
@@ -112,7 +111,7 @@ Returns
 |Type|Description|
 |-|-
 boolean|
-&nbsp;|&nbsp;
+
 ## <a name="setfontsize~long-size~"></a>setFontSize(long size)
 Sets the specified point size to use for fonts on all the cells in this range.
 
@@ -120,7 +119,7 @@ Sets the specified point size to use for fonts on all the cells in this range.
 |Type|Description|
 |-|-
 [Range](./Range)|
-&nbsp;|&nbsp;
+
 ## <a name="setfontweight~string-fontweight~"></a>setFontWeight(String fontWeight)
 Sets the specified point weight to use for fonts on all the cells in this range. Valid values include 'normal' and 'bold'.
 
@@ -128,12 +127,11 @@ Sets the specified point weight to use for fonts on all the cells in this range.
 |Name|Type|Description|
 |-|-|-
 fontWeight|String|The font weight, either 'bold' or 'normal'.
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [Range](./Range)|
-&nbsp;|&nbsp;
+
 ## <a name="sethorizontalalignment~string-alignment~"></a>setHorizontalAlignment(String alignment)
 Sets the horizontal alignment of content in the cells in this range. Valid values include 'left', 'center' or 'normal'.
 
@@ -141,12 +139,11 @@ Sets the horizontal alignment of content in the cells in this range. Valid value
 |Name|Type|Description|
 |-|-|-
 alignment|String|The alignment to use.
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [Range](./Range)|
-&nbsp;|&nbsp;
+
 ## <a name="setvalue~object-value~"></a>setValue(Object value)
 Sets the value to all cells in this range.
 
@@ -154,12 +151,11 @@ Sets the value to all cells in this range.
 |Name|Type|Description|
 |-|-|-
 value|Object|the value for the range
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [Range](./Range)|
-&nbsp;|&nbsp;
+
 ## <a name="setvalues~object[]-values~"></a>setValues(Object[][] values)
 Sets the specified values to the cells in this range, assigning each value to the cell based on matching row and column positions. The dimensions of the input value array must match the dimensions of this range.
 
@@ -167,12 +163,11 @@ Sets the specified values to the cells in this range, assigning each value to th
 |Name|Type|Description|
 |-|-|-
 values|Object[][]|a two-dimensional array of values
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [Range](./Range)|
-&nbsp;|&nbsp;
+
 ## <a name="setverticalalignment~string-alignment~"></a>setVerticalAlignment(String alignment)
 Sets the vertical alignment of content in the cells in this range. Valid values include 'top', 'middle' or 'bottom'.
 
@@ -180,9 +175,8 @@ Sets the vertical alignment of content in the cells in this range. Valid values 
 |Name|Type|Description|
 |-|-|-
 alignment|String|The alignment to use.
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [Range](./Range)|
-&nbsp;|&nbsp;
+

@@ -26,7 +26,7 @@ Enables this ad group.
 |Type|Description|
 |-|-
 void|Returns nothing
-&nbsp;|&nbsp;
+
 ## <a name="getentitytype"></a>getEntityType
 Returns the entity type of this ad group, which is "AdGroup".
 
@@ -34,7 +34,7 @@ Returns the entity type of this ad group, which is "AdGroup".
 |Type|Description|
 |-|-
 String|Type of this entity: "AdGroup".
-&nbsp;|&nbsp;
+
 ## <a name="getid"></a>getId
 Returns the ID of the ad group.
 
@@ -42,7 +42,7 @@ Returns the ID of the ad group.
 |Type|Description|
 |-|-
 long|The ID of the ad group.
-&nbsp;|&nbsp;
+
 ## <a name="getname"></a>getName
 Returns the name of this ad group.
 
@@ -50,7 +50,7 @@ Returns the name of this ad group.
 |Type|Description|
 |-|-
 String|Name of the ad group.
-&nbsp;|&nbsp;
+
 ## <a name="isenabled"></a>isEnabled
 Returns true if this ad group is enabled. 
 
@@ -58,7 +58,7 @@ Returns true if this ad group is enabled.
 |Type|Description|
 |-|-
 boolean|true if the ad group is enabled.
-&nbsp;|&nbsp;
+
 ## <a name="ispaused"></a>isPaused
 Returns true if this ad group is paused. 
 
@@ -66,7 +66,7 @@ Returns true if this ad group is paused.
 |Type|Description|
 |-|-
 boolean|true if the ad group is paused.
-&nbsp;|&nbsp;
+
 ## <a name="pause"></a>pause
 Pauses this ad group.
 
@@ -74,7 +74,7 @@ Pauses this ad group.
 |Type|Description|
 |-|-
 void|Returns nothing
-&nbsp;|&nbsp;
+
 ## <a name="setname~string-name~"></a>setName(String name)
 Sets the name of this ad group.
 
@@ -82,12 +82,11 @@ Sets the name of this ad group.
 |Name|Type|Description|
 |-|-|-
 name|String|The new name for the ad group.
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 void|Returns nothing
-&nbsp;|&nbsp;
+
 ## <a name="urls"></a>urls
 Returns an AdGroupUrls object which provides access to the URL fields of this ad group.
 
@@ -95,4 +94,4 @@ Returns an AdGroupUrls object which provides access to the URL fields of this ad
 |Type|Description|
 |-|-
 [AdGroupUrls](./AdGroupUrls)|an AdGroupUrls object which provides access to the URL fields of this ad group.
-&nbsp;|&nbsp;
+

@@ -19,7 +19,7 @@ Executes the function indicated by functionName on each BingAdsAccount matched b
 |Type|Description|
 |-|-
 void|Returns nothing
-&nbsp;|&nbsp;
+
 ## <a name="executeinparallel~string-functionname_-string-optionalcallbackfunctionname_-string-optionalinput~"></a>executeInParallel(String functionName, String optionalCallbackFunctionName, String optionalInput)
 Executes the function indicated by functionName on each BingAdsAccount matched by this selector and optionally invokes the callback function indicated by optionalCallbackFunctionName. The optional optionalInput argument will be used in the parallel function execution, if specified. 
 
@@ -27,7 +27,7 @@ Executes the function indicated by functionName on each BingAdsAccount matched b
 |Type|Description|
 |-|-
 void|Returns nothing
-&nbsp;|&nbsp;
+
 ## <a name="get"></a>get
 Returns an iterator used to traverse Bing Ads accounts selected by this selector.
 
@@ -35,7 +35,7 @@ Returns an iterator used to traverse Bing Ads accounts selected by this selector
 |Type|Description|
 |-|-
 [BingAdsAccountIterator](./BingAdsAccountIterator)|Iterator used to traverse Bing Ads accounts selected by this selector.
-&nbsp;|&nbsp;
+
 ## <a name="withaccountnumbers~string-accountnumbers~"></a>withAccountNumbers(String[] accountNumbers)
 Returns a selector that will return only bing ads accounts with the specified account numbers.
 
@@ -51,17 +51,15 @@ BingAdsApp.campaigns()
 will only get the campaign with account number 33333 because it would be the only one satisfying both conditions.
 
 The maximum number of account numbers that you may specify is 1,000. If you specify more than 1,000 account numbers, calling the get method will fail.
-
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
 accountNumbers|String[]|Array of account numbers.<br />
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [BingAdsAccountSelector](./BingAdsAccountSelector)|The selector restricted to the specified account numbers.
-&nbsp;|&nbsp;
+
 ## <a name="withcondition~string-condition~"></a>withCondition(String condition)
 Returns a selector with the specified filtering conditions.
 
@@ -125,12 +123,11 @@ Name|String|`withCondition("Name = 'Contoso'")`. The name used by the manager to
 &nbsp;|&nbsp;|&nbsp;|
 
 If a stats column is used in the condition, date range must also be specified using forDateRange.
-
 ### Returns:
 |Type|Description|
 |-|-
 [BingAdsAccountSelector](./BingAdsAccountSelector)|The selector with the condition applied.
-&nbsp;|&nbsp;
+
 ## <a name="withids~long-ids~"></a>withIds(long[] ids)
 Returns a selector that will return only bing ads accounts with the specified IDs.
 
@@ -146,26 +143,23 @@ BingAdsApp.campaigns()
 will only get the campaign with ID 33333 because it would be the only one satisfying both conditions.
 
 The maximum number of IDs that you may specify is 1,000. If you specify more than 1,000 IDs, calling the get method will fail.
-
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
 ids|long[]|Array of customer IDs.<br />
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [BingAdsAccountSelector](./BingAdsAccountSelector)|The selector restricted to the specified IDs.
-&nbsp;|&nbsp;
+
 ## <a name="withlimit~int-limit~"></a>withLimit(int limit)
 Returns a selector that will return only the specified number of results from the beginning of the result set.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
 limit|int|The number of results to return.<br />
-&nbsp;|&nbsp;|&nbsp;
 ### Returns:
 |Type|Description|
 |-|-
 [BingAdsAccountSelector](./BingAdsAccountSelector)|The selector with the limit applied.
-&nbsp;|&nbsp;
+
