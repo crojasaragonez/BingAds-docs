@@ -157,8 +157,8 @@ Date range must be specified if the selector has conditions or ordering for metr
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-dateTo|Object|End date of the date range.
 dateFrom|Object|Start date of the date range.
+dateTo|Object|End date of the date range.
 ### Returns:
 |Type|Description|
 |-|-

@@ -122,8 +122,8 @@ Inserts the specified number of new columns after the specified column index.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-numColumns|long|The number of columns to add.
 columnIndex|long|The position of the column after which the new columns should be added.
+numColumns|long|The number of columns to add.
 ### Returns:
 |Type|Description|
 |-|-
@@ -160,8 +160,8 @@ Sets the width in pixels of the column at the specified position.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-width|long|The width in pixels to set the column width to.<br />
 columnPosition|long|The position of the column to set the width of.<br />
+width|long|The width in pixels to set the column width to.<br />
 ### Returns:
 |Type|Description|
 |-|-
