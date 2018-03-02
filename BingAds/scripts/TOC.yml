@@ -81,6 +81,8 @@
     - name: Multiple Accounts
       href: ./reference/AccountsApp
       items:
+        - name: AccountsApp
+          href: ./reference/AccountsApp
         - name: BingAdsAccount
           href: ./reference/BingAdsAccount
         - name: BingAdsAccountIterator
