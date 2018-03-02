@@ -30,6 +30,8 @@
           href: ./reference/AccountsApp
         - name: AdGroup
           href: ./reference/AdGroup
+        - name: AdGroupBuilder
+          href: ./reference/AdGroupBuilder
         - name: AdGroupIterator
           href: ./reference/AdGroupIterator
         - name: AdGroupSelector
@@ -58,6 +60,8 @@
           href: ./reference/Keyword
         - name: KeywordBidding
           href: ./reference/KeywordBidding
+        - name: KeywordBuilder
+          href: ./reference/KeywordBuilder
         - name: KeywordIterator
           href: ./reference/KeywordIterator
         - name: KeywordSelector
