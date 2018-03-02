@@ -56,6 +56,10 @@
           href: ./reference/CampaignSelector
         - name: CampaignUrls
           href: ./reference/CampaignUrls
+        - name: ExpandedTextAd
+          href: ./reference/ExpandedTextAd
+        - name: ExpandedTextAdBuilder
+          href: ./reference/ExpandedTextAdBuilder
         - name: Keyword
           href: ./reference/Keyword
         - name: KeywordBidding
