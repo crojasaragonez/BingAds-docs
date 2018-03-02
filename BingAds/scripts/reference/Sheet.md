@@ -56,7 +56,7 @@ columnPosition|long|The position of the column to examine.<br />
 ### Returns:
 |Type|Description|
 |-|-
-long|
+long|The width of the specified column in pixels.
 
 ## <a name="getname"></a>getName
 Returns the name of the sheet.
