@@ -33,7 +33,7 @@ numColumns|long|The number of columns to delete.<br />
 ### Returns:
 |Type|Description|
 |-|-
-void|
+void|Returns nothing
 &nbsp;|&nbsp;
 ## <a name="deleterows~long-rowposition_-long-numrows~"></a>deleteRows(long rowPosition, long numRows)
 Deletes the specified number of rows in this sheet starting from the provided row index.
@@ -47,7 +47,7 @@ numRows|long|The number of rows to delete.<br />
 ### Returns:
 |Type|Description|
 |-|-
-void|
+void|Returns nothing
 &nbsp;|&nbsp;
 ## <a name="getcolumnwidth~long-columnposition~"></a>getColumnWidth(long columnPosition)
 Returns the width of the specified column in pixels.

@@ -19,7 +19,7 @@ If you clear the tracking template specified at a lower level entity (for exampl
 ### Returns:
 |Type|Description|
 |-|-
-void|
+void|Returns nothing
 &nbsp;|&nbsp;
 ## <a name="getcustomparameters"></a>getCustomParameters
 Returns the custom parameters of this campaign. 
@@ -70,7 +70,7 @@ customParameters|Object|The custom parameters of the campaign as a map of the<br
 ### Returns:
 |Type|Description|
 |-|-
-void|
+void|Returns nothing
 &nbsp;|&nbsp;
 ## <a name="settrackingtemplate~string-trackingtemplate~"></a>setTrackingTemplate(String trackingTemplate)
 Sets the tracking template of this campaign.
@@ -88,5 +88,5 @@ trackingTemplate|String|The tracking template of the campaign.
 ### Returns:
 |Type|Description|
 |-|-
-void|
+void|Returns nothing
 &nbsp;|&nbsp;

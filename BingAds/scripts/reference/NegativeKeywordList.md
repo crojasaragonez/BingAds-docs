@@ -28,7 +28,7 @@ keywordText|String|The text of the negative keyword.<br />
 ### Returns:
 |Type|Description|
 |-|-
-void|
+void|Returns nothing
 &nbsp;|&nbsp;
 ## <a name="addnegativekeywords~string-keywordtext~"></a>addNegativeKeywords(String keywordText)
 Adds a list of keywords to the negative keyword list.
@@ -47,7 +47,7 @@ keywordTexts|String[]|An array of keyword strings.<br />
 ### Returns:
 |Type|Description|
 |-|-
-void|
+void|Returns nothing
 &nbsp;|&nbsp;
 ## <a name="getentitytype"></a>getEntityType
 Returns the entity type of this negative keyword list, which is "NegativeKeywordList".
@@ -88,5 +88,5 @@ name|String|the new name for this negative keyword list.
 ### Returns:
 |Type|Description|
 |-|-
-void|
+void|Returns nothing
 &nbsp;|&nbsp;

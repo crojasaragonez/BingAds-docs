@@ -18,7 +18,7 @@ Executes the function indicated by functionName on each BingAdsAccount matched b
 ### Returns:
 |Type|Description|
 |-|-
-void|
+void|Returns nothing
 &nbsp;|&nbsp;
 ## <a name="executeinparallel~string-functionname_-string-optionalcallbackfunctionname_-string-optionalinput~"></a>executeInParallel(String functionName, String optionalCallbackFunctionName, String optionalInput)
 Executes the function indicated by functionName on each BingAdsAccount matched by this selector and optionally invokes the callback function indicated by optionalCallbackFunctionName. The optional optionalInput argument will be used in the parallel function execution, if specified. 
@@ -26,7 +26,7 @@ Executes the function indicated by functionName on each BingAdsAccount matched b
 ### Returns:
 |Type|Description|
 |-|-
-void|
+void|Returns nothing
 &nbsp;|&nbsp;
 ## <a name="get"></a>get
 Returns an iterator used to traverse Bing Ads accounts selected by this selector.

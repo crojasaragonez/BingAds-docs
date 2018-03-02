@@ -25,7 +25,7 @@ Enables this ad group.
 ### Returns:
 |Type|Description|
 |-|-
-void|
+void|Returns nothing
 &nbsp;|&nbsp;
 ## <a name="getentitytype"></a>getEntityType
 Returns the entity type of this ad group, which is "AdGroup".
@@ -73,7 +73,7 @@ Pauses this ad group.
 ### Returns:
 |Type|Description|
 |-|-
-void|
+void|Returns nothing
 &nbsp;|&nbsp;
 ## <a name="setname~string-name~"></a>setName(String name)
 Sets the name of this ad group.
@@ -86,7 +86,7 @@ name|String|The new name for the ad group.
 ### Returns:
 |Type|Description|
 |-|-
-void|
+void|Returns nothing
 &nbsp;|&nbsp;
 ## <a name="urls"></a>urls
 Returns an AdGroupUrls object which provides access to the URL fields of this ad group.

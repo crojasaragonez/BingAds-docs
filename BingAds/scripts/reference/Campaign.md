@@ -31,7 +31,7 @@ negativeKeywordList|[NegativeKeywordList](./NegativeKeywordList)|The negative ke
 ### Returns:
 |Type|Description|
 |-|-
-void|
+void|Returns nothing
 &nbsp;|&nbsp;
 ## <a name="enable"></a>enable
 Enables this campaign.
@@ -39,7 +39,7 @@ Enables this campaign.
 ### Returns:
 |Type|Description|
 |-|-
-void|
+void|Returns nothing
 &nbsp;|&nbsp;
 ## <a name="getbiddingstrategytype"></a>getBiddingStrategyType
 Returns the type of the campaign's bidding strategy.
@@ -113,7 +113,7 @@ Pauses this campaign.
 ### Returns:
 |Type|Description|
 |-|-
-void|
+void|Returns nothing
 &nbsp;|&nbsp;
 ## <a name="remove"></a>remove
 Remove the campaign.
@@ -121,7 +121,7 @@ Remove the campaign.
 ### Returns:
 |Type|Description|
 |-|-
-void|
+void|Returns nothing
 &nbsp;|&nbsp;
 ## <a name="setname~string-name~"></a>setName(String name)
 Sets the name of this campaign.
@@ -134,7 +134,7 @@ name|String|The new name for the campaign.
 ### Returns:
 |Type|Description|
 |-|-
-void|
+void|Returns nothing
 &nbsp;|&nbsp;
 ## <a name="urls"></a>urls
 Returns the URL fields of this campaign.

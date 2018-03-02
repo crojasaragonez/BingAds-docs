@@ -45,7 +45,7 @@ Enables the ad.
 ### Returns:
 |Type|Description|
 |-|-
-void|
+void|Returns nothing
 &nbsp;|&nbsp;
 ## <a name="getadgroup"></a>getAdGroup
 Returns the parent ad group of this ad.
@@ -245,7 +245,7 @@ Pauses this ad.
 ### Returns:
 |Type|Description|
 |-|-
-void|
+void|Returns nothing
 &nbsp;|&nbsp;
 ## <a name="remove"></a>remove
 Removes this ad.
@@ -253,7 +253,7 @@ Removes this ad.
 ### Returns:
 |Type|Description|
 |-|-
-void|
+void|Returns nothing
 &nbsp;|&nbsp;
 ## <a name="urls"></a>urls
 Returns an AdUrls object which provides access to the URL fields of this 
