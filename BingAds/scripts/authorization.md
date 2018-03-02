@@ -1,5 +1,10 @@
 # Authorization
 
+> [!NOTE]
+> This beta release of Bing Ads Scripts is available to select participants only. For information about participating in the beta release program, please contact your account manager.
+>
+> The Scripts API, and documentation are subject to change.
+
 Regular Bing Ads authorization is handled as follows:
 
 - User logs into Bing Ads, using their user name or email address and password.

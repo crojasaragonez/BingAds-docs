@@ -1,5 +1,10 @@
 # Get Started With Bing Ads Scripts
 
+> [!NOTE]
+> This beta release of Bing Ads Scripts is available to select participants only. For information about participating in the beta release program, please contact your account manager.
+>
+> The Scripts API, and documentation are subject to change.
+
 1. Sign in to your Bing Ads account.
 2. Expand the <strong>Bulk Operations</strong> section of the navigation panel on the left.
 3. Click <strong>Scripts</strong>.
