@@ -97,4 +97,6 @@
         - name: Sheet
           href: ./reference/Sheet
         - name: Spreadsheet
-          href: ./reference/Spreadsheet      
+          href: ./reference/Spreadsheet
+        - name: SpreadsheetApp
+          href: ./reference/SpreadsheetApp      
