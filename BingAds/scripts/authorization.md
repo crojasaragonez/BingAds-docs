@@ -5,14 +5,5 @@
 >
 > The Scripts API, and documentation are subject to change.
 
-Regular Bing Ads authorization is handled as follows:
+Scripts run in the context of the user that is signed in to Bing Ads. Scripts can be executed in the script editor or scheduled to run later. Because scripts run asynchronously, if the user signs out of Bing Ads while a script is running, it continues running to completion.
 
-- User logs into Bing Ads, using their user name or email address and password.
-- Bing Ads authenticates the user's credentials and establishes a session.
-- During the active session, the user is authorized to manage campaigns.
-
-Scripts are different because they may run while there is no active user session:
-- Scheduled scripts will execute periodically, independent of whether the user is logged in at the time.
-- Scripts may execute for a duration of up to 30 minutes. The user may log out of Bing Ads before the script run completes.
-
-Scripts are essentially independent entities that take campaign management actions on behalf of the user.

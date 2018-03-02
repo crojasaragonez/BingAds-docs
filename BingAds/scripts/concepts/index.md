@@ -5,7 +5,7 @@
 >
 > The Scripts API, and documentation are subject to change.
 
-Learn about common patterns and conventions used in the Bing Ads Scripts environment.
+Learn about common patterns and conventions used by Bing Ads Scripts.
 
 - [Iterators](/bingads/scripts/concepts/iterators)
 - [Selectors](/bingads/scripts/concepts/selectors)

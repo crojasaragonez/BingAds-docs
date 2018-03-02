@@ -5,10 +5,10 @@
 >
 > The Scripts API, and documentation are subject to change.
 
-1. Sign in to your Bing Ads account.
-2. Expand the <strong>Bulk Operations</strong> section of the navigation panel on the left.
+1. Sign in to [Bing Ads](https://secure.bingads.microsoft.com/).
+2. Expand <strong>Bulk Operations</strong> (see the left navigation panel).
 3. Click <strong>Scripts</strong>.
-4. Copy and paste the code below into the code editor.
+4. Copy and paste the following code into the code editor.
 ```javascript
 function main() {
     var keywords = BingAdsApp.keywords()
