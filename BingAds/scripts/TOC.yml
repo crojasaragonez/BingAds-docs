@@ -22,12 +22,10 @@
       href: /bingads/scripts/examples/campaigns
 - name: Reference
   href: /bingads/scripts/reference-overview
-  items:     
+  items:    
     - name: Single Account  
       href: ./reference/BingAdsApp
       items:
-        - name: AccountsApp
-          href: ./reference/AccountsApp
         - name: AdGroup
           href: ./reference/AdGroup
         - name: AdGroupBuilder
@@ -38,12 +36,6 @@
           href: ./reference/AdGroupSelector
         - name: AdGroupUrls
           href: ./reference/AdGroupUrls
-        - name: BingAdsAccount
-          href: ./reference/BingAdsAccount
-        - name: BingAdsAccountIterator
-          href: ./reference/BingAdsAccountIterator
-        - name: BingAdsAccountSelector
-          href: ./reference/BingAdsAccountSelector
         - name: BingAdsApp
           href: ./reference/BingAdsApp
         - name: Budget
@@ -84,13 +76,23 @@
           href: ./reference/NegativeKeywordListOperation
         - name: NegativeKeywordListSelector
           href: ./reference/NegativeKeywordListSelector
+        - name: Stats
+          href: ./reference/Stats
+    - name: Multiple Accounts
+      href: ./reference/AccountsApp
+      items:
+        - name: BingAdsAccount
+          href: ./reference/BingAdsAccount
+        - name: BingAdsAccountIterator
+          href: ./reference/BingAdsAccountIterator
+        - name: BingAdsAccountSelector
+          href: ./reference/BingAdsAccountSelector
+    - name: Spreadsheets
+      href: ./reference/SpreadsheetApp
+      items:
         - name: Range
           href: ./reference/Range
         - name: Sheet
           href: ./reference/Sheet
         - name: Spreadsheet
-          href: ./reference/Spreadsheet
-        - name: SpreadsheetApp
-          href: ./reference/SpreadsheetApp
-        - name: Stats
-          href: ./reference/Stats
+          href: ./reference/Spreadsheet      
