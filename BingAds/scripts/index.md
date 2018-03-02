@@ -12,7 +12,7 @@ Bing Ads Scripts enables programmatic control of your Bing Ads data using JavaSc
 - To learn about different account management models, see [Customer Accounts](/bingads/guides/customer-accounts).
 
 ### Next Steps
-Write your first campaign automation script.
+Write your first campaign automation script:
 
 > [!div class="nextstepaction"]
 > [Get Started](./get-started.md)
