@@ -21,7 +21,6 @@ This class represents a range of cells in a worksheet.
 [setValue(Object value)](#setvalue~object-value~)|[Range](./Range)|Sets the value to all cells in this range.<br />
 [setValues(Object[][] values)](#setvalues~object[]-values~)|[Range](./Range)|Sets the specified values to the cells in this range, assigning each value to the cell based on matching row and column positions. The dimensions of the input value array must match the dimensions of this range.<br />
 [setVerticalAlignment(String alignment)](#setverticalalignment~string-alignment~)|[Range](./Range)|Sets the vertical alignment of content in the cells in this range. Valid values include 'top', 'middle' or 'bottom'.<br />
-&nbsp;|&nbsp;|&nbsp;
 
 ## <a name="copyto~range-destination~"></a>copyTo(Range destination)
 Copies content and formatting information from this range to the target range.

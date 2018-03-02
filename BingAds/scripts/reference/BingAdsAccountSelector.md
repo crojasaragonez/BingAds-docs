@@ -11,7 +11,6 @@ Provides methods to select Bing Ads accounts by using filtering and sorting.
 [withCondition(String condition)](#withcondition~string-condition~)|[BingAdsAccountSelector](./BingAdsAccountSelector)|Returns a selector with the specified filtering conditions.
 [withIds(long[] ids)](#withids~long-ids~)|[BingAdsAccountSelector](./BingAdsAccountSelector)|Returns a selector that will return only bing ads accounts with the specified IDs.
 [withLimit(int limit)](#withlimit~int-limit~)|[BingAdsAccountSelector](./BingAdsAccountSelector)|Returns a selector that will return only the specified number of results from the beginning of the result set.
-&nbsp;|&nbsp;|&nbsp;
 
 ## <a name="executeinparallel~string-functionname_-string-optionalcallbackfunctionname~"></a>executeInParallel(String functionName, String optionalCallbackFunctionName)
 Executes the function indicated by functionName on each BingAdsAccount matched by this selector and optionally invokes the callback function indicated by optionalCallbackFunctionName. 

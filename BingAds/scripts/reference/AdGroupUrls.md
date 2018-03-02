@@ -9,7 +9,6 @@ Provides access to the URLs for this ad group.
 [getTrackingTemplate](#gettrackingtemplate)|String|Returns the tracking template of this ad group.<br />
 [setCustomParameters(Object customParameters)](#setcustomparameters~object-customparameters~)|void|Sets the custom parameters of this ad group.<br />
 [setTrackingTemplate(String trackingTemplate)](#settrackingtemplate~string-trackingtemplate~)|void|Sets the tracking template of this ad group.<br />
-&nbsp;|&nbsp;|&nbsp;
 
 ## <a name="cleartrackingtemplate"></a>clearTrackingTemplate
 Clears the tracking template of this ad group.

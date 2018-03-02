@@ -7,7 +7,6 @@ Provides methods to iterate through Bing Ads accounts.
 [hasNext](#hasnext)|boolean|Returns true if this iterator has more Bing Ads account elements. <br />
 [next](#next)|[BingAdsAccount](./BingAdsAccount)|Advances to the next Bing Ads account in this iterator and returns it.<br />
 [totalNumEntities](#totalnumentities)|int|Returns the total number of bing ads accounts indexed by this iterator.
-&nbsp;|&nbsp;|&nbsp;
 
 ## <a name="hasnext"></a>hasNext
 Returns true if this iterator has more Bing Ads account elements. 

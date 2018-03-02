@@ -9,7 +9,6 @@ Represents a keyword.
 [getId](#getid)|long|Returns the ID of this negative keyword list.<br />
 [getName](#getname)|String|Returns the name of this negative keyword list.<br />
 [setName(String name)](#setname~string-name~)|void|Sets the name of this negative keyword list.<br />
-&nbsp;|&nbsp;|&nbsp;
 
 ## <a name="addnegativekeyword~string-keywordtext~"></a>addNegativeKeyword(String keywordText)
 Adds a keyword to the negative keyword list.

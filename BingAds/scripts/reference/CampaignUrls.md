@@ -9,7 +9,6 @@ Provides access to the URLs for this campaign.
 [getTrackingTemplate](#gettrackingtemplate)|String|Returns the tracking template of this campaign.<br />
 [setCustomParameters(Object customParameters)](#setcustomparameters~object-customparameters~)|void|Sets the custom parameters of this campaign.<br />
 [setTrackingTemplate(String trackingTemplate)](#settrackingtemplate~string-trackingtemplate~)|void|Sets the tracking template of this campaign.<br />
-&nbsp;|&nbsp;|&nbsp;
 
 ## <a name="cleartrackingtemplate"></a>clearTrackingTemplate
 Clears the tracking template of this campaign.

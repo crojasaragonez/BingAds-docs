@@ -23,7 +23,6 @@ Example usage:
 [pause](#pause)|void|Pauses this keyword.<br />
 [remove](#remove)|void|Removes this keyword.<br />
 [urls](#urls)|[KeywordUrls](./KeywordUrls)|Returns the URL fields of this keyword.<br />
-&nbsp;|&nbsp;|&nbsp;
 
 ## <a name="bidding"></a>bidding
 Provides methods to access information about the keywords bidding.

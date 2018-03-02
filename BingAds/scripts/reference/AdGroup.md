@@ -18,7 +18,6 @@ Example usage:
 [pause](#pause)|void|Pauses this ad group.<br />
 [setName(String name)](#setname~string-name~)|void|Sets the name of this ad group.<br />
 [urls](#urls)|[AdGroupUrls](./AdGroupUrls)|Returns an AdGroupUrls object which provides access to the URL fields of this ad group.<br />
-&nbsp;|&nbsp;|&nbsp;
 
 ## <a name="enable"></a>enable
 Enables this ad group.

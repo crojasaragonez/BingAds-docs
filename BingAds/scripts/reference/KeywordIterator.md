@@ -20,7 +20,6 @@ See also:
 [hasNext](#hasnext)|boolean|Returns true if this iterator has more keyword elements.<br />
 [next](#next)|[Keyword](./Keyword)|Advances to the next keyword in this iterator and returns it.<br />
 [totalNumEntities](#totalnumentities)|int|Returns the total number of keywords indexed by this iterator.
-&nbsp;|&nbsp;|&nbsp;
 
 ## <a name="hasnext"></a>hasNext
 Returns true if this iterator has more keyword elements.

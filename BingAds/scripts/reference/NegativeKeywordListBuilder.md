@@ -15,7 +15,6 @@ Example usage:
 |-|-|-
 [build](#build)|[NegativeKeywordListOperation](./NegativeKeywordListOperation)|Returns an operation object with the defined properties which can later be used to construct the keyword.<br />
 [withName(String name)](#withname~string-name~)|[NegativeKeywordListBuilder](./NegativeKeywordListBuilder)|Returns a negative keyword list builder with the name set to the specified value.<br />
-&nbsp;|&nbsp;|&nbsp;
 
 ## <a name="build"></a>build
 Returns an operation object with the defined properties which can later be used to construct the keyword.

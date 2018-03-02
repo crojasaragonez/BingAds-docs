@@ -7,7 +7,6 @@ Represents an account in the Bing Ads system.
 [getCustomerId](#getcustomerid)|String|Returns the customer ID of this account.<br />
 [getEntityType](#getentitytype)|String|Returns the type of this account as a String, which is, Account.
 [getName](#getname)|String|Returns the name of this account.<br />
-&nbsp;|&nbsp;|&nbsp;
 
 ## <a name="getcustomerid"></a>getCustomerId
 Returns the customer ID of this account.

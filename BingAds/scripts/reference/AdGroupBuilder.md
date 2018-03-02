@@ -21,7 +21,6 @@ Example usage:
 [withName(String name)](#withname~string-name~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the name of this new ad group. <br />
 [withStatus(String status)](#withstatus~string-status~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the status of this new ad group to the provided value.<br />
 [withTrackingTemplate(String trackingTemplate)](#withtrackingtemplate~string-trackingtemplate~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the tracking template to be used with this new ad group.<br />
-&nbsp;|&nbsp;|&nbsp;
 
 ## <a name="build"></a>build
 Returns an ad group operation which represents the ad group to be created.

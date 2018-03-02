@@ -20,7 +20,6 @@ See also:
 [withCondition(String condition)](#withcondition~string-condition~)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector with the specified filtering conditions.
 [withIds(long[] ids)](#withids~long-ids~)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector that will return only negative keyword lists with the specified IDs.<br />
 [withLimit(int limit)](#withlimit~int-limit~)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector that will return only the specified number of results from the beginning of the result set.
-&nbsp;|&nbsp;|&nbsp;
 
 ## <a name="get"></a>get
 Returns an iterator that you use to traverse negative keyword lists.

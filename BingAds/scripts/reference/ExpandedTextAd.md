@@ -31,7 +31,6 @@ Example usage:
 [pause](#pause)|void|Pauses this ad.<br />
 [remove](#remove)|void|Removes this ad.<br />
 [urls](#urls)|[AdUrls](./AdUrls)|Returns an AdUrls object which provides access to the URL fields of this <br />
-&nbsp;|&nbsp;|&nbsp;
 
 ## <a name="astype"></a>asType
 Returns properties specific to the type of this ad.

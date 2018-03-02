@@ -18,7 +18,6 @@ See also:
 [hasNext](#hasnext)|boolean|Returns true if this iterator has more campaign elements.<br />
 [next](#next)|[Campaign](./Campaign)|Advances to the next campaign in this iterator and returns it.<br />
 [totalNumEntities](#totalnumentities)|int|Returns the total number of campaigns indexed by this iterator.
-&nbsp;|&nbsp;|&nbsp;
 
 ## <a name="hasnext"></a>hasNext
 Returns true if this iterator has more campaign elements.

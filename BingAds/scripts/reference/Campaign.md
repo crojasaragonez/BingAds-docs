@@ -17,7 +17,6 @@ Represents a campaign.
 [remove](#remove)|void|Remove the campaign.<br />
 [setName(String name)](#setname~string-name~)|void|Sets the name of this campaign.<br />
 [urls](#urls)|[CampaignUrls](./CampaignUrls)|Returns the URL fields of this campaign.<br />
-&nbsp;|&nbsp;|&nbsp;
 
 ## <a name="addnegativekeywordlist~negativekeywordlist-negativekeywordlist~"></a>addNegativeKeywordList(NegativeKeywordList negativeKeywordList)
 Adds a negative keyword list to the campaign.

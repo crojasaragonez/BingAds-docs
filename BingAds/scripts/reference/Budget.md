@@ -12,7 +12,6 @@ Example usage:
 [getDeliveryMethod](#getdeliverymethod)|String|Returns the delivery method for this budget.
 [setAmount(double amount)](#setamount~double-amount~)|void|Sets the amount of this budget to the specified value, in the currency of the current account.<br />
 [setDeliveryMethod(String method)](#setdeliverymethod~string-method~)|void|Set the delivery method for this budget.<br />
-&nbsp;|&nbsp;|&nbsp;
 
 ## <a name="getamount"></a>getAmount
 Returns the amount of this budget, in the currency of the current account.

@@ -17,7 +17,6 @@ This class represents a worksheet within a spreadsheet.
 [setColumnWidth(long columnPosition, long width)](#setcolumnwidth~long-columnposition_-long-width~)|[Sheet](./Sheet)|Sets the width in pixels of the column at the specified position.
 [setName(String name)](#setname~string-name~)|[Sheet](./Sheet)|Sets the name of this sheet.<br />
 [setRowHeight(long rowPosition, long height)](#setrowheight~long-rowposition_-long-height~)|[Sheet](./Sheet)|Sets the height in pixels of the row at the specified position.
-&nbsp;|&nbsp;|&nbsp;
 
 ## <a name="deletecolumns~long-columnposition_-long-numcolumns~"></a>deleteColumns(long columnPosition, long numColumns)
 Deletes the specified number of columns starting at the specified column position.

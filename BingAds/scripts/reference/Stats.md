@@ -18,7 +18,6 @@ Example usage:
 [getCost](#getcost)|double|Returns the cost (spend) of the associated entity in the currency of the current account.<br />
 [getCtr](#getctr)|double|Returns the calick through rate of the associated entity within the 0..1 range. <br />
 [getImpressions](#getimpressions)|long|Returns the number of impressions of the associated entity.<br />
-&nbsp;|&nbsp;|&nbsp;
 
 ## <a name="getaveragecpc"></a>getAverageCpc
 Returns the average cost per click of the associated entity.

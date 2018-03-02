@@ -7,7 +7,6 @@ This class allows users to open and create spreadsheets on OneDrive.
 [create(String name)](#create~string-name~)|[Spreadsheet](./Spreadsheet)|Creates a new spreadsheet with the specified name.<br />
 [openById(String id)](#openbyid~string-id~)|[Spreadsheet](./Spreadsheet)|Opens the spreadsheet with the specified ID.<br />
 [openByName(String name)](#openbyname~string-name~)|[Spreadsheet](./Spreadsheet)|Opens the spreadsheet identified by the specified name.<br />
-&nbsp;|&nbsp;|&nbsp;
 
 ## <a name="create~string-name~"></a>create(String name)
 Creates a new spreadsheet with the specified name.

@@ -11,7 +11,6 @@ Provides access to the URLs for this keyword.
 [setCustomParameters(Object customParameters)](#setcustomparameters~object-customparameters~)|void|Sets the custom parameters of this keyword.
 [setFinalUrl(String finalUrl)](#setfinalurl~string-finalurl~)|void|Sets the final URL of this keyword.<br />
 [setTrackingTemplate(String trackingTemplate)](#settrackingtemplate~string-trackingtemplate~)|void|Sets the tracking template of this keyword.<br />
-&nbsp;|&nbsp;|&nbsp;
 
 ## <a name="cleartrackingtemplate"></a>clearTrackingTemplate
 Clears the tracking template of this keyword.

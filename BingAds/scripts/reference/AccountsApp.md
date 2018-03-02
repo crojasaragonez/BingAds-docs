@@ -6,7 +6,6 @@ This is the top-level object for managing multiple accounts in the Bing Ads syst
 |-|-|-
 [accounts](#accounts)|[BingAdsAccountSelector](./BingAdsAccountSelector)|Returns a selector of all accounts accessible to the current user under the current customer shell.<br />
 [select(BingAdsAccount account)](#select~bingadsaccount-account~)|void|Selects a [BingAdsAccount](./BingAdsAccount) as the the current account on which to perform operations.
-&nbsp;|&nbsp;|&nbsp;
 
 ## <a name="accounts"></a>accounts
 Returns a selector of all accounts accessible to the current user under the current customer shell.

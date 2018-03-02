@@ -5,7 +5,6 @@ Provides methods to write text to the logging console.
 |Method Name|Return Type|Description|
 |-|-|-
 [log(data)](#log~data~)|void|Write the provided string to the logger's console.<br />
-&nbsp;|&nbsp;|&nbsp;
 
 ## <a name="log~data~"></a>log(data)
 Write the provided string to the logger's console.

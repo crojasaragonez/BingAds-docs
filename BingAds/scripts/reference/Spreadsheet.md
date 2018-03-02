@@ -9,7 +9,6 @@ This class represents a spreadsheet.
 [getSheetByName(String name)](#getsheetbyname~string-name~)|[Sheet](./Sheet)|Returns the sheet with the specified name.
 [getSheets](#getsheets)|[Sheet[]](./Sheet)|Returns all the sheets in this spreadsheet.<br />
 [insertSheet](#insertsheet)|[Sheet](./Sheet)|Inserts a new sheet in this spreadsheet using the default name and makes it the active sheet.<br />
-&nbsp;|&nbsp;|&nbsp;
 
 ## <a name="getid"></a>getId
 Returns the unique ID for this spreadsheet.
