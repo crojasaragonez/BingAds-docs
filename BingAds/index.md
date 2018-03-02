@@ -469,7 +469,7 @@ description: Bing Ads API documentation home.
                     </ul>
                 </li>
                 <li>
-                    <a href="#bingadsscripts">Bing Ads Scripts</a>
+                    <a href="#bingadsscripts">Scripts</a>
                     <ul id="bingadsscripts" class="cardsC">
                         <li>
                             <a href="/bingads/scripts/">
@@ -483,7 +483,7 @@ description: Bing Ads API documentation home.
                                         </div>
                                         <div class="cardText">
                                             <h3>Introduction to Bing Ads Scripts</h3>
-                                            <p>Bing Ads Scripts enables programmatic control over your Bing Ads data using JavaScript in a browser-based IDE.</p>
+                                            <p>Bing Ads Scripts enables programmatic control over your Bing Ads data using JavaScript in the Bing Ads browser-based script editor.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -540,7 +540,7 @@ description: Bing Ads API documentation home.
                                         </div>
                                         <div class="cardText">
                                             <h3>Script Authorization</h3>
-                                            <p>Learn how authorization is handled by the Bing Ads Scripts system.</p>
+                                            <p>Learn how Bing Ads Scripts handles authorization.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -578,7 +578,7 @@ description: Bing Ads API documentation home.
                                         </div>
                                         <div class="cardText">
                                             <h3>Reference</h3>
-                                            <p>Browse the reference content for Bing Ads Scripts.</p>
+                                            <p>Browse the objects and methods that you use in your scripts.</p>
                                         </div>
                                     </div>
                                 </div>
