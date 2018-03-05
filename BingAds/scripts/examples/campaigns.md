@@ -3,8 +3,7 @@
 ## Get all campaigns
 ```javascript
 function getAllCampaigns() {
-  // BingAdsApp.campaigns() will return all campaigns that are not removed by
-  // default.
+  // BingAdsApp.campaigns() returns all campaigns that are not removed by default  (see [Campaign.isRemoved](../reference/Campaign#isRemoved) and [Campaign.remove](../reference/Campaign#.isRemoved)).
   var campaignIterator = BingAdsApp.campaigns().get();
   Logger.log('Total campaigns found : ' +
       campaignIterator.totalNumEntities());
@@ -33,9 +32,11 @@ function getCampaignsByName() {
 }
 
 function formatDate(date) {
-  function zeroPad(number) { return Utilities.formatString('%02d', number); }
-  return (date == null) ? 'None' : zeroPad(date.year) + zeroPad(date.month) +
-      zeroPad(date.day);
+  function zeroPad(number) { 
+    return Utilities.formatString('%02d', number); 
+  }
+
+  return (date == null) ? 'None' : zeroPad(date.year) + zeroPad(date.month) + zeroPad(date.day);
 }
 ```
 
