@@ -15,7 +15,7 @@ Example usage:
 |Method Name|Return Type|Description|
 |-|-|-
 [build](#build)|[AdGroupOperation](./AdGroupOperation)|Returns an ad group operation which represents the ad group to be created.<br />
-[withBiddingStrategy(String biddingStrategy)](#withbiddingstrategy~string-biddingstrategy~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the type of bidding strategy for the new ad group.
+[withBiddingStrategy(String biddingStrategy)](#withbiddingstrategy~string-biddingstrategy~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the ad group's bidding strategy.<br />
 [withCpc(double cpc)](#withcpc~double-cpc~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the maximum CPC bid to be used for this new ad group.<br />
 [withCustomParameters(Object customParams)](#withcustomparameters~object-customparams~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the custom parameters for the new ad group.
 [withName(String name)](#withname~string-name~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the name of this new ad group. <br />
@@ -31,7 +31,8 @@ Returns an ad group operation which represents the ad group to be created.
 [AdGroupOperation](./AdGroupOperation)|The associated ad group operation.
 
 ## <a name="withbiddingstrategy~string-biddingstrategy~"></a>withBiddingStrategy(String biddingStrategy)
-Sets the type of bidding strategy for the new ad group. 
+Sets the ad group's bidding strategy.
+
 
 Possible values are:
 
