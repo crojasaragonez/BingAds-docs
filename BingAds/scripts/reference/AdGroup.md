@@ -29,7 +29,7 @@ Returns the entity type of this ad group, which is "AdGroup".
 ### Returns:
 |Type|Description|
 |-|-
-String|Type of this entity: "AdGroup".
+String|Type of this entity.
 
 ## <a name="getid"></a>getId
 Returns the ID of the ad group.
@@ -45,7 +45,7 @@ Returns the name of this ad group.
 ### Returns:
 |Type|Description|
 |-|-
-String|Name of the ad group.
+String|The name of the ad group.
 
 ## <a name="isenabled"></a>isEnabled
 Returns true if this ad group is enabled. 
@@ -53,7 +53,7 @@ Returns true if this ad group is enabled.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|true if the ad group is enabled.
+boolean|A boolean value that determines whether the ad group is enabled.
 
 ## <a name="ispaused"></a>isPaused
 Returns true if this ad group is paused. 
@@ -77,11 +77,11 @@ Sets the name of this ad group.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-name|String|The new name for the ad group.
+name|String|The name for the ad group.
 ### Returns:
 |Type|Description|
 |-|-
-void|Returns nothing
+void|Returns nothing.
 
 ## <a name="urls"></a>urls
 Returns an AdGroupUrls object which provides access to the URL fields of this ad group.
