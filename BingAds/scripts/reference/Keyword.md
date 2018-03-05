@@ -1,10 +1,5 @@
 # Keyword
 Represents a keyword.
-Example usage:
-```javascript
- var stats = keyword.getStatsFor("THIS_MONTH");
-```
-
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
@@ -23,6 +18,7 @@ Example usage:
 [pause](#pause)|void|Pauses this keyword.<br />
 [remove](#remove)|void|Removes this keyword.<br />
 [urls](#urls)|[KeywordUrls](./KeywordUrls)|Returns the URL fields of this keyword.<br />
+[getStatsFor(String dateRange)](#getstatsfor~string-daterange~)|[Stats](./Stats)|Returns an object which provides statistics for the specified predefined date range.
 
 ## <a name="bidding"></a>bidding
 Provides methods to access information about the keywords bidding.
@@ -161,4 +157,49 @@ Returns the URL fields of this keyword.
 |Type|Description|
 |-|-
 [KeywordUrls](./KeywordUrls)|The URL fields of this keyword.
+
+## <a name="getstatsfor~string-daterange~"></a>getStatsFor(String dateRange)
+Returns an object which provides statistics for the specified predefined date range.
+
+Supported date range values:
+
+
+
+- TODAY
+- YESTERDAY
+
+- LAST_7_DAYS
+
+- THIS_WEEK_SUN_TODAY
+
+- LAST_14_DAYS
+- LAST_30_DAYS
+
+- LAST_WEEK_SUN_SAT
+
+- THIS_MONTH
+- LAST_MONTH
+- ALL_TIME
+
+
+
+Example:
+
+```
+
+keyword.getStatsFor("THIS_MONTH");
+```
+
+
+
+Date range must be specified if the selector has conditions or ordering for metrics statistics applied.  Only the last date range specified will be used.
+
+### Arguments:
+|Name|Type|Description|
+|-|-|-
+dateRange|String|Date range for which the stats are requested.
+### Returns:
+|Type|Description|
+|-|-
+[Stats](./Stats)|The stats for the specified date range.
 
