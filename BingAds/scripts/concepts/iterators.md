@@ -29,7 +29,3 @@ while (campaignIterator.hasNext()) {
       "; budget=" + campaign.getBudget());
 }
 ```
-
-Proceed to the next section to understand how to use [Selectors](./selectors.md) to obtain iterators.
-> [!div class="nextstepaction"]
-> [Selectors](./selectors.md)

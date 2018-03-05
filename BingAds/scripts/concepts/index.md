@@ -7,6 +7,6 @@
 
 Learn about common patterns and conventions used by Bing Ads Scripts.
 
-- [Iterators](/bingads/scripts/concepts/iterators)
-- [Selectors](/bingads/scripts/concepts/selectors)
 - [Builders](/bingads/scripts/concepts/builders)
+- [Selectors](/bingads/scripts/concepts/selectors)
+- [Iterators](/bingads/scripts/concepts/iterators)
