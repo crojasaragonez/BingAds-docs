@@ -13,6 +13,7 @@ Represents an ad group in the Bing Ads system.
 [pause](#pause)|void|Pauses this ad group.<br />
 [setName(String name)](#setname~string-name~)|void|Sets the name of this ad group.<br />
 [urls](#urls)|[AdGroupUrls](./AdGroupUrls)|Returns an AdGroupUrls object which provides access to the URL fields of this ad group.<br />
+[newKeywordBuilder](#newkeywordbuilder)|[KeywordBuilder](./KeywordBuilder)|Returns a new keyword builder associated with this ad group that is used to construct a new keyword.<br />
 
 ## <a name="enable"></a>enable
 Enables this ad group.
@@ -89,4 +90,12 @@ Returns an AdGroupUrls object which provides access to the URL fields of this ad
 |Type|Description|
 |-|-
 [AdGroupUrls](./AdGroupUrls)|an AdGroupUrls object which provides access to the URL fields of this ad group.
+
+## <a name="newkeywordbuilder"></a>newKeywordBuilder
+Returns a new keyword builder associated with this ad group that is used to construct a new keyword.
+
+### Returns:
+|Type|Description|
+|-|-
+[KeywordBuilder](./KeywordBuilder)|A new keyword builder associated with this ad group that is used to construct a new keyword.
 
