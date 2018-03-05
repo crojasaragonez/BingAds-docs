@@ -3,10 +3,11 @@ Provides methods for defining and building a negative keyword list.
 
 Example usage:
 ```javascript
- var negativeKeywordListOperation =
-     BingAdsApp.newNegativeKeywordListBuilder()
-         .withName("NegativeKeywordList")
-         .build();
+ var negativeKeywordListBuilder = BingAdsApp.newNegativeKeywordListBuilder()
+         .withName("NegativeKeywordList");
+
+ var negativeKeywordListOperation = negativeKeywordListBuilder.build();
+
  var negativeKeywordList = negativeKeywordListOperation.getResult();
 ```
 
