@@ -51,12 +51,11 @@ biddingStrategy|String|The bidding strategy of the ad group. Possible values are
 Sets the maximum CPC bid to be used for this new ad group.
 
 
-If no CPC is specified, the default of 0.30 is used.
 
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-cpc|double|The max CPC bid of the ad group.
+cpc|double|The max CPC bid of the ad group. If no CPC is specified, the default of 0.30 is used.<br />
 ### Returns:
 |Type|Description|
 |-|-
