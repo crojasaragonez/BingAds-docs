@@ -36,6 +36,8 @@ Sets the type of bidding strategy for the new ad group.
 Possible values are:
 
 - MANUAL_CPC
+
+
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
