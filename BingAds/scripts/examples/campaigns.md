@@ -3,7 +3,9 @@
 ## Get all campaigns
 ```javascript
 function getAllCampaigns() {
-  // BingAdsApp.campaigns() returns all campaigns that are not removed by default  (see [Campaign.isRemoved](../reference/Campaign#isRemoved) and [Campaign.remove](../reference/Campaign#.isRemoved)).
+  // BingAdsApp.campaigns() returns all campaigns that are not removed by default  
+  // (see https://docs.microsoft.com/bingads/scripts/reference/campaign#isremoved and 
+  // https://docs.microsoft.com/bingads/scripts/reference/campaign#remove).
   var campaignIterator = BingAdsApp.campaigns().get();
   Logger.log('Total campaigns found : ' +
       campaignIterator.totalNumEntities());
