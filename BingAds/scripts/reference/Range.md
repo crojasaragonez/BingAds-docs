@@ -28,7 +28,7 @@ Copies content and formatting information from this range to the target range.
 ### Returns:
 |Type|Description|
 |-|-
-void|Returns nothing
+void|Returns nothing.
 
 ## <a name="getaddress"></a>getAddress
 Get the address of this range.

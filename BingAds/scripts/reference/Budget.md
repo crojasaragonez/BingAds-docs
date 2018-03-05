@@ -44,7 +44,7 @@ amount|double|The amount of the budget.
 ### Returns:
 |Type|Description|
 |-|-
-void|Returns nothing
+void|Returns nothing.
 
 ## <a name="setdeliverymethod~string-method~"></a>setDeliveryMethod(String method)
 Set the delivery method for this budget.
@@ -58,5 +58,5 @@ method|String|Sets the delivery method of the budget.<br />
 ### Returns:
 |Type|Description|
 |-|-
-void|Returns nothing
+void|Returns nothing.
 

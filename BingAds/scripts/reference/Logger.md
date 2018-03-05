@@ -12,5 +12,5 @@ Write the provided string to the logger's console.
 ### Returns:
 |Type|Description|
 |-|-
-void|Returns nothing
+void|Returns nothing.
 

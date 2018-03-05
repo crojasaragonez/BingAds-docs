@@ -15,7 +15,7 @@ Clears the max CPC bid for the keyword.
 ### Returns:
 |Type|Description|
 |-|-
-void|Returns nothing
+void|Returns nothing.
 
 ## <a name="getcpc"></a>getCpc
 Returns the maximum CPC bid for the keyword.
@@ -38,5 +38,5 @@ cpc|double|The maximum CPC bid for the keyword.<br />
 ### Returns:
 |Type|Description|
 |-|-
-void|Returns nothing
+void|Returns nothing.
 

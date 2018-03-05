@@ -21,7 +21,7 @@ Enables this ad group.
 ### Returns:
 |Type|Description|
 |-|-
-void|Returns nothing
+void|Returns nothing.
 
 ## <a name="getentitytype"></a>getEntityType
 Returns the entity type of this ad group, which is "AdGroup".
@@ -69,7 +69,7 @@ Pauses this ad group.
 ### Returns:
 |Type|Description|
 |-|-
-void|Returns nothing
+void|Returns nothing.
 
 ## <a name="setname~string-name~"></a>setName(String name)
 Sets the name of this ad group.

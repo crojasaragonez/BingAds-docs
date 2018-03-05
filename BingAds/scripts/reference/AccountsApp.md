@@ -24,5 +24,5 @@ account|[BingAdsAccount](./BingAdsAccount)|The account in whose context the scri
 ### Returns:
 |Type|Description|
 |-|-
-void|Returns nothing
+void|Returns nothing.
 

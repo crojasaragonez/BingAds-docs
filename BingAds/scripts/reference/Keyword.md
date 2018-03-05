@@ -42,7 +42,7 @@ Clears the destination URL of this keyword.
 ### Returns:
 |Type|Description|
 |-|-
-void|Returns nothing
+void|Returns nothing.
 
 ## <a name="enable"></a>enable
 Enables this keyword.
@@ -50,7 +50,7 @@ Enables this keyword.
 ### Returns:
 |Type|Description|
 |-|-
-void|Returns nothing
+void|Returns nothing.
 
 ## <a name="getadgroup"></a>getAdGroup
 Returns the parent ad group of this keyword.
@@ -146,7 +146,7 @@ Pauses this keyword.
 ### Returns:
 |Type|Description|
 |-|-
-void|Returns nothing
+void|Returns nothing.
 
 ## <a name="remove"></a>remove
 Removes this keyword.
@@ -154,7 +154,7 @@ Removes this keyword.
 ### Returns:
 |Type|Description|
 |-|-
-void|Returns nothing
+void|Returns nothing.
 
 ## <a name="urls"></a>urls
 Returns the URL fields of this keyword.
