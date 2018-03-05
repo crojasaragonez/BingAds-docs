@@ -34,15 +34,14 @@ Returns an ad group operation which represents the ad group to be created.
 Sets the ad group's bidding strategy.
 
 
-Possible values are:
 
-- MANUAL_CPC
 
 
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-biddingStrategy|String|The standard bidding strategy of the ad group.
+biddingStrategy|String|The standard bidding strategy of the ad group. Possible values are:<br />
+- MANUAL_CPC
 ### Returns:
 |Type|Description|
 |-|-
