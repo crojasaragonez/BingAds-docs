@@ -7,7 +7,7 @@ This is the root object of the Bing Ads Scripts API. It provides methods to retr
 [campaigns](#campaigns)|[CampaignSelector](./CampaignSelector)|Returns a selector of all campaigns in the current account.<br />
 [keywords](#keywords)|[KeywordSelector](./KeywordSelector)|Returns a selector of all keywords in the current account.<br />
 [negativeKeywordList](#negativekeywordlist)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector of all negative keyword lists in this account.
-[newNegativeKeywordListBuilder](#newnegativekeywordlistbuilder)|[NegativeKeywordListBuilder](./NegativeKeywordListBuilder)|Returns a new negative keyword list builder for the current account. The new negative keyword list is created when builder.build() is called.<br />
+[newNegativeKeywordListBuilder](#newnegativekeywordlistbuilder)|[NegativeKeywordListBuilder](./NegativeKeywordListBuilder)|Returns a new negative keyword list builder for the current account. <br />
 
 ## <a name="adgroups"></a>adGroups
 Returns a selector of all ad groups in the current account.
@@ -50,12 +50,12 @@ Returns a selector of all negative keyword lists in this account.
 [NegativeKeywordListSelector](./NegativeKeywordListSelector)|A selector of all negative keyword lists in this account.
 
 ## <a name="newnegativekeywordlistbuilder"></a>newNegativeKeywordListBuilder
-Returns a new negative keyword list builder for the current account. The new negative keyword list is created when builder.build() is called.
+Returns a new negative keyword list builder for the current account. 
 
 
-
+The new negative keyword list is created when builder.build() is called.
 ### Returns:
 |Type|Description|
 |-|-
-[NegativeKeywordListBuilder](./NegativeKeywordListBuilder)|The negative keyword list builder used to create a new negative keyword list in the current account.
+[NegativeKeywordListBuilder](./NegativeKeywordListBuilder)|A new negative keyword list builder for the current account.
 
