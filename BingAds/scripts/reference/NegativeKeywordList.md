@@ -1,5 +1,5 @@
 # NegativeKeywordList
-Represents a keyword.
+Represents a negative keyword list.
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
@@ -36,6 +36,8 @@ To specify match type for the new negative keyword:
 - negativeKeywordsList.addNegativeKeywords(["planes", "trains"]) - broad match.
 - negativeKeywordsList.addNegativeKeywords(["\"planes\"", "\"trains\""]) - phrase match.
 - negativeKeywordsList.addNegativeKeywords(["[model planes]", "[toy trains]") - exact match.
+
+
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
