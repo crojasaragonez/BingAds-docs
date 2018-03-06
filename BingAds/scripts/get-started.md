@@ -26,4 +26,4 @@ function main() {
 }
 main();
 ```
-5. To execute the script in preview mode, click <strong>Preview</strong>.
+5. Click <strong>Run Script</strong>.
