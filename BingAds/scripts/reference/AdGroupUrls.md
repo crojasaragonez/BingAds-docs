@@ -1,6 +1,18 @@
 # AdGroupUrls
 Provides access to the URLs for this ad group.
 
+Example usage:
+```javascript
+var adGroupSelector = BingAdsApp.adGroups();
+
+ var adGroupIterator = adGroupSelector.get();
+ while (adGroupIterator.hasNext()) {
+   var adGroup = adGroupIterator.next();
+   var adGroupUrls = adGroup.urls();
+   adGroupUrls.getCustomParameters();
+ }
+```
+
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
