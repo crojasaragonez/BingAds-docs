@@ -82,7 +82,7 @@ Sets the name of this ad group.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-name|String|The ad group's name.
+name|String|The ad group's name. The string can contain a maximum of 256 characters, and must be unique among all active ad groups within the campaign.
 ### Returns:
 |Type|Description|
 |-|-
