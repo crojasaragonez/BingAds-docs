@@ -24,5 +24,6 @@ function main() {
             keyword.getStatsFor("YESTERDAY").getImpressions());
     }
 }
+main();
 ```
 5. To execute the script in preview mode, click <strong>Preview</strong>.

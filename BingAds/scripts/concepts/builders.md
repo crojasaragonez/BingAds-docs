@@ -35,6 +35,7 @@ if (keywordOperation.isSuccessful()) {
 }
 ```
 
+### Next Steps
 Proceed to the next section to learn how to use selectors to get iterators.
 > [!div class="nextstepaction"]
 > [Selectors](./selectors.md)
