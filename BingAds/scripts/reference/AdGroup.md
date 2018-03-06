@@ -1,6 +1,5 @@
 # AdGroup
-Represents an ad group in the Bing Ads system.
-
+Represents an ad group.
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
