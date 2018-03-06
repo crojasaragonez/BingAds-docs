@@ -1,6 +1,5 @@
 # AdGroupUrls
-Provides access to the URLs for this ad group.
-
+Provides access to the URLs for this ad group. See [URL Tracking with Upgraded URLs](/bingads/guides/url-tracking-upgraded-urls) for more information.
 Example usage:
 ```javascript
 var adGroupSelector = BingAdsApp.adGroups();
