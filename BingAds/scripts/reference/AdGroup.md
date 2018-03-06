@@ -61,7 +61,7 @@ Returns true if this ad group is paused.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|true if the ad group is paused.
+boolean|A boolean value that determines if the ad group is paused.
 
 ## <a name="pause"></a>pause
 Pauses this ad group.

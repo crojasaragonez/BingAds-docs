@@ -53,5 +53,5 @@ true if the operation was successful.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|True if the operation was successful.
+boolean|A boolean value that determines if the operation was successful.
 

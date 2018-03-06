@@ -29,5 +29,5 @@ Returns
 ### Returns:
 |Type|Description|
 |-|-
-boolean|true if the operation was successful.
+boolean|A boolean value that determines if the operation was successful.
 

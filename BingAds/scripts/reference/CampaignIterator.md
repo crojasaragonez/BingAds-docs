@@ -25,7 +25,7 @@ Returns true if this iterator has more campaign elements.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|True if the iterator has more elements.
+boolean|A boolean value that determines if the iterator has more elements.
 
 ## <a name="next"></a>next
 Advances to the next campaign in this iterator and returns it.

@@ -110,7 +110,7 @@ Returns
 ### Returns:
 |Type|Description|
 |-|-
-boolean|
+boolean|A boolean value that determines if the range is blank.
 
 ## <a name="setfontsize~long-size~"></a>setFontSize(long size)
 Sets the specified point size to use for fonts on all the cells in this range.

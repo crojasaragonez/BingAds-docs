@@ -216,7 +216,7 @@ Returns true if this ad is enabled.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|true if the ad is enabled.
+boolean|A boolean value that determines if the ad is enabled.
 
 ## <a name="ispaused"></a>isPaused
 Returns true if this ad is paused 
@@ -224,7 +224,7 @@ Returns true if this ad is paused
 ### Returns:
 |Type|Description|
 |-|-
-boolean|true if the ad is paused.
+boolean|A boolean value that determines if the ad is paused.
 
 ## <a name="istype"></a>isType
 Returns an object which provides more information about the type of this ad.

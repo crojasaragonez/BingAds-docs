@@ -27,7 +27,7 @@ Returns true if this iterator has more keyword elements.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|True if this iterator has more keyword elements.
+boolean|A boolean value that determines if this iterator has more keyword elements.
 
 ## <a name="next"></a>next
 Advances to the next keyword in this iterator and returns it.

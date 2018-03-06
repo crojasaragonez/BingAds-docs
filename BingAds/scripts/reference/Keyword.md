@@ -130,7 +130,7 @@ Returns true if this keyword is enabled
 ### Returns:
 |Type|Description|
 |-|-
-boolean|True if this keyword is enabled.
+boolean|A boolean value that determines if this keyword is enabled.
 
 ## <a name="ispaused"></a>isPaused
 Returns true if this keyword is paused. 
@@ -138,7 +138,7 @@ Returns true if this keyword is paused.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|True if the keyword is paused.
+boolean|A boolean value that determines if the keyword is paused.
 
 ## <a name="pause"></a>pause
 Pauses this keyword.

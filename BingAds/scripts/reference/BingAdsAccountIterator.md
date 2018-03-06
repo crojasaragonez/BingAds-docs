@@ -14,7 +14,7 @@ Returns true if this iterator has more Bing Ads account elements.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|True if this iterator has more Bing Ads account elements.
+boolean|A boolean value that determines if this iterator has more Bing Ads account elements.
 
 ## <a name="next"></a>next
 Advances to the next Bing Ads account in this iterator and returns it.

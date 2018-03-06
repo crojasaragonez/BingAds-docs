@@ -94,7 +94,7 @@ Returns true if this campaign is enabled
 ### Returns:
 |Type|Description|
 |-|-
-boolean|True if this campaign is paused.
+boolean|A boolean value that determines if this campaign is paused.
 
 ## <a name="isremoved"></a>isRemoved
 Returns true if this campaign is removed. 
@@ -102,7 +102,7 @@ Returns true if this campaign is removed.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|True if this campaign is removed.
+boolean|A boolean value that determines if this campaign is removed.
 
 ## <a name="pause"></a>pause
 Pauses this campaign.
