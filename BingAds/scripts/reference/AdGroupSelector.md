@@ -27,7 +27,7 @@ See also:
 [get](#get)|[AdGroupIterator](./AdGroupIterator)|Returns the iterator that you use to get the ad groups based on the selector's selection criteria.
 [orderBy(String orderBy)](#orderby~string-orderby~)|[AdGroupSelector](./AdGroupSelector)|Returns a selector with the specified ordering applied.
 [withCondition(String condition)](#withcondition~string-condition~)|[AdGroupSelector](./AdGroupSelector)|Returns a selector that limits the ad groups it returns to those that match the filter criteria.
-[withIds(long[] ids)](#withids~long-ids~)|[AdGroupSelector](./AdGroupSelector)|Returns a selector that limits the ad groups that it returns to the specified list of ad groups.
+[withIds(long[] ids)](#withids~long-ids~)|[AdGroupSelector](./AdGroupSelector)|Returns a selector that returns only ad groups with the specified IDs.
 [withLimit(int limit)](#withlimit~int-limit~)|[AdGroupSelector](./AdGroupSelector)|Returns a selector that limits the number of ad groups it returns to the top <i>n</i> ad groups that match the selection criteria.
 
 ## <a name="fordaterange~object-datefrom_-object-dateto~"></a>forDateRange(Object dateFrom, Object dateTo)
@@ -41,9 +41,9 @@ You may specify the date parameters using strings or objects. To use strings, sp
 
 For example, {year: 2016, month: 5, day: 13}.
 
-The date range is inclusive on both ends.
+The date range is inclusive.
 
-Date range must be specified if the selector has conditions or ordering for metrics statistics applied.  Only the last date range specified will be used.
+If you apply conditions or ordering that reference performance metric fields, you must specify a date range.  Only the last date range specified will be used.
 
 ### Arguments:
 |Name|Type|Description|
@@ -76,12 +76,12 @@ Example:
 selector.forDateRange("LAST_7_DAYS");
 ```
 
-Date range must be specified if the selector has conditions or ordering for metrics statistics applied.  Only the last date range specified will be used.
+If you apply conditions or ordering that reference performance metric fields, you must specify a date range.  Only the last date range specified will be used.
 
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-dateRange|String|Date range to set onto the selector.
+dateRange|String|Date range to apply to the selector.
 ### Returns:
 |Type|Description|
 |-|-
@@ -99,13 +99,16 @@ Returns a selector with the specified ordering applied.
 
 Specify the orderBy parameter in the form, "columnName orderDirection" where:
 
-- columnName can only be one column which is supported by the withCondition method.
+- columnName is supported by the [withCondition](#a-namewithconditionstring-conditionawithconditionstring-condition) method.
 - orderDirection is the direction to order the results in. Set to ASC to order the results in ascending order or DESC to order the results in descending order. The default is ASC.
 
-You may order the results by one or more metrics by chaining together multiple orderBy calls. For example, the following call returns results in ascending order by MaxCpc.
+
+For example, the following call returns results in ascending order by MaxCpc.
 
 <code>agSelector = agSelector.orderBy("MaxCpc");</code>
 
+
+Only one orderBy column is supported.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
@@ -161,16 +164,16 @@ BounceRate|double|`withCondition("BounceRate < 0.5")`|
 ClickConversionRate|double|`withCondition("ClickConversionRate > 0.1")`|Conv. Rate
 Clicks|long|`withCondition("Clicks >= 21")`|Clicks
 ConvertedClicks|long|`withCondition("ConvertedClicks <= 4")`|Conv.
-Cost|double|`withCondition("Cost > 4.48")`. The value is in the currency of the account.|Spend
-Ctr|double|`withCondition("Ctr > 0.01")`. Note that Ctr is returned in 0..1 range, so 5% Ctr is represented as 0.05.|CTR
+Cost|double|`withCondition("Cost > 4.48")`.<br /> The value is in the currency of the account.|Spend
+Ctr|double|`withCondition("Ctr > 0.01")`.<br /> Note that the Ctr is in the range 0..1, so a 5% Ctr is represented as 0.05.|CTR
 Impressions|long|`withCondition("Impressions != 0")`|Impr.
 &nbsp;|&nbsp;|&nbsp;|&nbsp;
 <strong>Ad group attributes</strong>|
 Status|Enumeration:<br />&nbsp;`ENABLED`<br />&nbsp;`PAUSED`<br />&nbsp;`REMOVED`|`withCondition("Status = PAUSED")`|
 Name|String|`withCondition("Name CONTAINS_IGNORE_CASE 'shoes'")`|Ad group name
 CampaignName|String|`withCondition("CampaignName CONTAINS_IGNORE_CASE 'promotion'")`|Campaign name
-KeywordMaxCpc|double|`withCondition("KeywordMaxCpc > 10.0")`. The value is in the currency of the account.|
-CampaignStatus|Enumeration:<br />&nbsp;`ENABLED`<br />&nbsp;`PAUSED`<br />&nbsp;`REMOVED`|`withCondition("CampaignStatus = ENABLED"). Use to return ad groups from only ENABLED campaigns.`|
+KeywordMaxCpc|double|`withCondition("KeywordMaxCpc > 10.0")`.<br /> The value is in the currency of the account.|
+CampaignStatus|Enumeration:<br />&nbsp;`ENABLED`<br />&nbsp;`PAUSED`<br />&nbsp;`REMOVED`|`withCondition("CampaignStatus = ENABLED")`.<br /> Use to return ad groups from only ENABLED campaigns.|
 &nbsp;|&nbsp;|&nbsp;|&nbsp;
 ### Arguments:
 |Name|Type|Description|
@@ -182,24 +185,21 @@ condition|String|Condition to add to the selector.
 [AdGroupSelector](./AdGroupSelector)|The selector with the condition applied.
 
 ## <a name="withids~long-ids~"></a>withIds(long[] ids)
-Returns a selector that limits the ad groups that it returns to the specified list of ad groups.
+Returns a selector that returns only ad groups with the specified IDs.
 
 
-The resulting selector can be further filtered by applying additional conditions to it.  All conditions will be 'AND' concatenated including any other ID based conditions.  For example:
+You may apply one or more conditions to a selector. A chain of conditions is considered an AND operation. If condition A is true AND condition B is true, select the entity. For example, the following call selects only ad group 33333.
 
 ```javascript
-BingAdsApp.campaigns()
+BingAdsApp.adGroups()
     .withIds([11111, 22222, 33333])
     .withIds([33333, 44444, 55555])
 ```
 
-will only get the campaign with ID 33333 because it would be the only one satisfying both conditions.
-
-The maximum number of IDs that you may specify is 1,000. If you specify more than 1,000 IDs, calling the get method will fail.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-ids|long[]|Array of ad group IDs.
+ids|long[]|Array of ad group IDs. The maximum number of IDs that you may specify is 1,000. If you specify more than 1,000 IDs, calling the get method will fail.
 ### Returns:
 |Type|Description|
 |-|-
@@ -210,7 +210,7 @@ Returns a selector that limits the number of ad groups it returns to the top <i>
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-limit|int|How many entities to return.
+limit|int|The number of entities to return.
 ### Returns:
 |Type|Description|
 |-|-
