@@ -1,5 +1,5 @@
 # ExpandedTextAd
-Represents an expanded text ad in the Bing Ads system.
+Represents an expanded text ad in Bing Ads.
 
 Example usage:
 ```javascript

@@ -1,5 +1,5 @@
 # AccountsApp
-This is the top-level object for managing multiple accounts in the Bing Ads system.
+This is the top-level object for managing multiple accounts in Bing Ads.
 
 # Methods
 |Method Name|Return Type|Description|

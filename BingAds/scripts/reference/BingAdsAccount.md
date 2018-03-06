@@ -1,5 +1,5 @@
 # BingAdsAccount
-Represents an account in the Bing Ads system.       
+Represents an account in Bing Ads.       
 
 # Methods
 |Method Name|Return Type|Description|
