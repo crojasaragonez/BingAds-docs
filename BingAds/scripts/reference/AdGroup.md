@@ -11,7 +11,7 @@ Represents an ad group.
 [isPaused](#ispaused)|boolean|Returns true if this ad group is paused. <br />
 [pause](#pause)|void|Pauses this ad group.<br />
 [setName(String name)](#setname~string-name~)|void|Sets the name of this ad group.<br />
-[urls](#urls)|[AdGroupUrls](./AdGroupUrls)|Returns an AdGroupUrls object which provides access to the URL fields of this ad group.<br />
+[urls](#urls)|[AdGroupUrls](./AdGroupUrls)|Returns this ad group's urls.
 [newKeywordBuilder](#newkeywordbuilder)|[KeywordBuilder](./KeywordBuilder)|Returns a new keyword builder associated with this ad group that is used to construct a new keyword.<br />
 
 ## <a name="enable"></a>enable
@@ -83,12 +83,11 @@ name|String|The name for the ad group.
 void|Returns nothing.
 
 ## <a name="urls"></a>urls
-Returns an AdGroupUrls object which provides access to the URL fields of this ad group.
-
+Returns this ad group's urls.
 ### Returns:
 |Type|Description|
 |-|-
-[AdGroupUrls](./AdGroupUrls)|an AdGroupUrls object which provides access to the URL fields of this ad group.
+[AdGroupUrls](./AdGroupUrls)|This ad group's urls.
 
 ## <a name="newkeywordbuilder"></a>newKeywordBuilder
 Returns a new keyword builder associated with this ad group that is used to construct a new keyword.
