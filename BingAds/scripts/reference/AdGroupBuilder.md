@@ -64,19 +64,17 @@ cpc|double|The max CPC bid of the ad group. If no CPC is specified, the default 
 ## <a name="withcustomparameters~object-customparams~"></a>withCustomParameters(Object customParams)
 Sets the custom parameters for the new ad group.
 
-The name of a custom parameter can contain only alphanumeric characters, and custom parameter values may not contain white space. When referring to the custom parameter in final URLs and tracking templates, you should surround the custom parameter in braces, and prefix an underscore to its name, for example {_param}.
+An ad group may specify up to three custom parameters. Customer parameter names may contain only alphanumeric characters and must not exceed 16 bytes. When you include custom parameters in final URLs and tracking templates, the convention is to prefix the parameter�s name with an underscore and enclose the parameter in curly braces ({}). For example, {_param}.  Custom parameter values may not contain whitespace and must not exceed 200 bytes.
 
-You can have up to 3 custom parameters for an entity. The key and value must not exceed 16 and 200 bytes respectively.
-
-Custom parameters specified at a lower level entity will override the setting specified at a higher level entity, for example, setting custom parameters at the ad group level overrides the setting at the campaign level, and custom parameters specified at the ad level override the setting at the ad group level.
+If an ad group does not specify custom parameters, it inherits them from its parent campaign. Likewise, ads in the ad group inherit the parameters from the ad group if the ad does not specify its own parameters. 
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-customParameters|Object|The custom parameters of the ad group as a map of the<br />        following form: <code>{key1: 'value1', key2: 'value2', key3: 'value3'}</code>.
+customParameters|Object|The custom parameters of the ad group as a map of the following form: <code>{key1: 'value1', key2: 'value2', key3: 'value3'}</code>.
 ### Returns:
 |Type|Description|
 |-|-
-[AdGroupBuilder](./AdGroupBuilder)|The ad group builder with the specified custom parameters.
+[AdGroupBuilder](./AdGroupBuilder)|An ad group builder with the customer parameters applied.
 
 ## <a name="withname~string-name~"></a>withName(String name)
 Sets the name of this new ad group. 
