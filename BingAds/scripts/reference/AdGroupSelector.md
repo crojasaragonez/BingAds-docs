@@ -98,7 +98,7 @@ Returns a selector with the specified ordering applied.
 
 Specify the orderBy parameter in the form, "columnName orderDirection" where:
 
-- columnName is supported by the [withCondition](#a-namewithconditionstring-conditionawithconditionstring-condition) method.
+- columnName is a supported column, see [Supported Columns](#supported-ad-group-columns).
 - orderDirection is the direction to order the results in. Set to ASC to order the results in ascending order or DESC to order the results in descending order. The default is ASC.
 
 
