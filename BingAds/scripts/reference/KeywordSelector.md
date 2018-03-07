@@ -14,7 +14,7 @@ See also:
 [forDateRange(String dateRange)](#fordaterange~string-daterange~)|[KeywordSelector](./KeywordSelector)|Returns a selector using the specified predefined date range.
 [get](#get)|[KeywordIterator](./KeywordIterator)|Returns an iterator indexing the keywords in this selector.<br />
 [orderBy(String orderBy)](#orderby~string-orderby~)|[KeywordSelector](./KeywordSelector)|Returns a selector with the specified ordering.
-[withCondition(String condition)](#withcondition~string-condition~)|[KeywordSelector](./KeywordSelector)|Returns a selector with the specified filtering conditions.
+[withCondition(String condition)](#withcondition~string-condition~)|[KeywordSelector](./KeywordSelector)|Returns a selector that limits the ad groups it returns to those that match the filter criteria.
 [withIds(long[] ids)](#withids~long-ids~)|[KeywordSelector](./KeywordSelector)|Returns a selector that will return only keywords with the specified IDs.
 [withLimit(int limit)](#withlimit~int-limit~)|[KeywordSelector](./KeywordSelector)|Returns a selector that will return only the specified number of results from the beginning of the result set.
 
@@ -75,35 +75,14 @@ orderBy|String|Ordering to apply.
 [KeywordSelector](./KeywordSelector)|Selector with ordering applied.
 
 ## <a name="withcondition~string-condition~"></a>withCondition(String condition)
-Returns a selector with the specified filtering conditions.
+Returns a selector that limits the ad groups it returns to those that match the filter criteria.
 
 Specify the condition parameter in the form, "columnName operator value" where: 
 
-- columnName is the name of a performance metric to order the results by. For a list of possible values, see [Supported Columns](#supported-keyword-columns).  If you set columName to a performance metric column name, you must also specify a date range using [forDateRange(String dateRange)](#fordaterange~string-daterange~) or [forDateRange(Object dateFrom, Object dateTo)](#fordaterange~object-datefrom_-object-dateto~).
+- columnName is a supported column, see [Supported Columns](#supported-keyword-columns).  If you set columName to a performance metric column name, you must also specify a date range using [forDateRange(String dateRange)](#fordaterange~string-daterange~) or [forDateRange(Object dateFrom, Object dateTo)](#fordaterange~object-datefrom_-object-dateto~).
 - operator is one of the supported [operators](#operators).
 
-### Operators
-The operator that can be used in a condition depends on the type of column. 
-For Integer and Long columns: 
-
-```
-<  <=  >  >=  =  !=
-```
-For Double columns: 
-```
-<  >
-```
-For String columns: 
-```
-=  !=  STARTS_WITH  STARTS_WITH_IGNORE_CASE  CONTAINS
- CONTAINS_IGNORE_CASE  DOES_NOT_CONTAIN  DOES_NOT_CONTAIN_IGNORE_CASE
-```
-For Enumeration columns: 
-```
-=  !=  IN []  NOT_IN []
-```
-
-Operators are case-sensitive: `starts_with` won't work. 
+[!INCLUDE[operators](../includes/operators.md)]
 
 <a name="supported-keyword-columns"></a>
 Supported columns for keyword filtering. 
