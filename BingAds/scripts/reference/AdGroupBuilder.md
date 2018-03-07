@@ -93,7 +93,7 @@ Sets the status of this ad group.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-status|String|Ad group's status. If not specified, status defaults to ENABLED.  The following are the possible values: <br /> - ENABLED<br /> - DISABLED
+status|String|Ad group's status. If not specified, status defaults to ENABLED.  The following are the possible values: <br /> - ENABLED<br /> - PAUSED <br /> - REMOVED
 ### Returns:
 |Type|Description|
 |-|-
