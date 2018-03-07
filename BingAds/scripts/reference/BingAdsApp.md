@@ -23,10 +23,7 @@ Returns a selector of all ad groups in the current account.
 Returns a selector of all campaigns in the current account.
 
 
-Example:
-```javascript
-var campaignSelector = BingAdsApp.campaigns();
-```
+
 ### Returns:
 |Type|Description|
 |-|-
