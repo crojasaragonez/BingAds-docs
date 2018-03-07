@@ -14,7 +14,7 @@ Example usage:
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[build](#build)|[AdGroupOperation](./AdGroupOperation)|Returns an ad group operation which represents the ad group to be created.<br />
+[build](#build)|[AdGroupOperation](./AdGroupOperation)|Returns an ad group operation which represents the ad group to create.<br />
 [withBiddingStrategy(String biddingStrategy)](#withbiddingstrategy~string-biddingstrategy~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the ad group's bidding strategy.<br />
 [withCpc(double cpc)](#withcpc~double-cpc~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the maximum CPC bid to be used for this new ad group.<br />
 [withCustomParameters(Object customParams)](#withcustomparameters~object-customparams~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the custom parameters for the new ad group.
@@ -23,7 +23,7 @@ Example usage:
 [withTrackingTemplate(String trackingTemplate)](#withtrackingtemplate~string-trackingtemplate~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the tracking template of this ad group.<br />
 
 ## <a name="build"></a>build
-Returns an ad group operation which represents the ad group to be created.
+Returns an ad group operation which represents the ad group to create.
 
 ### Returns:
 |Type|Description|
