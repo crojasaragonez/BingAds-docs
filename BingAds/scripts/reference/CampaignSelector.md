@@ -94,28 +94,7 @@ Specify the condition parameter in the form, "columnName operator value" where:
 - columnName is the name of a performance metric to order the results by. For a list of possible values, see [Supported Columns](#supported-campaign-columns).  If you set columName to a performance metric column name, you must also specify a date range using [forDateRange(String dateRange)](#fordaterange~string-daterange~) or [forDateRange(Object dateFrom, Object dateTo)](#fordaterange~object-datefrom_-object-dateto~).
 - operator is one of the supported [operators](#operators).
 
-### Operators
-The operator that can be used in a condition depends on the type of column. 
-For Integer and Long columns: 
-
-```
-<  <=  >  >=  =  !=
-```
-For Double columns: 
-```
-<  >
-```
-For String columns: 
-```
-=  !=  STARTS_WITH  STARTS_WITH_IGNORE_CASE  CONTAINS
- CONTAINS_IGNORE_CASE  DOES_NOT_CONTAIN  DOES_NOT_CONTAIN_IGNORE_CASE
-```
-For Enumeration columns: 
-```
-=  !=  IN []  NOT_IN []
-```
-
-Operators are case-sensitive: `starts_with` won't work. 
+[!INCLUDE[operators](../includes/operators.md)]
 
 <a name="supported-campaign-columns"></a>
 Supported columns for campaign filtering. 
