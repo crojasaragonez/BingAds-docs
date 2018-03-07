@@ -45,11 +45,11 @@ cpc|double|The max CPC bid of the keyword.
 ## <a name="withcustomparameters~-string-customparameters~"></a>withCustomParameters( String customParameters)
 Returns a keyword builder with the custom parameters set to the specified value.
 
-The name of a custom parameter can contain only alphanumeric characters, and custom parameter values may not contain white space. When referring to the custom parameter in final URLs and tracking templates, you should surround the custom parameter in braces, and prefix an underscore to its name, for example {_param}.
+Customer parameter names may contain only alphanumeric characters and must not exceed 16 bytes. When you include custom parameters in final URLs and tracking templates, the convention is to prefix the parameter's name with an underscore and enclose the parameter in curly braces ({}). For example, {_param}.  Custom parameter values may not contain whitespace and must not exceed 200 bytes.
 
-You can have up to 3 custom parameters for an entity. The key and value must not exceed 16 and 200 bytes respectively.
+If an ad group does not specify custom parameters, it inherits them from its parent campaign. Likewise, ads in the ad group inherit the parameters from the ad group if the ad does not specify its own parameters. 
 
-Custom parameters specified at a lower level entity will override the setting specified at a higher level entity, for example, setting custom parameters at the ad group level overrides the setting at the campaign level, and custom parameters specified at the ad level override the setting at the ad group level.
+For more information, see [Custom Parameters](/bingads/guides/url-tracking-upgraded-urls#customparametersvalidation).
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
