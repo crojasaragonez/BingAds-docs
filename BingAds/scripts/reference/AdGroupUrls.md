@@ -25,7 +25,10 @@ var adGroupSelector = BingAdsApp.adGroups();
 Clears the tracking template of this ad group.
 
 
+[!INCLUDE[tracking-templates](../includes/tracking-templates.md)]
+
 Calling this method removes the tracking template from this ad group. Because tracking templates are inheritable from the parent entity, if the ad group's parent campaign specifies a tracking template, the template also applies to this ad group and its children. If your goal is to not apply the ad group's template to its children (keywords and ads), you must also remove the template from the ad group's parent campaign.
+
 ### Returns:
 |Type|Description|
 |-|-
@@ -48,9 +51,7 @@ Object|The custom parameters of the ad group as a map of the form: `{key1: 'valu
 Returns the tracking template of this ad group.
 
 
-You can optionally use the tracking template to specify additional tracking parameters or redirects. Bing Ads will use this template to assemble the actual destination URL to associate with the ad.
-
-A tracking template specified at a lower level entity will override the setting specified at a higher level entity, for example, a tracking template at the ad group level overrides the setting at the campaign level.
+[!INCLUDE[tracking-templates](../includes/tracking-templates.md)]
 ### Returns:
 |Type|Description|
 |-|-
@@ -82,7 +83,7 @@ void|Returns nothing.
 Sets the tracking template of this ad group.
 
 
-For more informatin, see [Tracking Templates](/bingads/guides/url-tracking-upgraded-urls#trackingtemplatevalidation).
+[!INCLUDE[tracking-templates](../includes/tracking-templates.md)]
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
