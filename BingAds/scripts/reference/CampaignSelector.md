@@ -33,18 +33,7 @@ See also:
 ## <a name="fordaterange~object-datefrom_-object-dateto~"></a>forDateRange(Object dateFrom, Object dateTo)
 Returns a selector with the specified start and end dates.
 
-You may specify the date parameters using strings or objects. To use strings, specify the date in the form, YYYYMMDD. If you use objects, create a JSON object with the following fields:  
-
-- year
-- month
-- day
-
-For example, {year: 2016, month: 5, day: 13}.
-
-The date range is inclusive on both ends.
-
-Date range must be specified if the selector has conditions or ordering for metrics statistics applied.  Only the last date range specified will be used.
-
+[!INCLUDE[date-range-objects](../includes/date-range-objects.md)]
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
@@ -58,26 +47,7 @@ dateTo|Object|End date of the date range.
 ## <a name="fordaterange~string-daterange~"></a>forDateRange(String dateRange)
 Returns a selector using the specified predefined date range.
 
-Supported date range values:
-
-- TODAY
-- YESTERDAY
-- LAST_7_DAYS
-- THIS_WEEK_SUN_TODAY
-- LAST_14_DAYS
-- LAST_30_DAYS
-- LAST_WEEK_SUN_SAT
-- THIS_MONTH
-- LAST_MONTH
-- ALL_TIME
-
-Example:
-```
-selector.forDateRange("LAST_7_DAYS");
-```
-
-Date range must be specified if the selector has conditions or ordering for metrics statistics applied.  Only the last date range specified will be used.
-
+[!INCLUDE[date-range-constants](../includes/date-range-constants.md)]
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
