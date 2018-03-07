@@ -17,7 +17,7 @@ See also:
 |-|-|-
 [get](#get)|[NegativeKeywordListIterator](./NegativeKeywordListIterator)|Returns an iterator that you use to traverse negative keyword lists.<br />
 [orderBy(String orderBy)](#orderby~string-orderby~)|[AdGroupSelector](./AdGroupSelector)|Returns a selector with the specified ordering.
-[withCondition(String condition)](#withcondition~string-condition~)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector with the specified filtering conditions.
+[withCondition(String condition)](#withcondition~string-condition~)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector that limits the negative keyword lists it returns to those that match the filter criteria.
 [withIds(long[] ids)](#withids~long-ids~)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector that will return only negative keyword lists with the specified IDs.<br />
 [withLimit(int limit)](#withlimit~int-limit~)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector that will return only the specified number of results from the beginning of the result set.
 
@@ -58,7 +58,7 @@ orderBy|String|Ordering to apply.
 [AdGroupSelector](./AdGroupSelector)|Selector with ordering applied.
 
 ## <a name="withcondition~string-condition~"></a>withCondition(String condition)
-Returns a selector with the specified filtering conditions.
+Returns a selector that limits the negative keyword lists it returns to those that match the filter criteria.
 
 Specify the condition parameter in the form, "columnName operator value" where: 
 

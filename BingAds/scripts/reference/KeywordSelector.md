@@ -14,7 +14,7 @@ See also:
 [forDateRange(String dateRange)](#fordaterange~string-daterange~)|[KeywordSelector](./KeywordSelector)|Returns a selector using the specified predefined date range.
 [get](#get)|[KeywordIterator](./KeywordIterator)|Returns an iterator indexing the keywords in this selector.<br />
 [orderBy(String orderBy)](#orderby~string-orderby~)|[KeywordSelector](./KeywordSelector)|Returns a selector with the specified ordering.
-[withCondition(String condition)](#withcondition~string-condition~)|[KeywordSelector](./KeywordSelector)|Returns a selector that limits the ad groups it returns to those that match the filter criteria.
+[withCondition(String condition)](#withcondition~string-condition~)|[KeywordSelector](./KeywordSelector)|Returns a selector that limits the keywords it returns to those that match the filter criteria.
 [withIds(long[] ids)](#withids~long-ids~)|[KeywordSelector](./KeywordSelector)|Returns a selector that will return only keywords with the specified IDs.
 [withLimit(int limit)](#withlimit~int-limit~)|[KeywordSelector](./KeywordSelector)|Returns a selector that will return only the specified number of results from the beginning of the result set.
 
@@ -75,7 +75,7 @@ orderBy|String|Ordering to apply.
 [KeywordSelector](./KeywordSelector)|Selector with ordering applied.
 
 ## <a name="withcondition~string-condition~"></a>withCondition(String condition)
-Returns a selector that limits the ad groups it returns to those that match the filter criteria.
+Returns a selector that limits the keywords it returns to those that match the filter criteria.
 
 Specify the condition parameter in the form, "columnName operator value" where: 
 

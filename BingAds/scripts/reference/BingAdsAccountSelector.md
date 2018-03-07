@@ -8,7 +8,7 @@ Provides methods to select Bing Ads accounts by using filtering and sorting.
 [executeInParallel(String functionName, String optionalCallbackFunctionName, String optionalInput)](#executeinparallel~string-functionname_-string-optionalcallbackfunctionname_-string-optionalinput~)|void|Executes the function indicated by functionName on each BingAdsAccount matched by this selector and optionally invokes the callback function indicated by optionalCallbackFunctionName. The optional optionalInput argument will be used in the parallel function execution, if specified. <br />
 [get](#get)|[BingAdsAccountIterator](./BingAdsAccountIterator)|Returns an iterator used to traverse Bing Ads accounts selected by this selector.<br />
 [withAccountNumbers(String[] accountNumbers)](#withaccountnumbers~string-accountnumbers~)|[BingAdsAccountSelector](./BingAdsAccountSelector)|Returns a selector that will return only bing ads accounts with the specified account numbers.
-[withCondition(String condition)](#withcondition~string-condition~)|[BingAdsAccountSelector](./BingAdsAccountSelector)|Returns a selector with the specified filtering conditions.
+[withCondition(String condition)](#withcondition~string-condition~)|[BingAdsAccountSelector](./BingAdsAccountSelector)|Returns a selector that limits the accounts it returns to those that match the filter criteria.
 [withIds(long[] ids)](#withids~long-ids~)|[BingAdsAccountSelector](./BingAdsAccountSelector)|Returns a selector that will return only bing ads accounts with the specified IDs.
 [withLimit(int limit)](#withlimit~int-limit~)|[BingAdsAccountSelector](./BingAdsAccountSelector)|Returns a selector that will return only the specified number of results from the beginning of the result set.
 
@@ -61,7 +61,7 @@ accountNumbers|String[]|Array of account numbers.<br />
 [BingAdsAccountSelector](./BingAdsAccountSelector)|Selector restricted to the specified account numbers.
 
 ## <a name="withcondition~string-condition~"></a>withCondition(String condition)
-Returns a selector with the specified filtering conditions.
+Returns a selector that limits the accounts it returns to those that match the filter criteria.
 
 Multiple conditions may be chained together:
 

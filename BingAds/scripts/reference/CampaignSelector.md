@@ -27,7 +27,7 @@ See also:
 [forDateRange(String dateRange)](#fordaterange~string-daterange~)|[CampaignSelector](./CampaignSelector)|Returns a selector using the specified predefined date range.
 [get](#get)|[CampaignIterator](./CampaignIterator)|Returns an iterator indexing the campaigns in this selector.<br />
 [orderBy(String orderBy)](#orderby~string-orderby~)|[CampaignSelector](./CampaignSelector)|Returns a selector with the specified ordering.
-[withCondition(String condition)](#withcondition~string-condition~)|[CampaignSelector](./CampaignSelector)|Returns a selector with the specified filtering conditions.
+[withCondition(String condition)](#withcondition~string-condition~)|[CampaignSelector](./CampaignSelector)|Returns a selector that limits the campaigns it returns to those that match the filter criteria.
 [withIds(long[] ids)](#withids~long-ids~)|[CampaignSelector](./CampaignSelector)|Returns a selector that will return only campaigns with the specified IDs.
 
 ## <a name="fordaterange~object-datefrom_-object-dateto~"></a>forDateRange(Object dateFrom, Object dateTo)
@@ -87,7 +87,7 @@ orderBy|String|Ordering to apply.
 [CampaignSelector](./CampaignSelector)|Selector with ordering applied.
 
 ## <a name="withcondition~string-condition~"></a>withCondition(String condition)
-Returns a selector with the specified filtering conditions.
+Returns a selector that limits the campaigns it returns to those that match the filter criteria.
 
 Specify the condition parameter in the form, "columnName operator value" where: 
 
