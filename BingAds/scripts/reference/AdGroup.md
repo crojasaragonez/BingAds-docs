@@ -5,7 +5,7 @@ Represents an ad group.
 |-|-|-
 [enable](#enable)|void|Enables this ad group.<br />
 [getEntityType](#getentitytype)|String|Returns the entity type of this ad group, which is "AdGroup".<br />
-[getId](#getid)|long|Returns the ID of the ad group.<br />
+[getId](#getid)|long|Returns the ID of this ad group.<br />
 [getName](#getname)|String|Returns the name of this ad group.<br />
 [isEnabled](#isenabled)|boolean|Returns true if this ad group is enabled. <br />
 [isPaused](#ispaused)|boolean|Returns true if this ad group is paused. <br />
@@ -31,7 +31,7 @@ Returns the entity type of this ad group, which is "AdGroup".
 String|Type of this entity.
 
 ## <a name="getid"></a>getId
-Returns the ID of the ad group.
+Returns the ID of this ad group.
 
 ### Returns:
 |Type|Description|
