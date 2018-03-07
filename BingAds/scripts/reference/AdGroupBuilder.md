@@ -97,7 +97,7 @@ status|String|Ad group's status. If not specified, status defaults to ENABLED.  
 ### Returns:
 |Type|Description|
 |-|-
-[AdGroupBuilder](./AdGroupBuilder)|Ad group builder with the specified status.
+[AdGroupBuilder](./AdGroupBuilder)|Ad group builder with the status applied.
 
 ## <a name="withtrackingtemplate~string-trackingtemplate~"></a>withTrackingTemplate(String trackingTemplate)
 Sets the tracking template of this ad group.
