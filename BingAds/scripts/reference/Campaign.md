@@ -25,7 +25,7 @@ Adds a negative keyword list to the campaign.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-negativeKeywordList|[NegativeKeywordList](./NegativeKeywordList)|The negative keyword list to add to the campaign.<br />
+negativeKeywordList|[NegativeKeywordList](./NegativeKeywordList)|Negative keyword list to add to the campaign.
 ### Returns:
 |Type|Description|
 |-|-
@@ -126,7 +126,7 @@ Sets the name of this campaign.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-name|String|The new name for the campaign.
+name|String|New name for the campaign.
 ### Returns:
 |Type|Description|
 |-|-

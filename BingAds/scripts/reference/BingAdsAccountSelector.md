@@ -157,7 +157,7 @@ Returns a selector that will return only the specified number of results from th
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-limit|int|The number of results to return.<br />
+limit|int|Number of results to return.
 ### Returns:
 |Type|Description|
 |-|-

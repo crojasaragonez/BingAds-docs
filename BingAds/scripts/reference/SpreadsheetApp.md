@@ -14,7 +14,7 @@ Creates a new spreadsheet with the specified name.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-name|String|The name for the new spreadsheet.<br />
+name|String|Name for the new spreadsheet.
 ### Returns:
 |Type|Description|
 |-|-
@@ -34,7 +34,7 @@ Opens the spreadsheet identified by the specified name.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-arg1|String|The name of the spreadsheet to open.<br />
+arg1|String|Name of the spreadsheet to open.
 ### Returns:
 |Type|Description|
 |-|-

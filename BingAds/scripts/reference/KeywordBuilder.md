@@ -36,7 +36,7 @@ Returns a keyword builder with the CPC property set to the specified value.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-cpc|double|The max CPC bid of the keyword.
+cpc|double|Max CPC bid of the keyword.
 ### Returns:
 |Type|Description|
 |-|-
@@ -49,7 +49,7 @@ Returns a keyword builder with the custom parameters set to the specified value.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-customParameters|Object|The custom parameters of the keyword as a map of the<br />        following form: <code>{key1: 'value1', key2: 'value2', key3: 'value3'}</code>.
+customParameters|Object|Custom parameters of the keyword as a map of the<br />        following form: <code>{key1: 'value1', key2: 'value2', key3: 'value3'}</code>.
 ### Returns:
 |Type|Description|
 |-|-
@@ -65,7 +65,7 @@ Final URLs follow the same override rules as destination URLs. For example, a fi
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-finalUrl|String|The final URL for the keyword.
+finalUrl|String|Final URL for the keyword.
 ### Returns:
 |Type|Description|
 |-|-
@@ -81,7 +81,7 @@ Mobile final URLs follow the same override rules as destination URLs. For exampl
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-mobileFinalUrl|String|The mobile final URL for the keyword.
+mobileFinalUrl|String|Mobile final URL for the keyword.
 ### Returns:
 |Type|Description|
 |-|-
@@ -100,7 +100,7 @@ To specify match type for the new keyword:
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-text|String|The text of the keyword.
+text|String|Text of the keyword.
 ### Returns:
 |Type|Description|
 |-|-
@@ -114,7 +114,7 @@ Returns a keyword builder with the tracking template set to the specified value.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-trackingTemplate|String|The tracking template for the keyword.
+trackingTemplate|String|Tracking template for the keyword.
 ### Returns:
 |Type|Description|
 |-|-

@@ -210,7 +210,7 @@ Returns a selector that limits the number of ad groups it returns to the top <i>
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-limit|int|The number of entities to return.
+limit|int|Number of entities to return.
 ### Returns:
 |Type|Description|
 |-|-

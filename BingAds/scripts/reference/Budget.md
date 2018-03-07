@@ -40,7 +40,7 @@ Sets the amount of this budget to the specified value, in the currency of the cu
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-amount|double|The amount of the budget.
+amount|double|Amount of the budget.
 ### Returns:
 |Type|Description|
 |-|-

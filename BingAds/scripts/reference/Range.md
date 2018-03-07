@@ -126,7 +126,7 @@ Sets the specified point weight to use for fonts on all the cells in this range.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-fontWeight|String|The font weight, either 'bold' or 'normal'.
+fontWeight|String|Font weight, either 'bold' or 'normal'.
 ### Returns:
 |Type|Description|
 |-|-
@@ -138,7 +138,7 @@ Sets the horizontal alignment of content in the cells in this range. Valid value
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-alignment|String|The alignment to use.
+alignment|String|Alignment to use.
 ### Returns:
 |Type|Description|
 |-|-
@@ -174,7 +174,7 @@ Sets the vertical alignment of content in the cells in this range. Valid values 
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-alignment|String|The alignment to use.
+alignment|String|Alignment to use.
 ### Returns:
 |Type|Description|
 |-|-

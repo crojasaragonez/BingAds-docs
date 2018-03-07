@@ -31,7 +31,7 @@ Returns the sheet with the specified name.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-name|String|The name of the sheet to get.<br />
+name|String|Name of the sheet to get.
 ### Returns:
 |Type|Description|
 |-|-

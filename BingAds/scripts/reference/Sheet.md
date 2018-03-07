@@ -26,8 +26,8 @@ Deletes the specified number of columns starting at the specified column positio
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-columnPosition|long|The position of the first column to delete.<br />
-numColumns|long|The number of columns to delete.<br />
+columnPosition|long|Position of the first column to delete.
+numColumns|long|Number of columns to delete.
 ### Returns:
 |Type|Description|
 |-|-
@@ -39,8 +39,8 @@ Deletes the specified number of rows in this sheet starting from the provided ro
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-rowPosition|long|The position of the first row to delete.<br />
-numRows|long|The number of rows to delete.<br />
+rowPosition|long|Position of the first row to delete.
+numRows|long|Number of rows to delete.
 ### Returns:
 |Type|Description|
 |-|-
@@ -52,7 +52,7 @@ Returns the width of the specified column in pixels.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-columnPosition|long|The position of the column to examine.<br />
+columnPosition|long|Position of the column to examine.
 ### Returns:
 |Type|Description|
 |-|-
@@ -97,7 +97,7 @@ Gets the height of the specified row in pixels.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-rowPosition|int|The position of the row to examine.<br />
+rowPosition|int|Position of the row to examine.
 ### Returns:
 |Type|Description|
 |-|-
@@ -111,7 +111,7 @@ Insert a column at the specified column index.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-columnIndex|long|The position where the new column should be added.<br />
+columnIndex|long|Position where the new column should be added.
 ### Returns:
 |Type|Description|
 |-|-
@@ -122,8 +122,8 @@ Inserts the specified number of new columns after the specified column index.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-columnIndex|long|The position of the column after which the new columns should be added.
-numColumns|long|The number of columns to add.
+columnIndex|long|Position of the column after which the new columns should be added.
+numColumns|long|Number of columns to add.
 ### Returns:
 |Type|Description|
 |-|-
@@ -137,7 +137,7 @@ Insert a row at the specified index.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-rowIndex|long|The position where the row should be inserted.<br />
+rowIndex|long|Position where the row should be inserted.
 ### Returns:
 |Type|Description|
 |-|-
@@ -148,8 +148,8 @@ Inserts the specified number of new rows after the specified row index.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-rowIndex|long|The index of the row after which the new rows should be added.<br />
-numRows|long|The number of rows to insert.<br />
+rowIndex|long|Index of the row after which the new rows should be added.
+numRows|long|Number of rows to insert.
 ### Returns:
 |Type|Description|
 |-|-
@@ -160,8 +160,8 @@ Sets the width in pixels of the column at the specified position.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-columnPosition|long|The position of the column to set the width of.<br />
-width|long|The width in pixels to set the column width to.<br />
+columnPosition|long|Position of the column to set the width of.
+width|long|Width in pixels to set the column width to.
 ### Returns:
 |Type|Description|
 |-|-
@@ -173,7 +173,7 @@ Sets the name of this sheet.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-name|String|The new name for the sheet.<br />
+name|String|New name for the sheet.
 ### Returns:
 |Type|Description|
 |-|-
@@ -184,8 +184,8 @@ Sets the height in pixels of the row at the specified position.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-rowPosition|long|The row position to set the height of.<br />
-height|long|The height in pixels to set the row height to.<br />
+rowPosition|long|Row position to set the height of.
+height|long|Height in pixels to set the row height to.
 ### Returns:
 |Type|Description|
 |-|-

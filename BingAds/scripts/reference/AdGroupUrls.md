@@ -66,7 +66,7 @@ To clear the custom parameters of the ad group pass an empty object, for example
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-customParameters|Object|The custom parameters of the ad group as a map of the following form: <code>{key1: 'value1', key2: 'value2', key3: 'value3'}</code>.
+customParameters|Object|Custom parameters of the ad group as a map of the following form: <code>{key1: 'value1', key2: 'value2', key3: 'value3'}</code>.
 ### Returns:
 |Type|Description|
 |-|-
@@ -80,7 +80,7 @@ Sets the tracking template of this ad group.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-trackingTemplate|String|The tracking template of the ad group.
+trackingTemplate|String|Tracking template of the ad group.
 ### Returns:
 |Type|Description|
 |-|-

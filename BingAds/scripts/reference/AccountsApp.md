@@ -20,7 +20,7 @@ Selects a [BingAdsAccount](./BingAdsAccount) as the the current account on which
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-account|[BingAdsAccount](./BingAdsAccount)|The account in whose context the script will continue executing.<br />
+account|[BingAdsAccount](./BingAdsAccount)|Account in whose context the script will continue executing.
 ### Returns:
 |Type|Description|
 |-|-

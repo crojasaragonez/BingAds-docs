@@ -43,7 +43,7 @@ Sets the custom parameters for the new expanded text ad.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-customParameters|Object|The custom parameters of the ad as a map of the<br />        following form: <code>{key1: 'value1', key2: 'value2', key3: 'value3'}</code>.
+customParameters|Object|Custom parameters of the ad as a map of the<br />        following form: <code>{key1: 'value1', key2: 'value2', key3: 'value3'}</code>.
 ### Returns:
 |Type|Description|
 |-|-
@@ -55,7 +55,7 @@ Sets the description of this new expanded text ad.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-description|String|The ad description.
+description|String|Ad description.
 ### Returns:
 |Type|Description|
 |-|-
@@ -71,7 +71,7 @@ Final URLs follow the same override rules as destination URLs. For example, a fi
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-finalUrl|String|The final URL for the ad.
+finalUrl|String|Final URL for the ad.
 ### Returns:
 |Type|Description|
 |-|-
@@ -83,7 +83,7 @@ Sets the first part of the headline of this new expanded text ad to the specifie
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-headlinePart1|String|The first part of the headline for the ad.
+headlinePart1|String|First part of the headline for the ad.
 ### Returns:
 |Type|Description|
 |-|-
@@ -95,7 +95,7 @@ Sets the second part of the headline of this new expanded text ad to the specifi
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-headlinePart2|String|The second part of the headline for the ad.
+headlinePart2|String|Second part of the headline for the ad.
 ### Returns:
 |Type|Description|
 |-|-
@@ -111,7 +111,7 @@ Mobile final URLs follow the same override rules as destination URLs. For exampl
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-mobileFinalUrl|String|The mobile final URL for the ad.
+mobileFinalUrl|String|Mobile final URL for the ad.
 ### Returns:
 |Type|Description|
 |-|-
@@ -123,7 +123,7 @@ Sets the first path of the display URL of this new expanded text ad to the speci
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-urlPath1|String|The text of the first path.
+urlPath1|String|Text of the first path.
 ### Returns:
 |Type|Description|
 |-|-
@@ -135,7 +135,7 @@ Sets the second path of the display URL of this new expanded text ad to the spec
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-urlPath2|String|The text of the second path.
+urlPath2|String|Text of the second path.
 ### Returns:
 |Type|Description|
 |-|-
@@ -149,7 +149,7 @@ Sets the tracking template of this new expanded text ad to the specified value.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-trackingTemplate|String|The tracking template for the ad.
+trackingTemplate|String|Tracking template for the ad.
 ### Returns:
 |Type|Description|
 |-|-

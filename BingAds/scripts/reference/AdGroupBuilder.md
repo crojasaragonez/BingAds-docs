@@ -40,7 +40,7 @@ Sets the ad group's bidding strategy.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-biddingStrategy|String|The bidding strategy of the ad group. Possible values are:<br />
+biddingStrategy|String|Bidding strategy of the ad group. Possible values are:<br />
 - MANUAL_CPC
 ### Returns:
 |Type|Description|
@@ -55,7 +55,7 @@ Sets the maximum CPC bid to be used for this new ad group.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-cpc|double|The max CPC bid of the ad group. If no CPC is specified, the default of 0.30 is used.<br />
+cpc|double|Max CPC bid of the ad group. If no CPC is specified, the default of 0.30 is used.
 ### Returns:
 |Type|Description|
 |-|-
@@ -68,7 +68,7 @@ Sets the custom parameters for the new ad group.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-customParameters|Object|The custom parameters of the ad group as a map of the following form: <code>{key1: 'value1', key2: 'value2', key3: 'value3'}</code>.
+customParameters|Object|Custom parameters of the ad group as a map of the following form: <code>{key1: 'value1', key2: 'value2', key3: 'value3'}</code>.
 ### Returns:
 |Type|Description|
 |-|-
@@ -80,7 +80,7 @@ Sets the name of this ad group.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-name|String|The ad group's name. The string can contain a maximum of 256 characters, and must be unique among all active ad groups within the campaign.
+name|String|Ad group's name. The string can contain a maximum of 256 characters, and must be unique among all active ad groups within the campaign.
 ### Returns:
 |Type|Description|
 |-|-
@@ -108,7 +108,7 @@ Sets the tracking template of this ad group.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-trackingTemplate|String|The tracking template for the ad group.
+trackingTemplate|String|Tracking template for the ad group.
 ### Returns:
 |Type|Description|
 |-|-

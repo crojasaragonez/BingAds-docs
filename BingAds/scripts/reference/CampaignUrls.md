@@ -51,7 +51,7 @@ To clear the custom parameters of the campaign pass an empty object, for example
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-customParameters|Object|The custom parameters of the campaign as a map of the<br /> form <code>{key1: 'value1', key2: 'value2', key3: 'value3'}</code>.
+customParameters|Object|Custom parameters of the campaign as a map of the<br /> form <code>{key1: 'value1', key2: 'value2', key3: 'value3'}</code>.
 ### Returns:
 |Type|Description|
 |-|-
@@ -65,7 +65,7 @@ Sets the tracking template of this campaign.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-trackingTemplate|String|The tracking template of the campaign.
+trackingTemplate|String|Tracking template of the campaign.
 ### Returns:
 |Type|Description|
 |-|-

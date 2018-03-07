@@ -34,7 +34,7 @@ Sets the maximum CPC bid for the keyword.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-cpc|double|The maximum CPC bid for the keyword.<br />
+cpc|double|Maximum CPC bid for the keyword.
 ### Returns:
 |Type|Description|
 |-|-

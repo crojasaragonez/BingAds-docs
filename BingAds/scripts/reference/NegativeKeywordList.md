@@ -22,7 +22,7 @@ To specify match type for the new negative keyword:
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-keywordText|String|The text of the negative keyword.<br />
+keywordText|String|Text of the negative keyword.
 ### Returns:
 |Type|Description|
 |-|-
@@ -41,7 +41,7 @@ To specify match type for the new negative keyword:
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-keywordTexts|String[]|An array of keyword strings.<br />
+keywordTexts|String[]|Array of keyword strings.
 ### Returns:
 |Type|Description|
 |-|-

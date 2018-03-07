@@ -76,7 +76,7 @@ Sets the name of this ad group.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-name|String|The name for the ad group.
+name|String|Name for the ad group.
 ### Returns:
 |Type|Description|
 |-|-

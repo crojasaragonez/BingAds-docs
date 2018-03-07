@@ -66,7 +66,7 @@ For more information, see [Custom Parameters](/bingads/guides/url-tracking-upgra
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-customParameters|Object|The custom parameters of the keyword as a map of the<br />        form <code>{key1: 'value1', key2: 'value2', key3: 'value3'}</code>.
+customParameters|Object|Custom parameters of the keyword as a map of the<br />        form <code>{key1: 'value1', key2: 'value2', key3: 'value3'}</code>.
 ### Returns:
 |Type|Description|
 |-|-
@@ -83,7 +83,7 @@ Final URLs follow the same override rules as destination URLs. For example, a fi
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-finalUrl|String|The final URL of the keyword.
+finalUrl|String|Final URL of the keyword.
 ### Returns:
 |Type|Description|
 |-|-
@@ -97,7 +97,7 @@ Sets the tracking template of this keyword.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-trackingTemplate|String|The tracking template of the keyword.
+trackingTemplate|String|Tracking template of the keyword.
 ### Returns:
 |Type|Description|
 |-|-
