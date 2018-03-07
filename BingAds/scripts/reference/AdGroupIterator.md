@@ -3,9 +3,11 @@ Provides methods to iterate through a list of ad groups.
 
 Example usage:
 ```javascript
- while (adGroupIterator.hasNext()) {
-   var adGroup = adGroupIterator.next();
- }
+var adGroupSelector = BingAdsApp.adGroups();
+var adGroupIterator = adGroupSelector.get();
+while (adGroupIterator.hasNext()) {
+  var adGroup = adGroupIterator.next();
+}
 ```
 
 See also:
