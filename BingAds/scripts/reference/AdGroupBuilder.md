@@ -64,9 +64,7 @@ cpc|double|The max CPC bid of the ad group. If no CPC is specified, the default 
 ## <a name="withcustomparameters~object-customparams~"></a>withCustomParameters(Object customParams)
 Sets the custom parameters for the new ad group.
 
-An ad group may specify up to three custom parameters. Customer parameter names may contain only alphanumeric characters and must not exceed 16 bytes. When you include custom parameters in final URLs and tracking templates, the convention is to prefix the parameter's name with an underscore and enclose the parameter in curly braces ({}). For example, {_param}.  Custom parameter values may not contain whitespace and must not exceed 200 bytes.
-
-If an ad group does not specify custom parameters, it inherits them from its parent campaign. Likewise, ads in the ad group inherit the parameters from the ad group if the ad does not specify its own parameters. 
+[!INCLUDE[custom-paramters](./includes/custom-parameters.md)]
 ### Arguments:
 |Name|Type|Description|
 |-|-|-

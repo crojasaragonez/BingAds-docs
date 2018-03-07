@@ -1,9 +1,6 @@
 # Overview
 
-> [!NOTE]
-> This preview release of Bing Ads Scripts is available to select participants only. For information about participating in the preview release program, please contact your account manager.
->
-> The Scripts API, and documentation are subject to change.
+[!INCLUDE[preview-note](./includes/preview-note.md)]
 
 Bing Ads Scripts enables programmatic control of your Bing Ads data using JavaScript in Bing Ads' browser-based script editor.  Scripts can automate common data workflow interactions and manage repetitive tasks.  With Bing Ads Scripts you can quickly and easily integrate with Bing Ads without the need for a significant up front financial investment. This content assumes some level of familiarity with Bing Ads. If you’re not very familiar with Bing Ads, please review the following topics:
 
