@@ -40,8 +40,7 @@ Sets the ad group's bidding strategy.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-biddingStrategy|String|Bidding strategy of the ad group. Possible values are:<br />
-- MANUAL_CPC
+biddingStrategy|String|Bidding strategy of the ad group. Possible values are: <br />- MANUAL_CPC
 ### Returns:
 |Type|Description|
 |-|-
