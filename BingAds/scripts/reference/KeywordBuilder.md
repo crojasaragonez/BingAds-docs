@@ -114,9 +114,7 @@ text|String|The text of the keyword.
 Returns a keyword builder with the tracking template set to the specified value.
 
 
-You can optionally use the tracking template to specify additional tracking parameters or redirects. Bing Ads will use this template to assemble the actual destination URL to associate with the ad.
-
-A tracking template specified at a lower level entity will override the setting specified at a higher level entity, for example, a tracking template at the ad group level overrides the setting at the campaign level.
+[!INCLUDE[tracking-templates](../includes/tracking-templates.md)]
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
