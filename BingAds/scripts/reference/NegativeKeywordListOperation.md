@@ -36,7 +36,7 @@ Returns an empty array if the keyword was successfully created, otherwise return
 ### Returns:
 |Type|Description|
 |-|-
-String[]|The errors that occurred during the operation.
+String[]|Errors that occurred during the operation.
 
 ## <a name="getresult"></a>getResult
 Returns the newly created NegativeKeywordList, otherwise returns null if the operation failed.
@@ -44,7 +44,7 @@ Returns the newly created NegativeKeywordList, otherwise returns null if the ope
 ### Returns:
 |Type|Description|
 |-|-
-[NegativeKeywordList](./NegativeKeywordList)|The NegativeKeywordList created by the NegativeKeywordListOperation.
+[NegativeKeywordList](./NegativeKeywordList)|NegativeKeywordList created by the NegativeKeywordListOperation.
 
 ## <a name="issuccessful"></a>isSuccessful
 Returns 
@@ -53,5 +53,5 @@ true if the operation was successful.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|A boolean value that determines if the operation was successful.
+boolean|Boolean value that determines if the operation was successful.
 

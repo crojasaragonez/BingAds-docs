@@ -23,7 +23,7 @@ Returns an operation object with the defined properties which can later be used 
 ### Returns:
 |Type|Description|
 |-|-
-[NegativeKeywordListOperation](./NegativeKeywordListOperation)|An operation object with the defined properties which can later be used to construct the keyword.
+[NegativeKeywordListOperation](./NegativeKeywordListOperation)|Operation object with the defined properties which can later be used to construct the keyword.
 
 ## <a name="withname~string-name~"></a>withName(String name)
 Returns a negative keyword list builder with the name set to the specified value.
@@ -35,5 +35,5 @@ name|String|The name of the new negative keyword list.
 ### Returns:
 |Type|Description|
 |-|-
-[NegativeKeywordListBuilder](./NegativeKeywordListBuilder)|A negative keyword list builder with the name set to the specified value.
+[NegativeKeywordListBuilder](./NegativeKeywordListBuilder)|Negative keyword list builder with the name set to the specified value.
 

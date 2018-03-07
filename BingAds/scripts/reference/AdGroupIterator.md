@@ -26,7 +26,7 @@ Returns true if the iterator has more ad group elements.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|A boolean value that determines if the iterator has more elements.
+boolean|Boolean value that determines if the iterator has more elements.
 
 ## <a name="next"></a>next
 Advances to the next ad group in this iterator and returns it.
@@ -34,7 +34,7 @@ Advances to the next ad group in this iterator and returns it.
 ### Returns:
 |Type|Description|
 |-|-
-[AdGroup](./AdGroup)|The next ad group in the iterator.
+[AdGroup](./AdGroup)|Next ad group in the iterator.
 
 ## <a name="totalnumentities"></a>totalNumEntities
 Returns the total number of ad groups indexed by the iterator.
@@ -43,5 +43,5 @@ Returns the total number of ad groups indexed by the iterator.
 ### Returns:
 |Type|Description|
 |-|-
-int|The number of ad groups matched by the selector that generated the iterator.
+int|Number of ad groups matched by the selector that generated the iterator.
 

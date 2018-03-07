@@ -54,7 +54,7 @@ Possible return values are:
 ### Returns:
 |Type|Description|
 |-|-
-String|The type of the campaign's bidding strategy.
+String|Type of the campaign's bidding strategy.
 
 ## <a name="getbudget"></a>getBudget
 Returns the budget for this campaign.
@@ -62,7 +62,7 @@ Returns the budget for this campaign.
 ### Returns:
 |Type|Description|
 |-|-
-[Budget](./Budget)|The budget for this campaign.
+[Budget](./Budget)|Budget for this campaign.
 
 ## <a name="getentitytype"></a>getEntityType
 Returns the entity type of this campaign, which is "Campaign".
@@ -70,7 +70,7 @@ Returns the entity type of this campaign, which is "Campaign".
 ### Returns:
 |Type|Description|
 |-|-
-String|The entity type of this campaign, which is "Campaign".
+String|Entity type of this campaign, which is "Campaign".
 
 ## <a name="getid"></a>getId
 Returns the ID of this campaign.
@@ -78,7 +78,7 @@ Returns the ID of this campaign.
 ### Returns:
 |Type|Description|
 |-|-
-long|The ID of this campaign.
+long|ID of this campaign.
 
 ## <a name="getname"></a>getName
 Returns the name of this campaign.
@@ -86,7 +86,7 @@ Returns the name of this campaign.
 ### Returns:
 |Type|Description|
 |-|-
-String|The name of this campaign.
+String|Name of this campaign.
 
 ## <a name="ispaused"></a>isPaused
 Returns true if this campaign is enabled 
@@ -94,7 +94,7 @@ Returns true if this campaign is enabled
 ### Returns:
 |Type|Description|
 |-|-
-boolean|A boolean value that determines if this campaign is paused.
+boolean|Boolean value that determines if this campaign is paused.
 
 ## <a name="isremoved"></a>isRemoved
 Returns true if this campaign is removed. 
@@ -102,7 +102,7 @@ Returns true if this campaign is removed.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|A boolean value that determines if this campaign is removed.
+boolean|Boolean value that determines if this campaign is removed.
 
 ## <a name="pause"></a>pause
 Pauses this campaign.
@@ -138,5 +138,5 @@ Returns the URL fields of this campaign.
 ### Returns:
 |Type|Description|
 |-|-
-[CampaignUrls](./CampaignUrls)|The URL fields of this campaign.
+[CampaignUrls](./CampaignUrls)|URL fields of this campaign.
 

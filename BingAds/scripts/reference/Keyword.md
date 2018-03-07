@@ -58,7 +58,7 @@ Returns the parent ad group of this keyword.
 ### Returns:
 |Type|Description|
 |-|-
-[AdGroup](AdGroup)|The parent ad group of this keyword.
+[AdGroup](AdGroup)|Parent ad group of this keyword.
 
 ## <a name="getcampaign"></a>getCampaign
 Returns the parent campaign of this keyword.
@@ -66,7 +66,7 @@ Returns the parent campaign of this keyword.
 ### Returns:
 |Type|Description|
 |-|-
-[Campaign](./Campaign)|The parent campaign of this keyword.
+[Campaign](./Campaign)|Parent campaign of this keyword.
 
 ## <a name="getentitytype"></a>getEntityType
 Returns the entity type of this keyword, which is "Keyword".
@@ -74,7 +74,7 @@ Returns the entity type of this keyword, which is "Keyword".
 ### Returns:
 |Type|Description|
 |-|-
-String|The entity type of this keyword, which is "Keyword".
+String|Entity type of this keyword, which is "Keyword".
 
 ## <a name="getid"></a>getId
 Returns the ID of this keyword.
@@ -82,7 +82,7 @@ Returns the ID of this keyword.
 ### Returns:
 |Type|Description|
 |-|-
-long|The ID of this keyword.
+long|ID of this keyword.
 
 ## <a name="getmatchtype"></a>getMatchType
 Returns the match type of this keyword.
@@ -97,7 +97,7 @@ Possible return values are:
 ### Returns:
 |Type|Description|
 |-|-
-String|The match type of this keyword.
+String|Match type of this keyword.
 
 ## <a name="getstats"></a>getStats
 Returns statistics for the keyword.
@@ -107,7 +107,7 @@ Returns statistics for the keyword.
 ### Returns:
 |Type|Description|
 |-|-
-[Stats](./Stats)|The statistics for the keyword.
+[Stats](./Stats)|Statistics for the keyword.
 
 ## <a name="gettext"></a>getText
 Returns the text of this keyword.
@@ -122,7 +122,7 @@ The text will be returned in one of the following formats based on the match typ
 ### Returns:
 |Type|Description|
 |-|-
-String|The text of this keyword.
+String|Text of this keyword.
 
 ## <a name="isenabled"></a>isEnabled
 Returns true if this keyword is enabled 
@@ -130,7 +130,7 @@ Returns true if this keyword is enabled
 ### Returns:
 |Type|Description|
 |-|-
-boolean|A boolean value that determines if this keyword is enabled.
+boolean|Boolean value that determines if this keyword is enabled.
 
 ## <a name="ispaused"></a>isPaused
 Returns true if this keyword is paused. 
@@ -138,7 +138,7 @@ Returns true if this keyword is paused.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|A boolean value that determines if the keyword is paused.
+boolean|Boolean value that determines if the keyword is paused.
 
 ## <a name="pause"></a>pause
 Pauses this keyword.
@@ -162,7 +162,7 @@ Returns the URL fields of this keyword.
 ### Returns:
 |Type|Description|
 |-|-
-[KeywordUrls](./KeywordUrls)|The URL fields of this keyword.
+[KeywordUrls](./KeywordUrls)|URL fields of this keyword.
 
 ## <a name="getstatsfor~string-daterange~"></a>getStatsFor(String dateRange)
 Returns an object which provides statistics for the specified predefined date range.
@@ -207,5 +207,5 @@ dateRange|String|Date range for which the stats are requested.
 ### Returns:
 |Type|Description|
 |-|-
-[Stats](./Stats)|The stats for the specified date range.
+[Stats](./Stats)|Stats for the specified date range.
 

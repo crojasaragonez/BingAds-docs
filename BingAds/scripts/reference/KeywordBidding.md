@@ -25,7 +25,7 @@ Returns the maximum CPC bid for the keyword.
 ### Returns:
 |Type|Description|
 |-|-
-double|The maximum CPC bid for the keyword.
+double|Maximum CPC bid for the keyword.
 
 ## <a name="setcpc~double-cpc~"></a>setCpc(double cpc)
 Sets the maximum CPC bid for the keyword.

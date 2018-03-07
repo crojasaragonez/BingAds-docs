@@ -42,7 +42,7 @@ Returns the custom parameters of this ad group.
 ### Returns:
 |Type|Description|
 |-|-
-Object|The custom parameters of the ad group as a map of the form: `{key1: 'value1', key2: 'value2', key3: 'value3'}`.
+Object|Custom parameters of the ad group as a map of the form: `{key1: 'value1', key2: 'value2', key3: 'value3'}`.
 
 ## <a name="gettrackingtemplate"></a>getTrackingTemplate
 Returns the tracking template of this ad group.
@@ -52,7 +52,7 @@ Returns the tracking template of this ad group.
 ### Returns:
 |Type|Description|
 |-|-
-String|The tracking template of the ad group.
+String|Tracking template of the ad group.
 
 ## <a name="setcustomparameters~object-customparameters~"></a>setCustomParameters(Object customParameters)
 Sets the custom parameters of this ad group.

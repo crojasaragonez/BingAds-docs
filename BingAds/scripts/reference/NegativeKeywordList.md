@@ -55,7 +55,7 @@ Returns the entity type of this negative keyword list, which is "NegativeKeyword
 ### Returns:
 |Type|Description|
 |-|-
-String|The entity type of this negative keyword list, which is "NegativeKeywordList".
+String|Entity type of this negative keyword list, which is "NegativeKeywordList".
 
 ## <a name="getid"></a>getId
 Returns the ID of this negative keyword list.
@@ -63,7 +63,7 @@ Returns the ID of this negative keyword list.
 ### Returns:
 |Type|Description|
 |-|-
-long|The ID of this negative keyword list.
+long|ID of this negative keyword list.
 
 ## <a name="getname"></a>getName
 Returns the name of this negative keyword list.
@@ -71,7 +71,7 @@ Returns the name of this negative keyword list.
 ### Returns:
 |Type|Description|
 |-|-
-String|The name of this negative keyword list.
+String|Name of this negative keyword list.
 
 ## <a name="setname~string-name~"></a>setName(String name)
 Sets the name of this negative keyword list.

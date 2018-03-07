@@ -27,7 +27,7 @@ Returns true if this iterator has more keyword elements.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|A boolean value that determines if this iterator has more keyword elements.
+boolean|Boolean value that determines if this iterator has more keyword elements.
 
 ## <a name="next"></a>next
 Advances to the next keyword in this iterator and returns it.
@@ -35,7 +35,7 @@ Advances to the next keyword in this iterator and returns it.
 ### Returns:
 |Type|Description|
 |-|-
-[Keyword](./Keyword)|The next keyword in the iterator.
+[Keyword](./Keyword)|Next keyword in the iterator.
 
 ## <a name="totalnumentities"></a>totalNumEntities
 Returns the total number of keywords indexed by this iterator.
@@ -44,5 +44,5 @@ hasNext will start to return false and next will start to throw exceptions when 
 ### Returns:
 |Type|Description|
 |-|-
-int|The number of keywords matched by the selector which generated this iterator.
+int|Number of keywords matched by the selector which generated this iterator.
 

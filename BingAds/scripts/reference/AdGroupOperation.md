@@ -14,7 +14,7 @@ Returns an empty array if the ad group was successfully created, otherwise retur
 ### Returns:
 |Type|Description|
 |-|-
-String[]|The errors that occurred during the AdGroupOperation.
+String[]|Errors that occurred during the AdGroupOperation.
 
 ## <a name="getresult"></a>getResult
 Returns the newly created ad group, otherwise returns null if this operation failed to execute.
@@ -22,12 +22,12 @@ Returns the newly created ad group, otherwise returns null if this operation fai
 ### Returns:
 |Type|Description|
 |-|-
-[AdGroup](./AdGroup)|The AdGroup created by the AdGroupOperation.
+[AdGroup](./AdGroup)|AdGroup created by the AdGroupOperation.
 
 ## <a name="issuccessful"></a>isSuccessful
 Returns a boolean value that determines if the operation was successful.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|A boolean value that determines if the operation was successful.
+boolean|Boolean value that determines if the operation was successful.
 

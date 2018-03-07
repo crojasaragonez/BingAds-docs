@@ -58,7 +58,7 @@ accountNumbers|String[]|Array of account numbers.<br />
 ### Returns:
 |Type|Description|
 |-|-
-[BingAdsAccountSelector](./BingAdsAccountSelector)|The selector restricted to the specified account numbers.
+[BingAdsAccountSelector](./BingAdsAccountSelector)|Selector restricted to the specified account numbers.
 
 ## <a name="withcondition~string-condition~"></a>withCondition(String condition)
 Returns a selector with the specified filtering conditions.
@@ -126,7 +126,7 @@ If a stats column is used in the condition, date range must also be specified us
 ### Returns:
 |Type|Description|
 |-|-
-[BingAdsAccountSelector](./BingAdsAccountSelector)|The selector with the condition applied.
+[BingAdsAccountSelector](./BingAdsAccountSelector)|Selector with the condition applied.
 
 ## <a name="withids~long-ids~"></a>withIds(long[] ids)
 Returns a selector that will return only bing ads accounts with the specified IDs.
@@ -150,7 +150,7 @@ ids|long[]|Array of customer IDs.<br />
 ### Returns:
 |Type|Description|
 |-|-
-[BingAdsAccountSelector](./BingAdsAccountSelector)|The selector restricted to the specified IDs.
+[BingAdsAccountSelector](./BingAdsAccountSelector)|Selector restricted to the specified IDs.
 
 ## <a name="withlimit~int-limit~"></a>withLimit(int limit)
 Returns a selector that will return only the specified number of results from the beginning of the result set.
@@ -161,5 +161,5 @@ limit|int|The number of results to return.<br />
 ### Returns:
 |Type|Description|
 |-|-
-[BingAdsAccountSelector](./BingAdsAccountSelector)|The selector with the limit applied.
+[BingAdsAccountSelector](./BingAdsAccountSelector)|Selector with the limit applied.
 

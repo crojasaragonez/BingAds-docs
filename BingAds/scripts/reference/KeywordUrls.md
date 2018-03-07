@@ -29,7 +29,7 @@ Returns the custom parameters of this keyword.
 ### Returns:
 |Type|Description|
 |-|-
-Object|The custom parameters of the keyword as a map of the following form: {key1: 'value1', key2: 'value2', key3: 'value3'}.
+Object|Custom parameters of the keyword as a map of the following form: {key1: 'value1', key2: 'value2', key3: 'value3'}.
 
 ## <a name="getfinalurl"></a>getFinalUrl
 Returns the final URL of this keyword.
@@ -41,7 +41,7 @@ Final URLs follow the same override rules as destination URLs. For example, a fi
 ### Returns:
 |Type|Description|
 |-|-
-String|The final URL of the keyword.
+String|Final URL of the keyword.
 
 ## <a name="gettrackingtemplate"></a>getTrackingTemplate
 Returns the tracking template of this keyword.
@@ -51,7 +51,7 @@ Returns the tracking template of this keyword.
 ### Returns:
 |Type|Description|
 |-|-
-String|The tracking template of the keyword.
+String|Tracking template of the keyword.
 
 ## <a name="setcustomparameters~object-customparameters~"></a>setCustomParameters(Object customParameters)
 Sets the custom parameters of this keyword.

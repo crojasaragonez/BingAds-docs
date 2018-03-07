@@ -24,7 +24,7 @@ Returns true if the iterator has more negative keyword list elements.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|A boolean value that determines if the iterator has more elements.
+boolean|Boolean value that determines if the iterator has more elements.
 
 ## <a name="next"></a>next
 Advances to the next ad group in this iterator and returns it.
@@ -32,7 +32,7 @@ Advances to the next ad group in this iterator and returns it.
 ### Returns:
 |Type|Description|
 |-|-
-[AdGroup](./AdGroup)|The next ad group in the iterator.
+[AdGroup](./AdGroup)|Next ad group in the iterator.
 
 ## <a name="totalnumentities"></a>totalNumEntities
 Returns the total number of ad groups indexed by this iterator.
@@ -42,5 +42,5 @@ hasNext will start to return false and next will start to throw exceptions when 
 ### Returns:
 |Type|Description|
 |-|-
-int|The number of ad groups matched by the selector which generated this iterator.
+int|Number of ad groups matched by the selector which generated this iterator.
 

@@ -36,7 +36,7 @@ Returns the ID of this ad group.
 ### Returns:
 |Type|Description|
 |-|-
-long|The ID of the ad group.
+long|ID of the ad group.
 
 ## <a name="getname"></a>getName
 Returns the name of this ad group.
@@ -44,7 +44,7 @@ Returns the name of this ad group.
 ### Returns:
 |Type|Description|
 |-|-
-String|The name of the ad group.
+String|Name of the ad group.
 
 ## <a name="isenabled"></a>isEnabled
 Returns true if this ad group is enabled. 
@@ -52,7 +52,7 @@ Returns true if this ad group is enabled.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|A boolean value that determines whether the ad group is enabled.
+boolean|Boolean value that determines whether the ad group is enabled.
 
 ## <a name="ispaused"></a>isPaused
 Returns true if this ad group is paused. 
@@ -60,7 +60,7 @@ Returns true if this ad group is paused.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|A boolean value that determines if the ad group is paused.
+boolean|Boolean value that determines if the ad group is paused.
 
 ## <a name="pause"></a>pause
 Pauses this ad group.
@@ -95,5 +95,5 @@ Returns a new keyword builder associated with this ad group that is used to cons
 ### Returns:
 |Type|Description|
 |-|-
-[KeywordBuilder](./KeywordBuilder)|A new keyword builder associated with this ad group that is used to construct a new keyword.
+[KeywordBuilder](./KeywordBuilder)|New keyword builder associated with this ad group that is used to construct a new keyword.
 

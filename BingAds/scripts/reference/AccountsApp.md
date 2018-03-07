@@ -13,7 +13,7 @@ Returns a selector of all accounts accessible to the current user under the curr
 ### Returns:
 |Type|Description|
 |-|-
-[BingAdsAccountSelector](./BingAdsAccountSelector)|The selector of accounts managed by this account.
+[BingAdsAccountSelector](./BingAdsAccountSelector)|Selector of accounts managed by this account.
 
 ## <a name="select~bingadsaccount-account~"></a>select(BingAdsAccount account)
 Selects a [BingAdsAccount](./BingAdsAccount) as the the current account on which to perform operations.

@@ -56,7 +56,7 @@ columnPosition|long|The position of the column to examine.<br />
 ### Returns:
 |Type|Description|
 |-|-
-long|The width of the specified column in pixels.
+long|Width of the specified column in pixels.
 
 ## <a name="getname"></a>getName
 Returns the name of the sheet.
@@ -66,7 +66,7 @@ Returns the name of the sheet.
 ### Returns:
 |Type|Description|
 |-|-
-String|The name of the sheet.
+String|Name of the sheet.
 
 ## <a name="getrange~string-a1notation~"></a>getRange(String a1Notation)
 Returns a range from this sheet specified in A1 or R1C1 notation.
@@ -87,7 +87,7 @@ a1Notation|[Range](./Range)|Returns the range as specified in A1 notation.<br />
 ### Returns:
 |Type|Description|
 |-|-
-[Range](./Range)|The specified range.
+[Range](./Range)|Specified range.
 
 ## <a name="getrowheight~long-rowposition~"></a>getRowHeight(long rowPosition)
 Gets the height of the specified row in pixels.
@@ -101,7 +101,7 @@ rowPosition|int|The position of the row to examine.<br />
 ### Returns:
 |Type|Description|
 |-|-
-int|The row height in pixels.
+int|Row height in pixels.
 
 ## <a name="insertcolumn~long-columnindex~"></a>insertColumn(long columnIndex)
 Insert a column at the specified column index.
@@ -115,7 +115,7 @@ columnIndex|long|The position where the new column should be added.<br />
 ### Returns:
 |Type|Description|
 |-|-
-[Sheet](./Sheet)|The sheet, enables method chaining.
+[Sheet](./Sheet)|Sheet, enables method chaining.
 
 ## <a name="insertcolumnsafter~long-columnindex_-long-numcolumns~"></a>insertColumnsAfter(long columnIndex, long numColumns)
 Inserts the specified number of new columns after the specified column index.
@@ -127,7 +127,7 @@ numColumns|long|The number of columns to add.
 ### Returns:
 |Type|Description|
 |-|-
-[Sheet](./Sheet)|The sheet, enables method chaining.
+[Sheet](./Sheet)|Sheet, enables method chaining.
 
 ## <a name="insertrow~long-rowindex~"></a>insertRow(long rowIndex)
 Insert a row at the specified index.
@@ -141,7 +141,7 @@ rowIndex|long|The position where the row should be inserted.<br />
 ### Returns:
 |Type|Description|
 |-|-
-long|The sheet, enables method chaining.
+long|Sheet, enables method chaining.
 
 ## <a name="insertrowsafter~long-rowindex_-long-numrows~"></a>insertRowsAfter(long rowIndex, long numRows)
 Inserts the specified number of new rows after the specified row index.
@@ -153,7 +153,7 @@ numRows|long|The number of rows to insert.<br />
 ### Returns:
 |Type|Description|
 |-|-
-[Sheet](./Sheet)|The sheet, enables chaining.
+[Sheet](./Sheet)|Sheet, enables chaining.
 
 ## <a name="setcolumnwidth~long-columnposition_-long-width~"></a>setColumnWidth(long columnPosition, long width)
 Sets the width in pixels of the column at the specified position.
@@ -165,7 +165,7 @@ width|long|The width in pixels to set the column width to.<br />
 ### Returns:
 |Type|Description|
 |-|-
-[Sheet](./Sheet)|The sheet, enables method chaining.
+[Sheet](./Sheet)|Sheet, enables method chaining.
 
 ## <a name="setname~string-name~"></a>setName(String name)
 Sets the name of this sheet.
@@ -177,7 +177,7 @@ name|String|The new name for the sheet.<br />
 ### Returns:
 |Type|Description|
 |-|-
-[Sheet](./Sheet)|The sheet, enables method chaining.
+[Sheet](./Sheet)|Sheet, enables method chaining.
 
 ## <a name="setrowheight~long-rowposition_-long-height~"></a>setRowHeight(long rowPosition, long height)
 Sets the height in pixels of the row at the specified position.
@@ -189,5 +189,5 @@ height|long|The height in pixels to set the row height to.<br />
 ### Returns:
 |Type|Description|
 |-|-
-[Sheet](./Sheet)|The sheet, enables method chaining.
+[Sheet](./Sheet)|Sheet, enables method chaining.
 

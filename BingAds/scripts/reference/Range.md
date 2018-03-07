@@ -38,7 +38,7 @@ Get the address of this range.
 ### Returns:
 |Type|Description|
 |-|-
-String|The address of the range.
+String|Address of the range.
 
 ## <a name="getcolumn"></a>getColumn
 Returns the starting column position for this range.
@@ -110,7 +110,7 @@ Returns
 ### Returns:
 |Type|Description|
 |-|-
-boolean|A boolean value that determines if the range is blank.
+boolean|Boolean value that determines if the range is blank.
 
 ## <a name="setfontsize~long-size~"></a>setFontSize(long size)
 Sets the specified point size to use for fonts on all the cells in this range.

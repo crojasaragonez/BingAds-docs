@@ -41,7 +41,7 @@ dateTo|Object|End date of the date range.
 ### Returns:
 |Type|Description|
 |-|-
-[KeywordSelector](./KeywordSelector)|The selector with date range applied.
+[KeywordSelector](./KeywordSelector)|Selector with date range applied.
 
 ## <a name="fordaterange~string-daterange~"></a>forDateRange(String dateRange)
 Returns a selector using the specified predefined date range.
@@ -73,7 +73,7 @@ dateRange|String|Date range to set onto the selector.
 ### Returns:
 |Type|Description|
 |-|-
-[KeywordSelector](./KeywordSelector)|The selector with date range applied.
+[KeywordSelector](./KeywordSelector)|Selector with date range applied.
 
 ## <a name="get"></a>get
 Returns an iterator indexing the keywords in this selector.
@@ -102,7 +102,7 @@ orderBy|String|Ordering to apply.
 ### Returns:
 |Type|Description|
 |-|-
-[KeywordSelector](./KeywordSelector)|The selector with ordering applied.
+[KeywordSelector](./KeywordSelector)|Selector with ordering applied.
 
 ## <a name="withcondition~string-condition~"></a>withCondition(String condition)
 Returns a selector with the specified filtering conditions.
@@ -172,7 +172,7 @@ condition|String|Condition to add to the selector.
 ### Returns:
 |Type|Description|
 |-|-
-[KeywordSelector](./KeywordSelector)|The selector with the condition applied.
+[KeywordSelector](./KeywordSelector)|Selector with the condition applied.
 
 ## <a name="withids~long-ids~"></a>withIds(long[] ids)
 Returns a selector that will return only keywords with the specified IDs.
@@ -196,7 +196,7 @@ ids|long[][]|Array of keyword IDs.
 ### Returns:
 |Type|Description|
 |-|-
-[KeywordSelector](./KeywordSelector)|The selector restricted to the given IDs.
+[KeywordSelector](./KeywordSelector)|Selector restricted to the given IDs.
 
 ## <a name="withlimit~int-limit~"></a>withLimit(int limit)
 Returns a selector that will return only the specified number of results from the beginning of the result set.
@@ -207,5 +207,5 @@ limit|int|How many entities to return.
 ### Returns:
 |Type|Description|
 |-|-
-[KeywordSelector](./KeywordSelector)|The selector with limit applied.
+[KeywordSelector](./KeywordSelector)|Selector with limit applied.
 

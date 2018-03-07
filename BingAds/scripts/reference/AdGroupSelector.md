@@ -53,7 +53,7 @@ dateTo|Object|End date of the date range.
 ### Returns:
 |Type|Description|
 |-|-
-[AdGroupSelector](./AdGroupSelector)|The selector with date range applied.
+[AdGroupSelector](./AdGroupSelector)|Selector with date range applied.
 
 ## <a name="fordaterange~string-daterange~"></a>forDateRange(String dateRange)
 Returns a selector with the predefined date range applied.
@@ -85,7 +85,7 @@ dateRange|String|Date range to apply to the selector.
 ### Returns:
 |Type|Description|
 |-|-
-[AdGroupSelector](./AdGroupSelector)|The selector with date range applied.
+[AdGroupSelector](./AdGroupSelector)|Selector with date range applied.
 
 ## <a name="get"></a>get
 Returns the iterator that you use to get the ad groups based on the selector's selection criteria.
@@ -116,7 +116,7 @@ orderBy|String|Ordering to apply.
 ### Returns:
 |Type|Description|
 |-|-
-[AdGroupSelector](./AdGroupSelector)|The selector with ordering applied.
+[AdGroupSelector](./AdGroupSelector)|Selector with ordering applied.
 
 ## <a name="withcondition~string-condition~"></a>withCondition(String condition)
 Returns a selector that limits the ad groups it returns to those that match the filter criteria.
@@ -182,7 +182,7 @@ condition|String|Condition to add to the selector.
 ### Returns:
 |Type|Description|
 |-|-
-[AdGroupSelector](./AdGroupSelector)|The selector with the condition applied.
+[AdGroupSelector](./AdGroupSelector)|Selector with the condition applied.
 
 ## <a name="withids~long-ids~"></a>withIds(long[] ids)
 Returns a selector that returns only ad groups with the specified IDs.
@@ -203,7 +203,7 @@ ids|long[]|Array of ad group IDs. The maximum number of IDs that you may specify
 ### Returns:
 |Type|Description|
 |-|-
-[AdGroupSelector](./AdGroupSelector)|The selector restricted to the given IDs.
+[AdGroupSelector](./AdGroupSelector)|Selector restricted to the given IDs.
 
 ## <a name="withlimit~int-limit~"></a>withLimit(int limit)
 Returns a selector that limits the number of ad groups it returns to the top <i>n</i> ad groups that match the selection criteria.
@@ -214,5 +214,5 @@ limit|int|The number of entities to return.
 ### Returns:
 |Type|Description|
 |-|-
-[AdGroupSelector](./AdGroupSelector)|The selector with limit applied.
+[AdGroupSelector](./AdGroupSelector)|Selector with limit applied.
 

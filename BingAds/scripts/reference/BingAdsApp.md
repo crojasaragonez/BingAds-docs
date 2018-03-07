@@ -17,7 +17,7 @@ Returns a selector of all ad groups in this account.
 ### Returns:
 |Type|Description|
 |-|-
-[AdGroupSelector](./AdGroupSelector)|The selector of all ad groups in the current account.
+[AdGroupSelector](./AdGroupSelector)|Selector of all ad groups in the current account.
 
 ## <a name="campaigns"></a>campaigns
 Returns a selector of all campaigns in this account.
@@ -44,7 +44,7 @@ Returns a selector of all negative keyword lists in this account.
 ### Returns:
 |Type|Description|
 |-|-
-[NegativeKeywordListSelector](./NegativeKeywordListSelector)|A selector of all negative keyword lists in this account.
+[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Selector of all negative keyword lists in this account.
 
 ## <a name="newnegativekeywordlistbuilder"></a>newNegativeKeywordListBuilder
 Returns a new negative keyword list builder for this account. 
@@ -54,5 +54,5 @@ The new negative keyword list is created when builder.build() is called.
 ### Returns:
 |Type|Description|
 |-|-
-[NegativeKeywordListBuilder](./NegativeKeywordListBuilder)|A new negative keyword list builder for the current account.
+[NegativeKeywordListBuilder](./NegativeKeywordListBuilder)|New negative keyword list builder for the current account.
 

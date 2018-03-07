@@ -53,7 +53,7 @@ dateTo|Object|End date of the date range.
 ### Returns:
 |Type|Description|
 |-|-
-[CampaignSelector](CampaignSelector)|The selector with date range applied.
+[CampaignSelector](CampaignSelector)|Selector with date range applied.
 
 ## <a name="fordaterange~string-daterange~"></a>forDateRange(String dateRange)
 Returns a selector using the specified predefined date range.
@@ -85,7 +85,7 @@ dateRange|String|Date range to set onto the selector.
 ### Returns:
 |Type|Description|
 |-|-
-[CampaignSelector](./CampaignSelector)|The selector with date range applied.
+[CampaignSelector](./CampaignSelector)|Selector with date range applied.
 
 ## <a name="get"></a>get
 Returns an iterator indexing the campaigns in this selector.
@@ -114,7 +114,7 @@ orderBy|String|Ordering to apply.
 ### Returns:
 |Type|Description|
 |-|-
-[CampaignSelector](./CampaignSelector)|The selector with ordering applied.
+[CampaignSelector](./CampaignSelector)|Selector with ordering applied.
 
 ## <a name="withcondition~string-condition~"></a>withCondition(String condition)
 Returns a selector with the specified filtering conditions.
@@ -181,7 +181,7 @@ condition|String|Condition to add to the selector.
 ### Returns:
 |Type|Description|
 |-|-
-[CampaignSelector](./CampaignSelector)|The selector with the condition applied.
+[CampaignSelector](./CampaignSelector)|Selector with the condition applied.
 
 ## <a name="withids~long-ids~"></a>withIds(long[] ids)
 Returns a selector that will return only campaigns with the specified IDs.
@@ -205,5 +205,5 @@ ids|long[]|Array of campaign IDs.
 ### Returns:
 |Type|Description|
 |-|-
-[CampaignSelector](./CampaignSelector)|The selector restricted to the given IDs.
+[CampaignSelector](./CampaignSelector)|Selector restricted to the given IDs.
 

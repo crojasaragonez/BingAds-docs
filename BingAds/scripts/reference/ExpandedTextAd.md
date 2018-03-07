@@ -37,7 +37,7 @@ Returns properties specific to the type of this ad.
 ### Returns:
 |Type|Description|
 |-|-
-[AdViewSpace](./AdViewSpace)|A starting point for viewing type-specific ad information.
+[AdViewSpace](./AdViewSpace)|Starting point for viewing type-specific ad information.
 
 ## <a name="enable"></a>enable
 Enables the ad.
@@ -53,7 +53,7 @@ Returns the parent ad group of this ad.
 ### Returns:
 |Type|Description|
 |-|-
-[AdGroup](./AdGroup)|The ad group to which this ad belongs.
+[AdGroup](./AdGroup)|Ad group to which this ad belongs.
 
 ## <a name="getapprovalstatus"></a>getApprovalStatus
 Returns the approval status of the ExpandedTextAD.
@@ -73,7 +73,7 @@ Returns the parent campaign of this ad.
 ### Returns:
 |Type|Description|
 |-|-
-[Campaign](./Campaign)|The campaign to which this ad belongs.
+[Campaign](./Campaign)|Campaign to which this ad belongs.
 
 ## <a name="getdescription"></a>getDescription
 Returns the description of this ad.
@@ -81,7 +81,7 @@ Returns the description of this ad.
 ### Returns:
 |Type|Description|
 |-|-
-String|The description of the ad.
+String|Description of the ad.
 
 ## <a name="getdisapprovalreasons"></a>getDisapprovalReasons
 Returns an array containing the reasons for which this ad was disapproved. If it is not disapproved, the array will be empty.
@@ -105,7 +105,7 @@ Returns the first part of the headline (title) of this ad.
 ### Returns:
 |Type|Description|
 |-|-
-String|The first part of the ad's headline.
+String|First part of the ad's headline.
 
 ## <a name="getheadlinepart2"></a>getHeadlinePart2
 Returns the second part of the headline (title) of this ad. 
@@ -113,7 +113,7 @@ Returns the second part of the headline (title) of this ad.
 ### Returns:
 |Type|Description|
 |-|-
-String|The second part of the ad's headline.
+String|Second part of the ad's headline.
 
 ## <a name="getid"></a>getId
 Returns the ID of this ad. In order to specify a unique ID for an ad, both its ad group ID and this ID need to be specified. 
@@ -121,7 +121,7 @@ Returns the ID of this ad. In order to specify a unique ID for an ad, both its a
 ### Returns:
 |Type|Description|
 |-|-
-long|The ID of the ad.
+long|ID of the ad.
 
 ## <a name="getpath1"></a>getPath1
 Returns the first path that appears with this ad's display URL.
@@ -129,7 +129,7 @@ Returns the first path that appears with this ad's display URL.
 ### Returns:
 |Type|Description|
 |-|-
-String|The first path that appears with the ad's displayed URL.
+String|First path that appears with the ad's displayed URL.
 
 ## <a name="getpath2"></a>getPath2
 Returns the second path that appears with this ad's display URL.
@@ -137,7 +137,7 @@ Returns the second path that appears with this ad's display URL.
 ### Returns:
 |Type|Description|
 |-|-
-String|The second path that appears with the ad's displayed URL.
+String|Second path that appears with the ad's displayed URL.
 
 ## <a name="getstatsfor~object-datefrom_-object-dateto~"></a>getStatsFor(Object dateFrom, Object dateTo)
 Returns a [Stats](./Stats) object for this expanded text ad for the specified date range.
@@ -162,7 +162,7 @@ dateTo|Object|End date of the date range.
 ### Returns:
 |Type|Description|
 |-|-
-[Stats](./Stats)|The stats for the specified date range.
+[Stats](./Stats)|Stats for the specified date range.
 
 ## <a name="getstatsfor~string-daterange~"></a>getStatsFor(String dateRange)
 Returns an object which provides statistics for the specified predefined date range.
@@ -194,7 +194,7 @@ dateRange|String|Date range for which the stats are requested.
 ### Returns:
 |Type|Description|
 |-|-
-[Stats](./Stats)|The stats for the specified date range.
+[Stats](./Stats)|Stats for the specified date range.
 
 ## <a name="gettype"></a>getType
 Returns the type of this ad.
@@ -208,7 +208,7 @@ Possible values are:
 ### Returns:
 |Type|Description|
 |-|-
-String|The type of the ad.
+String|Type of the ad.
 
 ## <a name="isenabled"></a>isEnabled
 Returns true if this ad is enabled. 
@@ -216,7 +216,7 @@ Returns true if this ad is enabled.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|A boolean value that determines if the ad is enabled.
+boolean|Boolean value that determines if the ad is enabled.
 
 ## <a name="ispaused"></a>isPaused
 Returns true if this ad is paused 
@@ -224,14 +224,14 @@ Returns true if this ad is paused
 ### Returns:
 |Type|Description|
 |-|-
-boolean|A boolean value that determines if the ad is paused.
+boolean|Boolean value that determines if the ad is paused.
 
 ## <a name="istype"></a>isType
 Returns an object which provides more information about the type of this ad.
 ### Returns:
 |Type|Description|
 |-|-
-[AdTypeSpace](./AdTypeSpace)|An object that provides more information about the type of this ad.
+[AdTypeSpace](./AdTypeSpace)|Object that provides more information about the type of this ad.
 
 ## <a name="pause"></a>pause
 Pauses this ad.

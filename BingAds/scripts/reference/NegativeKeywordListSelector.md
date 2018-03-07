@@ -55,7 +55,7 @@ orderBy|String|Ordering to apply.
 ### Returns:
 |Type|Description|
 |-|-
-[AdGroupSelector](./AdGroupSelector)|The selector with ordering applied.
+[AdGroupSelector](./AdGroupSelector)|Selector with ordering applied.
 
 ## <a name="withcondition~string-condition~"></a>withCondition(String condition)
 Returns a selector with the specified filtering conditions.
@@ -108,7 +108,7 @@ condition|String|Condition to add to the selector.
 ### Returns:
 |Type|Description|
 |-|-
-[NegativeKeywordListSelector](./NegativeKeywordListSelector)|The selector with the condition applied.
+[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Selector with the condition applied.
 
 ## <a name="withids~long-ids~"></a>withIds(long[] ids)
 Returns a selector that will return only negative keyword lists with the specified IDs.
@@ -133,7 +133,7 @@ ids|long[]|Array of ad group IDs.
 ### Returns:
 |Type|Description|
 |-|-
-[NegativeKeywordListSelector](./NegativeKeywordListSelector)|The selector restricted to the given IDs.
+[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Selector restricted to the given IDs.
 
 ## <a name="withlimit~int-limit~"></a>withLimit(int limit)
 Returns a selector that will return only the specified number of results from the beginning of the result set.
@@ -144,5 +144,5 @@ limit|int|How many entities to return.
 ### Returns:
 |Type|Description|
 |-|-
-[NegativeKeywordListSelector](./NegativeKeywordListSelector)|The selector with limit applied.
+[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Selector with limit applied.
 
