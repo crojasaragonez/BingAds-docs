@@ -28,7 +28,7 @@ See also:
 [orderBy(String orderBy)](#orderby~string-orderby~)|[AdGroupSelector](./AdGroupSelector)|Returns a selector with the specified ordering applied.
 [withCondition(String condition)](#withcondition~string-condition~)|[AdGroupSelector](./AdGroupSelector)|Returns a selector that limits the ad groups it returns to those that match the filter criteria.
 [withIds(long[] ids)](#withids~long-ids~)|[AdGroupSelector](./AdGroupSelector)|Returns a selector that limits the ad groups that it returns to the specified list of ad groups.
-[withLimit(int limit)](#withlimit~int-limit~)|[AdGroupSelector](./AdGroupSelector)|Returns a selector that limits the number of ad groups it returns to the top <i>n</i> ad groups that match the selection criteria.
+[withLimit(int limit)](#withlimit~int-limit~)|[AdGroupSelector](./AdGroupSelector)|Returns a selector that limits the number of ad groups it returns to the top n ad groups that match the selection criteria.
 
 ## <a name="fordaterange~object-datefrom_-object-dateto~"></a>forDateRange(Object dateFrom, Object dateTo)
 Returns a selector with the start and end dates applied.
@@ -155,7 +155,7 @@ ids|long[]|Array of ad group IDs. The maximum number of IDs that you may specify
 [AdGroupSelector](./AdGroupSelector)|Selector restricted to the given IDs.
 
 ## <a name="withlimit~int-limit~"></a>withLimit(int limit)
-Returns a selector that limits the number of ad groups it returns to the top <i>n</i> ad groups that match the selection criteria.
+Returns a selector that limits the number of ad groups it returns to the top n ad groups that match the selection criteria.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-

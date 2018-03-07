@@ -16,7 +16,7 @@ See also:
 [orderBy(String orderBy)](#orderby~string-orderby~)|[KeywordSelector](./KeywordSelector)|Returns a selector with the specified ordering applied.
 [withCondition(String condition)](#withcondition~string-condition~)|[KeywordSelector](./KeywordSelector)|Returns a selector that limits the keywords it returns to those that match the filter criteria.
 [withIds(long[] ids)](#withids~long-ids~)|[KeywordSelector](./KeywordSelector)|Returns a selector that limits the keywords that it returns to the specified list of keywords.
-[withLimit(int limit)](#withlimit~int-limit~)|[KeywordSelector](./KeywordSelector)|Returns a selector that will return only the specified number of results from the beginning of the result set.
+[withLimit(int limit)](#withlimit~int-limit~)|[KeywordSelector](./KeywordSelector)|Returns a selector that limits the number of keywords it returns to the top n keywords that match the selection criteria.
 
 ## <a name="fordaterange~object-datefrom_-object-dateto~"></a>forDateRange(Object dateFrom, Object dateTo)
 Returns a selector with the specified start and end dates.
@@ -148,7 +148,7 @@ ids|long[][]|Array of keyword IDs.
 [KeywordSelector](./KeywordSelector)|Selector restricted to the given IDs.
 
 ## <a name="withlimit~int-limit~"></a>withLimit(int limit)
-Returns a selector that will return only the specified number of results from the beginning of the result set.
+Returns a selector that limits the number of keywords it returns to the top n keywords that match the selection criteria.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-

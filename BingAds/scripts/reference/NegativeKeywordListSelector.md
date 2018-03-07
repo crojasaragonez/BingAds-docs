@@ -19,7 +19,7 @@ See also:
 [orderBy(String orderBy)](#orderby~string-orderby~)|[AdGroupSelector](./AdGroupSelector)|Returns a selector with the specified ordering applied.
 [withCondition(String condition)](#withcondition~string-condition~)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector that limits the negative keyword lists it returns to those that match the filter criteria.
 [withIds(long[] ids)](#withids~long-ids~)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector that limits the negative keyword lists that it returns to the specified list of negative keyword lists.
-[withLimit(int limit)](#withlimit~int-limit~)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector that will return only the specified number of results from the beginning of the result set.
+[withLimit(int limit)](#withlimit~int-limit~)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector that limits the number of negative keyword lists it returns to the top n negative keyword lists that match the selection criteria.
 
 ## <a name="get"></a>get
 Returns an iterator that you use to traverse negative keyword lists.
@@ -135,7 +135,7 @@ ids|long[]|Array of ad group IDs.
 [NegativeKeywordListSelector](./NegativeKeywordListSelector)|Selector restricted to the given IDs.
 
 ## <a name="withlimit~int-limit~"></a>withLimit(int limit)
-Returns a selector that will return only the specified number of results from the beginning of the result set.
+Returns a selector that limits the number of negative keyword lists it returns to the top n negative keyword lists that match the selection criteria.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
