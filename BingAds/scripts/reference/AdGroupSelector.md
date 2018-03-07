@@ -27,7 +27,7 @@ See also:
 [get](#get)|[AdGroupIterator](./AdGroupIterator)|Returns the iterator that you use to get the ad groups based on the selector's selection criteria.
 [orderBy(String orderBy)](#orderby~string-orderby~)|[AdGroupSelector](./AdGroupSelector)|Returns a selector with the specified ordering applied.
 [withCondition(String condition)](#withcondition~string-condition~)|[AdGroupSelector](./AdGroupSelector)|Returns a selector that limits the ad groups it returns to those that match the filter criteria.
-[withIds(long[] ids)](#withids~long-ids~)|[AdGroupSelector](./AdGroupSelector)|Returns a selector that returns only ad groups with the specified IDs.
+[withIds(long[] ids)](#withids~long-ids~)|[AdGroupSelector](./AdGroupSelector)|Returns a selector that limits the ad groups that it returns to the specified list of ad groups.
 [withLimit(int limit)](#withlimit~int-limit~)|[AdGroupSelector](./AdGroupSelector)|Returns a selector that limits the number of ad groups it returns to the top <i>n</i> ad groups that match the selection criteria.
 
 ## <a name="fordaterange~object-datefrom_-object-dateto~"></a>forDateRange(Object dateFrom, Object dateTo)
@@ -134,7 +134,7 @@ condition|String|Condition to add to the selector.
 [AdGroupSelector](./AdGroupSelector)|Selector with the condition applied.
 
 ## <a name="withids~long-ids~"></a>withIds(long[] ids)
-Returns a selector that returns only ad groups with the specified IDs.
+Returns a selector that limits the ad groups that it returns to the specified list of ad groups.
 
 
 You may apply one or more conditions to a selector. A chain of conditions is considered an AND operation. If condition A is true AND condition B is true, select the entity. For example, the following call selects only ad group 33333.

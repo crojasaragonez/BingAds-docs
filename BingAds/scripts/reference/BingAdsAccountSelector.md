@@ -9,7 +9,7 @@ Provides methods to select Bing Ads accounts by using filtering and sorting.
 [get](#get)|[BingAdsAccountIterator](./BingAdsAccountIterator)|Returns an iterator used to traverse Bing Ads accounts selected by this selector.<br />
 [withAccountNumbers(String[] accountNumbers)](#withaccountnumbers~string-accountnumbers~)|[BingAdsAccountSelector](./BingAdsAccountSelector)|Returns a selector that will return only bing ads accounts with the specified account numbers.
 [withCondition(String condition)](#withcondition~string-condition~)|[BingAdsAccountSelector](./BingAdsAccountSelector)|Returns a selector that limits the accounts it returns to those that match the filter criteria.
-[withIds(long[] ids)](#withids~long-ids~)|[BingAdsAccountSelector](./BingAdsAccountSelector)|Returns a selector that will return only bing ads accounts with the specified IDs.
+[withIds(long[] ids)](#withids~long-ids~)|[BingAdsAccountSelector](./BingAdsAccountSelector)|Returns a selector that limits the accounts that it returns to the specified list of accounts.
 [withLimit(int limit)](#withlimit~int-limit~)|[BingAdsAccountSelector](./BingAdsAccountSelector)|Returns a selector that will return only the specified number of results from the beginning of the result set.
 
 ## <a name="executeinparallel~string-functionname_-string-optionalcallbackfunctionname~"></a>executeInParallel(String functionName, String optionalCallbackFunctionName)
@@ -129,7 +129,7 @@ If a stats column is used in the condition, date range must also be specified us
 [BingAdsAccountSelector](./BingAdsAccountSelector)|Selector with the condition applied.
 
 ## <a name="withids~long-ids~"></a>withIds(long[] ids)
-Returns a selector that will return only bing ads accounts with the specified IDs.
+Returns a selector that limits the accounts that it returns to the specified list of accounts.
 
 
 The resulting selector can be further filtered by applying additional conditions to it.  All conditions will be 'AND' concatenated including any other ID based conditions.  For example:
