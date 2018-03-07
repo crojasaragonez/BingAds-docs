@@ -64,7 +64,7 @@ cpc|double|The max CPC bid of the ad group. If no CPC is specified, the default 
 ## <a name="withcustomparameters~object-customparams~"></a>withCustomParameters(Object customParams)
 Sets the custom parameters for the new ad group.
 
-[!INCLUDE[custom-parameters](../include/custom-parameters.md)]
+[!INCLUDE[custom-parameters](../includes/custom-parameters.md)]
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
