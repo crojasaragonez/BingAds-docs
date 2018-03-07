@@ -22,7 +22,7 @@ See also:
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[forDateRange(Object dateFrom, Object dateTo)](#fordaterange~object-datefrom_-object-dateto~)|[AdGroupSelector](./AdGroupSelector)|Returns a selector with the specified start and end dates applied.
+[forDateRange(Object dateFrom, Object dateTo)](#fordaterange~object-datefrom_-object-dateto~)|[AdGroupSelector](./AdGroupSelector)|Returns a selector with the start and end dates applied.
 [forDateRange(String dateRange)](#fordaterange~string-daterange~)|[AdGroupSelector](./AdGroupSelector)|Returns a selector with the predefined date range applied.
 [get](#get)|[AdGroupIterator](./AdGroupIterator)|Returns the iterator that you use to get the ad groups based on the selector's selection criteria.
 [orderBy(String orderBy)](#orderby~string-orderby~)|[AdGroupSelector](./AdGroupSelector)|Returns a selector with the specified ordering applied.
@@ -31,20 +31,9 @@ See also:
 [withLimit(int limit)](#withlimit~int-limit~)|[AdGroupSelector](./AdGroupSelector)|Returns a selector that limits the number of ad groups it returns to the top <i>n</i> ad groups that match the selection criteria.
 
 ## <a name="fordaterange~object-datefrom_-object-dateto~"></a>forDateRange(Object dateFrom, Object dateTo)
-Returns a selector with the specified start and end dates applied.
+Returns a selector with the start and end dates applied.
 
-You may specify the date parameters using strings or objects. To use strings, specify the date in the form, YYYYMMDD. If you use objects, create a JSON object with the following fields:  
-
-- year
-- month
-- day
-
-For example, {year: 2016, month: 5, day: 13}.
-
-The date range is inclusive.
-
-If you apply conditions or ordering that reference performance metric fields, you must specify a date range.  Only the last date range specified will be used.
-
+[!INCLUDE[date-range-objects](../includes/date-range-objects.md)]
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
