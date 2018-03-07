@@ -28,7 +28,7 @@ See also:
 [get](#get)|[CampaignIterator](./CampaignIterator)|Returns an iterator indexing the campaigns in this selector.<br />
 [orderBy(String orderBy)](#orderby~string-orderby~)|[CampaignSelector](./CampaignSelector)|Returns a selector with the specified ordering applied.
 [withCondition(String condition)](#withcondition~string-condition~)|[CampaignSelector](./CampaignSelector)|Returns a selector that limits the campaigns it returns to those that match the filter criteria.
-[withIds(long[] ids)](#withids~long-ids~)|[CampaignSelector](./CampaignSelector)|Returns a selector that limits the campaigns that it returns to the specified list of campaigns.
+[withIds(long[] ids)](#withids~long-ids~)|[CampaignSelector](./CampaignSelector)|Returns a selector that returns only campaigns with the specified IDs.
 
 ## <a name="fordaterange~object-datefrom_-object-dateto~"></a>forDateRange(Object dateFrom, Object dateTo)
 Returns a selector with the specified start and end dates.
@@ -133,7 +133,7 @@ condition|String|Condition to add to the selector.
 [CampaignSelector](./CampaignSelector)|Selector with the condition applied.
 
 ## <a name="withids~long-ids~"></a>withIds(long[] ids)
-Returns a selector that limits the campaigns that it returns to the specified list of campaigns.
+Returns a selector that returns only campaigns with the specified IDs.
 
 
 The resulting selector can be further filtered by applying additional conditions to it.  All conditions will be 'AND' concatenated including any other ID based conditions.  For example:

@@ -18,7 +18,7 @@ See also:
 [get](#get)|[NegativeKeywordListIterator](./NegativeKeywordListIterator)|Returns an iterator that you use to traverse negative keyword lists.<br />
 [orderBy(String orderBy)](#orderby~string-orderby~)|[AdGroupSelector](./AdGroupSelector)|Returns a selector with the specified ordering applied.
 [withCondition(String condition)](#withcondition~string-condition~)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector that limits the negative keyword lists it returns to those that match the filter criteria.
-[withIds(long[] ids)](#withids~long-ids~)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector that limits the negative keyword lists that it returns to the specified list of negative keyword lists.
+[withIds(long[] ids)](#withids~long-ids~)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector that returns only negative keyword lists with the specified IDs.
 [withLimit(int limit)](#withlimit~int-limit~)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector that limits the number of negative keyword lists it returns to the top n negative keyword lists that match the selection criteria.
 
 ## <a name="get"></a>get
@@ -111,7 +111,7 @@ condition|String|Condition to add to the selector.
 [NegativeKeywordListSelector](./NegativeKeywordListSelector)|Selector with the condition applied.
 
 ## <a name="withids~long-ids~"></a>withIds(long[] ids)
-Returns a selector that limits the negative keyword lists that it returns to the specified list of negative keyword lists.
+Returns a selector that returns only negative keyword lists with the specified IDs.
 
 
 The resulting selector can be further filtered by applying additional conditions to it.  All conditions will be 'AND' concatenated including any other ID based conditions.  For example:
