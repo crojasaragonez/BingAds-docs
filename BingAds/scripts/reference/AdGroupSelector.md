@@ -58,26 +58,7 @@ dateTo|Object|End date of the date range.
 ## <a name="fordaterange~string-daterange~"></a>forDateRange(String dateRange)
 Returns a selector with the predefined date range applied.
 
-Supported date range values:
-
-- TODAY
-- YESTERDAY
-- LAST_7_DAYS
-- THIS_WEEK_SUN_TODAY
-- LAST_14_DAYS
-- LAST_30_DAYS
-- LAST_WEEK_SUN_SAT
-- THIS_MONTH
-- LAST_MONTH
-- ALL_TIME
-
-Example:
-```
-selector.forDateRange("LAST_7_DAYS");
-```
-
-If you apply conditions or ordering that reference performance metric fields, you must specify a date range.  Only the last date range specified will be used.
-
+[!INCLUDE[date-range-constants](../includes/date-range-constants.md)]
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
