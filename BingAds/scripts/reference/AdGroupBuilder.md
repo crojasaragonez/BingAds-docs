@@ -107,6 +107,8 @@ status|String|Ad group status.
 ## <a name="withtrackingtemplate~string-trackingtemplate~"></a>withTrackingTemplate(String trackingTemplate)
 Sets the tracking template of this ad group.
 
+
+[!INCLUDE[tracking-templates](../includes/tracking-templates.md)]
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
