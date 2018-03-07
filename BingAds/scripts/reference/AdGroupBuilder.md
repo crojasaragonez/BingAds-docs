@@ -64,7 +64,7 @@ cpc|double|The max CPC bid of the ad group. If no CPC is specified, the default 
 ## <a name="withcustomparameters~object-customparams~"></a>withCustomParameters(Object customParams)
 Sets the custom parameters for the new ad group.
 
-[!INCLUDE[custom-paramters](../includes/custom-parameters.md)]
+For more information, see [Custom Parameters](/bingads/guides/url-tracking-upgraded-urls#customparametersvalidation).
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
