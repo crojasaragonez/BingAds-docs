@@ -66,7 +66,7 @@ To clear the custom parameters of the ad group pass an empty object, for example
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-customParameters|Object|The custom parameters of the ad group as a map of the<br />        form <code>{key1: 'value1', key2: 'value2', key3: 'value3'}</code>.
+customParameters|Object|The custom parameters of the ad group as a map of the following form: <code>{key1: 'value1', key2: 'value2', key3: 'value3'}</code>.
 ### Returns:
 |Type|Description|
 |-|-
