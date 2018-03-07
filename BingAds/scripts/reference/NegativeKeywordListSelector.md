@@ -16,7 +16,7 @@ See also:
 |Method Name|Return Type|Description|
 |-|-|-
 [get](#get)|[NegativeKeywordListIterator](./NegativeKeywordListIterator)|Returns an iterator that you use to traverse negative keyword lists.<br />
-[orderBy(String orderBy)](#orderby~string-orderby~)|[AdGroupSelector](./AdGroupSelector)|Returns a selector with the specified ordering.
+[orderBy(String orderBy)](#orderby~string-orderby~)|[AdGroupSelector](./AdGroupSelector)|Returns a selector with the specified ordering applied.
 [withCondition(String condition)](#withcondition~string-condition~)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector that limits the negative keyword lists it returns to those that match the filter criteria.
 [withIds(long[] ids)](#withids~long-ids~)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector that will return only negative keyword lists with the specified IDs.<br />
 [withLimit(int limit)](#withlimit~int-limit~)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector that will return only the specified number of results from the beginning of the result set.
@@ -30,7 +30,7 @@ Returns an iterator that you use to traverse negative keyword lists.
 [NegativeKeywordListIterator](./NegativeKeywordListIterator)|Iterator used to get the negative keywords for this selector.
 
 ## <a name="orderby~string-orderby~"></a>orderBy(String orderBy)
-Returns a selector with the specified ordering.
+Returns a selector with the specified ordering applied.
 
 Specify the orderBy parameter in the form, "columnName orderDirection" where:
 

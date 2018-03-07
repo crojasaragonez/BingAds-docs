@@ -13,7 +13,7 @@ See also:
 [forDateRange(Object dateFrom, Object dateTo)](#fordaterange~object-datefrom_-object-dateto~)|[KeywordSelector](./KeywordSelector)|Returns a selector with the specified start and end dates.
 [forDateRange(String dateRange)](#fordaterange~string-daterange~)|[KeywordSelector](./KeywordSelector)|Returns a selector using the specified predefined date range.
 [get](#get)|[KeywordIterator](./KeywordIterator)|Returns an iterator indexing the keywords in this selector.<br />
-[orderBy(String orderBy)](#orderby~string-orderby~)|[KeywordSelector](./KeywordSelector)|Returns a selector with the specified ordering.
+[orderBy(String orderBy)](#orderby~string-orderby~)|[KeywordSelector](./KeywordSelector)|Returns a selector with the specified ordering applied.
 [withCondition(String condition)](#withcondition~string-condition~)|[KeywordSelector](./KeywordSelector)|Returns a selector that limits the keywords it returns to those that match the filter criteria.
 [withIds(long[] ids)](#withids~long-ids~)|[KeywordSelector](./KeywordSelector)|Returns a selector that will return only keywords with the specified IDs.
 [withLimit(int limit)](#withlimit~int-limit~)|[KeywordSelector](./KeywordSelector)|Returns a selector that will return only the specified number of results from the beginning of the result set.
@@ -54,7 +54,7 @@ Returns an iterator indexing the keywords in this selector.
 [KeywordIterator](./KeywordIterator)|Iterator of the requested keywords.
 
 ## <a name="orderby~string-orderby~"></a>orderBy(String orderBy)
-Returns a selector with the specified ordering.
+Returns a selector with the specified ordering applied.
 
 Specify the orderBy parameter in the form, "columnName orderDirection" where:
 

@@ -26,7 +26,7 @@ See also:
 [forDateRange(Object dateFrom, Object dateTo)](#fordaterange~object-datefrom_-object-dateto~)|[CampaignSelector](CampaignSelector)|Returns a selector with the specified start and end dates.
 [forDateRange(String dateRange)](#fordaterange~string-daterange~)|[CampaignSelector](./CampaignSelector)|Returns a selector using the specified predefined date range.
 [get](#get)|[CampaignIterator](./CampaignIterator)|Returns an iterator indexing the campaigns in this selector.<br />
-[orderBy(String orderBy)](#orderby~string-orderby~)|[CampaignSelector](./CampaignSelector)|Returns a selector with the specified ordering.
+[orderBy(String orderBy)](#orderby~string-orderby~)|[CampaignSelector](./CampaignSelector)|Returns a selector with the specified ordering applied.
 [withCondition(String condition)](#withcondition~string-condition~)|[CampaignSelector](./CampaignSelector)|Returns a selector that limits the campaigns it returns to those that match the filter criteria.
 [withIds(long[] ids)](#withids~long-ids~)|[CampaignSelector](./CampaignSelector)|Returns a selector that will return only campaigns with the specified IDs.
 
@@ -66,7 +66,7 @@ Returns an iterator indexing the campaigns in this selector.
 [CampaignIterator](./CampaignIterator)|Iterator of the requested campaigns.
 
 ## <a name="orderby~string-orderby~"></a>orderBy(String orderBy)
-Returns a selector with the specified ordering.
+Returns a selector with the specified ordering applied.
 
 Specify the orderBy parameter in the form, "columnName orderDirection" where:
 
