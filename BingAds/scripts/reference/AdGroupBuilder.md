@@ -19,7 +19,7 @@ Example usage:
 [withCpc(double cpc)](#withcpc~double-cpc~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the maximum CPC bid to be used for this new ad group.<br />
 [withCustomParameters(Object customParams)](#withcustomparameters~object-customparams~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the custom parameters for the new ad group.
 [withName(String name)](#withname~string-name~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the name of this ad group. <br />
-[withStatus(String status)](#withstatus~string-status~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the status of this new ad group to the provided value.<br />
+[withStatus(String status)](#withstatus~string-status~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the status of this ad group.<br />
 [withTrackingTemplate(String trackingTemplate)](#withtrackingtemplate~string-trackingtemplate~)|[AdGroupBuilder](./AdGroupBuilder)|Sets the tracking template of this ad group.<br />
 
 ## <a name="build"></a>build
@@ -86,14 +86,14 @@ name|String|Ad group's name. The string can contain a maximum of 256 characters,
 [AdGroupBuilder](./AdGroupBuilder)|Ad group builder with the name applied.
 
 ## <a name="withstatus~string-status~"></a>withStatus(String status)
-Sets the status of this new ad group to the provided value.
+Sets the status of this ad group.
 
 
-If no value is specified, it will default to `ENABLED`.
+
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-status|String|Ad group status.
+status|String|Ad group's status. If not specified, status defaults to ENABLED.  The following are the possible values: <br /> - ENABLED<br /> - DISABLED
 ### Returns:
 |Type|Description|
 |-|-
