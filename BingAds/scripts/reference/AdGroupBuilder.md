@@ -44,7 +44,7 @@ biddingStrategy|String|Bidding strategy of the ad group. Possible values are: MA
 ### Returns:
 |Type|Description|
 |-|-
-[AdGroupBuilder](./AdGroupBuilder)|Ad group builder with the specified bidding strategy.
+[AdGroupBuilder](./AdGroupBuilder)|Ad group builder with the bidding strategy applied.
 
 ## <a name="withcpc~double-cpc~"></a>withCpc(double cpc)
 Sets the maximum CPC bid to be used for this new ad group.
