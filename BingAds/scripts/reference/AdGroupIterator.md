@@ -18,7 +18,7 @@ See also:
 |Method Name|Return Type|Description|
 |-|-|-
 [hasNext](#hasnext)|boolean|Returns true if the iterator has more ad group elements.
-[next](#next)|[AdGroup](./AdGroup)|Advances to the next ad group in this iterator and returns it.<br />
+[next](#next)|[AdGroup](./AdGroup)|Advances to the next ad group in the iterator and returns it.<br />
 [totalNumEntities](#totalnumentities)|int|Returns the total number of ad groups indexed by the iterator.
 
 ## <a name="hasnext"></a>hasNext
@@ -29,7 +29,7 @@ Returns true if the iterator has more ad group elements.
 boolean|Boolean value that determines if the iterator has more elements.
 
 ## <a name="next"></a>next
-Advances to the next ad group in this iterator and returns it.
+Advances to the next ad group in the iterator and returns it.
 
 ### Returns:
 |Type|Description|
