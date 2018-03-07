@@ -1,5 +1,5 @@
 # AdGroup
-Represents an ad group.
+Represents an ad group.  For more information, see [Ad Group](/bingads/guides/entity-hierarchy-limits#adgroup).
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
@@ -76,7 +76,7 @@ Sets the name of this ad group.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
-name|String|Name for the ad group.
+name|String|Name for the ad group. Can contain a maximum of 256 characters, and must be unique among all active ad groups within the campaign.
 ### Returns:
 |Type|Description|
 |-|-
