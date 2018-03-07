@@ -14,7 +14,7 @@ Provides access to the URLs for this campaign.
 Clears the tracking template of this campaign.
 
 
-If you clear the tracking template specified at a lower level entity (for example, a keyword), and you have also specified tracking template on a higher level entity, (for example, the parent ad group), then Bing Ads will use the tracking template specified at the higher level entity (the ad group level tracking template will be used). To completely clear the tracking template, it must be cleared at all levels of the hierarchy at which it was set.
+For more information, see [Tracking Templates](/bingads/guides/url-tracking-upgraded-urls#trackingtemplatevalidation).
 ### Returns:
 |Type|Description|
 |-|-
@@ -37,9 +37,7 @@ Object|The custom parameters of the campaign as a map of the following form: `{k
 Returns the tracking template of this campaign.
 
 
-You can optionally use the tracking template to specify additional tracking parameters or redirects. Bing Ads will use this template to assemble the actual destination URL to associate with the ad.
-
-A tracking template specified at a lower level entity will override the setting specified at a higher level entity, for example, a tracking template at the ad group level overrides the setting at the campaign level.
+[!INCLUDE[tracking-templates](../includes/tracking-templates.md)]
 ### Returns:
 |Type|Description|
 |-|-
@@ -71,9 +69,7 @@ void|Returns nothing.
 Sets the tracking template of this campaign.
 
 
-You can optionally use the tracking template to specify additional tracking parameters or redirects. Bing Ads will use this template to assemble the actual destination URL to associate with the ad.
-
-A tracking template specified at a lower level entity will override the setting specified at a higher level entity, for example, a tracking template at the ad group level overrides the setting at the campaign level.
+[!INCLUDE[tracking-templates](../includes/tracking-templates.md)]
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
