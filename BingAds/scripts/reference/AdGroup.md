@@ -7,8 +7,8 @@ Represents an ad group.  For more information, see [Ad Group](/bingads/guides/en
 [getEntityType](#getentitytype)|String|Returns the entity type of this ad group, which is "AdGroup".<br />
 [getId](#getid)|long|Returns the ID of this ad group.<br />
 [getName](#getname)|String|Returns the name of this ad group.<br />
-[isEnabled](#isenabled)|boolean|Returns a boolean value that determines if the ad group is enabled.
-[isPaused](#ispaused)|boolean|Returns a boolean value that determines if the ad group is paused.
+[isEnabled](#isenabled)|boolean|Returns a boolean value that determines if this ad group is enabled.
+[isPaused](#ispaused)|boolean|Returns a boolean value that determines if this ad group is paused.
 [pause](#pause)|void|Pauses this ad group.<br />
 [setName(String name)](#setname~string-name~)|void|Sets the name of this ad group.<br />
 [urls](#urls)|[AdGroupUrls](./AdGroupUrls)|Returns this ad group's urls.
@@ -47,18 +47,18 @@ Returns the name of this ad group.
 String|Name of the ad group.
 
 ## <a name="isenabled"></a>isEnabled
-Returns a boolean value that determines if the ad group is enabled.
+Returns a boolean value that determines if this ad group is enabled.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|Boolean value that determines if the ad group is enabled.
+boolean|Boolean value that determines if this ad group is enabled.
 
 ## <a name="ispaused"></a>isPaused
-Returns a boolean value that determines if the ad group is paused.
+Returns a boolean value that determines if this ad group is paused.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|Boolean value that determines if the ad group is paused.
+boolean|Boolean value that determines if this ad group is paused.
 
 ## <a name="pause"></a>pause
 Pauses this ad group.

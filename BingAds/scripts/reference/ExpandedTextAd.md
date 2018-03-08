@@ -25,8 +25,8 @@ Example usage:
 [getStatsFor(Object dateFrom, Object dateTo)](#getstatsfor~object-datefrom_-object-dateto~)|[Stats](./Stats)|Returns a [Stats](./Stats) object for this expanded text ad for the specified date range.
 [getStatsFor(String dateRange)](#getstatsfor~string-daterange~)|[Stats](./Stats)|Returns an object which provides statistics for the specified predefined date range.
 [getType](#gettype)|String|Returns the type of this ad.<br />
-[isEnabled](#isenabled)|boolean|Returns a boolean value that determines if the ad is enabled.
-[isPaused](#ispaused)|boolean|Returns a boolean value that determines if the ad is paused.
+[isEnabled](#isenabled)|boolean|Returns a boolean value that determines if this ad is enabled.
+[isPaused](#ispaused)|boolean|Returns a boolean value that determines if this ad is paused.
 [isType](#istype)|[AdTypeSpace](./AdTypeSpace)|Returns an object which provides more information about the type of this ad.
 [pause](#pause)|void|Pauses this ad.<br />
 [remove](#remove)|void|Removes this ad.<br />
@@ -211,18 +211,18 @@ Possible values are:
 String|Type of the ad.
 
 ## <a name="isenabled"></a>isEnabled
-Returns a boolean value that determines if the ad is enabled.
+Returns a boolean value that determines if this ad is enabled.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|Boolean value that determines if the ad is enabled.
+boolean|Boolean value that determines if this ad is enabled.
 
 ## <a name="ispaused"></a>isPaused
-Returns a boolean value that determines if the ad is paused.
+Returns a boolean value that determines if this ad is paused.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|Boolean value that determines if the ad is paused.
+boolean|Boolean value that determines if this ad is paused.
 
 ## <a name="istype"></a>isType
 Returns an object which provides more information about the type of this ad.

@@ -20,7 +20,7 @@ See also:
 [getStats](#getstats)|[Stats](./Stats)|Returns statistics for this keyword.
 [getText](#gettext)|String|Returns the text of this keyword.<br />
 [isEnabled](#isenabled)|boolean|Returns a boolean value that determines if this keyword is enabled.
-[isPaused](#ispaused)|boolean|Returns a boolean value that determines if the keyword is paused.
+[isPaused](#ispaused)|boolean|Returns a boolean value that determines if this keyword is paused.
 [pause](#pause)|void|Pauses this keyword.<br />
 [remove](#remove)|void|Removes this keyword.<br />
 [urls](#urls)|[KeywordUrls](./KeywordUrls)|Returns the URL fields of this keyword.<br />
@@ -131,11 +131,11 @@ Returns a boolean value that determines if this keyword is enabled.
 boolean|Boolean value that determines if this keyword is enabled.
 
 ## <a name="ispaused"></a>isPaused
-Returns a boolean value that determines if the keyword is paused.
+Returns a boolean value that determines if this keyword is paused.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|Boolean value that determines if the keyword is paused.
+boolean|Boolean value that determines if this keyword is paused.
 
 ## <a name="pause"></a>pause
 Pauses this keyword.

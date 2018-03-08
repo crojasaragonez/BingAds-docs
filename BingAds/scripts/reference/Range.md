@@ -14,7 +14,7 @@ This class represents a range of cells in a worksheet.
 [getRow](#getrow)|long|Returns the position of the row for this range.<br />
 [getValue](#getvalue)|Object|Returns the value contained by the top-left cell in this range.<br />
 [getValues](#getvalues)|Object[][]|Returns a two-dimensional array of values contained by this range, beginning with the top-left cell.<br />
-[isBlank](#isblank)|boolean|Returns a boolean value that determines if the range is blank.
+[isBlank](#isblank)|boolean|Returns a boolean value that determines if this range is blank.
 [setFontSize(long size)](#setfontsize~long-size~)|[Range](./Range)|Sets the specified point size to use for fonts on all the cells in this range.<br />
 [setFontWeight(String fontWeight)](#setfontweight~string-fontweight~)|[Range](./Range)|Sets the specified point weight to use for fonts on all the cells in this range. Valid values include 'normal' and 'bold'.<br />
 [setHorizontalAlignment(String alignment)](#sethorizontalalignment~string-alignment~)|[Range](./Range)|Sets the horizontal alignment of content in the cells in this range. Valid values include 'left', 'center' or 'normal'.<br />
@@ -105,11 +105,11 @@ Returns a two-dimensional array of values contained by this range, beginning wit
 Object[][]|
 
 ## <a name="isblank"></a>isBlank
-Returns a boolean value that determines if the range is blank.
+Returns a boolean value that determines if this range is blank.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|Boolean value that determines if the range is blank.
+boolean|Boolean value that determines if this range is blank.
 
 ## <a name="setfontsize~long-size~"></a>setFontSize(long size)
 Sets the specified point size to use for fonts on all the cells in this range.
