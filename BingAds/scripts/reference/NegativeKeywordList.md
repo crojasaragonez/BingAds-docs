@@ -16,7 +16,7 @@ Adds a keyword to the negative keyword list.
 To specify match type for the new negative keyword:
 
 - negativeKeywordList.addNegativeKeyword("shoes") - broad match.
-- negativeKeywordList.addNegativeKeyword("\"shoes\"") - phrase match.
+- negativeKeywordList.addNegativeKeyword("\\"shoes\\"") - phrase match.
 - negativeKeywordList.addNegativeKeyword("[leather shoes]") - exact match.
 
 ### Arguments:
@@ -34,7 +34,7 @@ Adds a list of keywords to the negative keyword list.
 To specify match type for the new negative keyword:
 
 - negativeKeywordsList.addNegativeKeywords(["planes", "trains"]) - broad match.
-- negativeKeywordsList.addNegativeKeywords(["\"planes\"", "\"trains\""]) - phrase match.
+- negativeKeywordsList.addNegativeKeywords(["\\"planes\\"", "\\"trains\\""]) - phrase match.
 - negativeKeywordsList.addNegativeKeywords(["[model planes]", "[toy trains]") - exact match.
 
 
