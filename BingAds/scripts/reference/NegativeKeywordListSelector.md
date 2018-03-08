@@ -15,15 +15,14 @@ See also:
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[get](#get)|[NegativeKeywordListIterator](./NegativeKeywordListIterator)|Returns an iterator that you use to traverse negative keyword lists.<br />
+[get](#get)|[NegativeKeywordListIterator](./NegativeKeywordListIterator)|Returns an iterator that you use to get the negative keyword lists based on the selector's selection criteria.
 [orderBy(String orderBy)](#orderby~string-orderby~)|[AdGroupSelector](./AdGroupSelector)|Returns a selector with the specified ordering applied.
 [withCondition(String condition)](#withcondition~string-condition~)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector that limits the negative keyword lists it returns to those that match the filter criteria.
 [withIds(long[] ids)](#withids~long-ids~)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector that returns only negative keyword lists with the specified IDs.
 [withLimit(int limit)](#withlimit~int-limit~)|[NegativeKeywordListSelector](./NegativeKeywordListSelector)|Returns a selector that limits the number of negative keyword lists it returns to the top n negative keyword lists that match the selection criteria.
 
 ## <a name="get"></a>get
-Returns an iterator that you use to traverse negative keyword lists.
-
+Returns an iterator that you use to get the negative keyword lists based on the selector's selection criteria.
 ### Returns:
 |Type|Description|
 |-|-

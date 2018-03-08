@@ -12,7 +12,7 @@ See also:
 |-|-|-
 [forDateRange(Object dateFrom, Object dateTo)](#fordaterange~object-datefrom_-object-dateto~)|[KeywordSelector](./KeywordSelector)|Returns a selector with the specified start and end dates.
 [forDateRange(String dateRange)](#fordaterange~string-daterange~)|[KeywordSelector](./KeywordSelector)|Returns a selector using the specified predefined date range.
-[get](#get)|[KeywordIterator](./KeywordIterator)|Returns an iterator indexing the keywords in this selector.<br />
+[get](#get)|[KeywordIterator](./KeywordIterator)|Returns an iterator that you use to get the keywords based on the selector's selection criteria.
 [orderBy(String orderBy)](#orderby~string-orderby~)|[KeywordSelector](./KeywordSelector)|Returns a selector with the specified ordering applied.
 [withCondition(String condition)](#withcondition~string-condition~)|[KeywordSelector](./KeywordSelector)|Returns a selector that limits the keywords it returns to those that match the filter criteria.
 [withIds(long[] ids)](#withids~long-ids~)|[KeywordSelector](./KeywordSelector)|Returns a selector that returns only keywords with the specified IDs.
@@ -46,8 +46,7 @@ dateRange|String|Date range to set onto the selector.
 [KeywordSelector](./KeywordSelector)|Selector with date range applied.
 
 ## <a name="get"></a>get
-Returns an iterator indexing the keywords in this selector.
-
+Returns an iterator that you use to get the keywords based on the selector's selection criteria.
 ### Returns:
 |Type|Description|
 |-|-
