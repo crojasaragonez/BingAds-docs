@@ -1,5 +1,5 @@
 # NegativeKeywordList
-Represents a negative keyword list.
+Represents a negative keyword list. For more information, see [Negative Keyword](/bingads/guides/entity-hierarchy-limits#negativekeywords).
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
