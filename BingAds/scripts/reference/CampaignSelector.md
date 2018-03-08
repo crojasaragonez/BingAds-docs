@@ -29,6 +29,7 @@ See also:
 [orderBy(String orderBy)](#orderby~string-orderby~)|[CampaignSelector](./CampaignSelector)|Returns a selector with the specified ordering applied.
 [withCondition(String condition)](#withcondition~string-condition~)|[CampaignSelector](./CampaignSelector)|Returns a selector that limits the campaigns it returns to those that match the filter criteria.
 [withIds(long[] ids)](#withids~long-ids~)|[CampaignSelector](./CampaignSelector)|Returns a selector that returns only campaigns with the specified IDs.
+[withLimit(int limit)](#withlimit~int-limit~)|[CampaignSelector](./CampaignSelector)|Returns a selector that limits the number of campaigns it returns to the top n campaigns that match the selection criteria.
 
 ## <a name="fordaterange~object-datefrom_-object-dateto~"></a>forDateRange(Object dateFrom, Object dateTo)
 Returns a selector with the specified start and end dates.
@@ -155,4 +156,15 @@ ids|long[]|Array of campaign IDs.
 |Type|Description|
 |-|-
 [CampaignSelector](./CampaignSelector)|Selector restricted to the given IDs.
+
+## <a name="withlimit~int-limit~"></a>withLimit(int limit)
+Returns a selector that limits the number of campaigns it returns to the top n campaigns that match the selection criteria.
+### Arguments:
+|Name|Type|Description|
+|-|-|-
+limit|int|Number of entities to return.
+### Returns:
+|Type|Description|
+|-|-
+[CampaignSelector](./CampaignSelector)|Selector with limit applied.
 
