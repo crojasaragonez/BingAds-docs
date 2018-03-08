@@ -19,8 +19,8 @@ See also:
 [getMatchType](#getmatchtype)|String|Returns the match type of this keyword.<br />
 [getStats](#getstats)|[Stats](./Stats)|Returns statistics for the keyword.<br />
 [getText](#gettext)|String|Returns the text of this keyword.<br />
-[isEnabled](#isenabled)|boolean|Returns true if this keyword is enabled <br />
-[isPaused](#ispaused)|boolean|Returns true if this keyword is paused. <br />
+[isEnabled](#isenabled)|boolean|Returns a boolean value that determines if this keyword is enabled.
+[isPaused](#ispaused)|boolean|Returns a boolean value that determines if the keyword is paused.
 [pause](#pause)|void|Pauses this keyword.<br />
 [remove](#remove)|void|Removes this keyword.<br />
 [urls](#urls)|[KeywordUrls](./KeywordUrls)|Returns the URL fields of this keyword.<br />
@@ -125,16 +125,14 @@ The text will be returned in one of the following formats based on the match typ
 String|Text of this keyword.
 
 ## <a name="isenabled"></a>isEnabled
-Returns true if this keyword is enabled 
-
+Returns a boolean value that determines if this keyword is enabled.
 ### Returns:
 |Type|Description|
 |-|-
 boolean|Boolean value that determines if this keyword is enabled.
 
 ## <a name="ispaused"></a>isPaused
-Returns true if this keyword is paused. 
-
+Returns a boolean value that determines if the keyword is paused.
 ### Returns:
 |Type|Description|
 |-|-

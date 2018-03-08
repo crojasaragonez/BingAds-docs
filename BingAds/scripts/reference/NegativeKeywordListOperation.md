@@ -28,7 +28,7 @@ Example usage:
 |-|-|-
 [getErrors](#geterrors)|String[]|Returns an empty array if the keyword was successfully created, otherwise returns the errors encountered during the execution of this operation.<br />
 [getResult](#getresult)|[NegativeKeywordList](./NegativeKeywordList)|Returns the newly created NegativeKeywordList, otherwise returns null if the operation failed.<br />
-[isSuccessful](#issuccessful)|boolean|Returns <br />true if the operation was successful.
+[isSuccessful](#issuccessful)|boolean|Returns a boolean value that determines if the operation was successful.
 
 ## <a name="geterrors"></a>getErrors
 Returns an empty array if the keyword was successfully created, otherwise returns the errors encountered during the execution of this operation.
@@ -47,9 +47,7 @@ Returns the newly created NegativeKeywordList, otherwise returns null if the ope
 [NegativeKeywordList](./NegativeKeywordList)|NegativeKeywordList created by the NegativeKeywordListOperation.
 
 ## <a name="issuccessful"></a>isSuccessful
-Returns 
-true if the operation was successful.
-
+Returns a boolean value that determines if the operation was successful.
 ### Returns:
 |Type|Description|
 |-|-

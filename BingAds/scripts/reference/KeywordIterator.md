@@ -17,13 +17,12 @@ See also:
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[hasNext](#hasnext)|boolean|Returns true if this iterator has more keyword elements.<br />
+[hasNext](#hasnext)|boolean|Returns a boolean value that determines if this iterator has more keyword elements.
 [next](#next)|[Keyword](./Keyword)|Advances to the next keyword in this iterator and returns it.<br />
 [totalNumEntities](#totalnumentities)|int|Returns the total number of keywords indexed by this iterator.
 
 ## <a name="hasnext"></a>hasNext
-Returns true if this iterator has more keyword elements.
-
+Returns a boolean value that determines if this iterator has more keyword elements.
 ### Returns:
 |Type|Description|
 |-|-

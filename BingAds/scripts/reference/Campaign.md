@@ -11,8 +11,8 @@ Represents a campaign.
 [getEntityType](#getentitytype)|String|Returns the entity type of this campaign, which is "Campaign".<br />
 [getId](#getid)|long|Returns the ID of this campaign.<br />
 [getName](#getname)|String|Returns the name of this campaign.<br />
-[isPaused](#ispaused)|boolean|Returns true if this campaign is enabled <br />
-[isRemoved](#isremoved)|boolean|Returns true if this campaign is removed. <br />
+[isPaused](#ispaused)|boolean|Returns a boolean value that determines if this campaign is paused.
+[isRemoved](#isremoved)|boolean|Returns a boolean value that determines if this campaign is removed.
 [pause](#pause)|void|Pauses this campaign.<br />
 [remove](#remove)|void|Remove the campaign.<br />
 [setName(String name)](#setname~string-name~)|void|Sets the name of this campaign.<br />
@@ -89,16 +89,14 @@ Returns the name of this campaign.
 String|Name of this campaign.
 
 ## <a name="ispaused"></a>isPaused
-Returns true if this campaign is enabled 
-
+Returns a boolean value that determines if this campaign is paused.
 ### Returns:
 |Type|Description|
 |-|-
 boolean|Boolean value that determines if this campaign is paused.
 
 ## <a name="isremoved"></a>isRemoved
-Returns true if this campaign is removed. 
-
+Returns a boolean value that determines if this campaign is removed.
 ### Returns:
 |Type|Description|
 |-|-

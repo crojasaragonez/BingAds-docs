@@ -17,12 +17,12 @@ See also:
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[hasNext](#hasnext)|boolean|Returns true if the iterator has more ad group elements.
+[hasNext](#hasnext)|boolean|Returns a boolean value that determines if the iterator has more elements.
 [next](#next)|[AdGroup](./AdGroup)|Advances to the next ad group in the iterator and returns it.<br />
 [totalNumEntities](#totalnumentities)|int|Returns the total number of ad groups indexed by the iterator.
 
 ## <a name="hasnext"></a>hasNext
-Returns true if the iterator has more ad group elements.
+Returns a boolean value that determines if the iterator has more elements.
 ### Returns:
 |Type|Description|
 |-|-

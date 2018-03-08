@@ -15,17 +15,16 @@ See also:
 # Methods
 |Method Name|Return Type|Description|
 |-|-|-
-[hasNext](#hasnext)|boolean|Returns true if this iterator has more campaign elements.<br />
+[hasNext](#hasnext)|boolean|Returns a boolean value that determines if the iterator has more campaign elements.
 [next](#next)|[Campaign](./Campaign)|Advances to the next campaign in this iterator and returns it.<br />
 [totalNumEntities](#totalnumentities)|int|Returns the total number of campaigns indexed by this iterator.
 
 ## <a name="hasnext"></a>hasNext
-Returns true if this iterator has more campaign elements.
-
+Returns a boolean value that determines if the iterator has more campaign elements.
 ### Returns:
 |Type|Description|
 |-|-
-boolean|Boolean value that determines if the iterator has more elements.
+boolean|Boolean value that determines if the iterator has more campaign elements.
 
 ## <a name="next"></a>next
 Advances to the next campaign in this iterator and returns it.
