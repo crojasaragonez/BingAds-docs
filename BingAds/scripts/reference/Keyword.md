@@ -17,7 +17,7 @@ See also:
 [getEntityType](#getentitytype)|String|Returns the entity type of this keyword, which is "Keyword".<br />
 [getId](#getid)|long|Returns the ID of this keyword.<br />
 [getMatchType](#getmatchtype)|String|Returns the match type of this keyword.<br />
-[getStats](#getstats)|[Stats](./Stats)|Returns statistics for the keyword.<br />
+[getStats](#getstats)|[Stats](./Stats)|Returns statistics for this keyword.
 [getText](#gettext)|String|Returns the text of this keyword.<br />
 [isEnabled](#isenabled)|boolean|Returns a boolean value that determines if this keyword is enabled.
 [isPaused](#ispaused)|boolean|Returns a boolean value that determines if the keyword is paused.
@@ -100,8 +100,7 @@ Possible return values are:
 String|Match type of this keyword.
 
 ## <a name="getstats"></a>getStats
-Returns statistics for the keyword.
-
+Returns statistics for this keyword.
 
 
 ### Returns:
