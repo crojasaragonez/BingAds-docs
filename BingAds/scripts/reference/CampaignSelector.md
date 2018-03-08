@@ -69,13 +69,14 @@ Returns a selector with the specified ordering applied.
 
 Specify the orderBy parameter in the form, "columnName orderDirection" where:
 
-- columnName can only be one column which is supported by the withCondition method.
+- columnName is a supported column, see [Supported Columns](#supported-campaign-columns).
 - orderDirection is the direction to order the results in. Set to ASC to order the results in ascending order or DESC to order the results in descending order. The default is ASC.
 
-You may order the results by one or more metrics by chaining together multiple orderBy calls. For example, the following call returns results in ascending order by MaxCpc.
+For example, the following call returns results in ascending order by MaxCpc.
 
 <code>agSelector = agSelector.orderBy("MaxCpc");</code>
 
+Only one orderBy column is supported.
 ### Arguments:
 |Name|Type|Description|
 |-|-|-
